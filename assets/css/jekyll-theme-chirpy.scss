@@ -1,0 +1,112 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* =====================================================================
+   209 · custom brand theme  (indigo → violet → cyan)
+   테마 위에 얹는 추가 스타일. 색/변수만 덮어써서 안전하게 동작.
+   ===================================================================== */
+
+/* ---- accent colors : LIGHT (기본 + 시스템 라이트) ---- */
+:root[data-mode='light'],
+html:not([data-mode]) {
+  --link-color: #5a4be0;
+  --site-title-color: #5a4be0;
+  --sidebar-active-color: #5a4be0;
+  --card-hover-bg: #f3f1ff;
+}
+
+/* ---- accent colors : DARK (토글 + 시스템 다크) ---- */
+:root[data-mode='dark'] {
+  --link-color: #b6a9ff;
+  --site-title-color: #cdbcff;
+  --sidebar-active-color: #cdbcff;
+  --card-hover-bg: #26244a;
+}
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) {
+    --link-color: #b6a9ff;
+    --site-title-color: #cdbcff;
+    --sidebar-active-color: #cdbcff;
+    --card-hover-bg: #26244a;
+  }
+}
+
+/* ---- 사이드바 상단 은은한 브랜드 글로우 ---- */
+#sidebar {
+  .profile-wrapper {
+    background:
+      radial-gradient(120% 80% at 50% -10%, rgba(109, 94, 252, 0.22), transparent 70%);
+    border-radius: 0 0 18px 18px;
+    padding-bottom: 0.6rem;
+  }
+}
+
+/* ---- 그라데이션 사이트 타이틀 ---- */
+.site-title {
+  font-weight: 800 !important;
+  letter-spacing: 0.5px;
+  background: linear-gradient(120deg, #6d5efc, #a855f7 55%, #22d3ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ---- 아바타 : 브랜드 링 + hover 모션 ---- */
+#avatar {
+  box-shadow: 0 0 0 3px rgba(109, 94, 252, 0.35);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+  &:hover {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.45);
+  }
+}
+
+/* ---- 홈 피드 카드 : 둥근 모서리 + hover lift ---- */
+#post-list {
+  .card-wrapper {
+    border-radius: 14px;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 32px rgba(109, 94, 252, 0.18);
+    }
+
+    .card-title {
+      font-weight: 700;
+    }
+  }
+}
+
+/* ---- 상단 고정(pin) 글 강조 ---- */
+#post-list .card-wrapper .pin {
+  color: #a855f7;
+}
+
+/* ---- 태그 pill : 살짝 둥글고 브랜드 hover ---- */
+.post-tag {
+  border-radius: 999px !important;
+
+  &:hover {
+    background: linear-gradient(120deg, #6d5efc, #a855f7) !important;
+    color: #fff !important;
+    border-color: transparent !important;
+  }
+}
+
+/* ---- 링크 hover 밑줄 컬러 ---- */
+.content a:hover {
+  text-decoration-color: #a855f7;
+}

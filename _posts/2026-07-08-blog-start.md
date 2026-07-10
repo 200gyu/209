@@ -5,6 +5,9 @@ categories: [블로그, 운영]
 tags: [아이펠, ai에이전트, 시작]     # 태그는 소문자 권장
 pin: true
 description: 이 블로그를 왜 시작하는지, 무엇을 어떻게 기록할지 정리합니다.
+image:
+  path: /assets/img/posts/blog-start.svg
+  alt: "블로그를 시작하며 — 아이펠 AI 에이전트 1기 기록장"
 ---
 
 ## 왜 블로그인가

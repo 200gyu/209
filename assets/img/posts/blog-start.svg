@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12122b"/>
+      <stop offset="0.55" stop-color="#241a4d"/>
+      <stop offset="1" stop-color="#0c2b3a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="12%" r="70%">
+      <stop offset="0" stop-color="#6d5efc" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6d5efc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b9bff"/>
+      <stop offset="0.5" stop-color="#c4a7ff"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- category pill -->
+  <g transform="translate(80,96)">
+    <rect x="0" y="0" width="150" height="48" rx="24" fill="#22d3ee" opacity="0.16"/>
+    <text x="75" y="32" text-anchor="middle" font-size="24" font-weight="700" fill="#67e8f9">블로그</text>
+  </g>
+
+  <!-- title -->
+  <text x="80" y="290" font-size="82" font-weight="800" fill="#ffffff">블로그를 시작하며</text>
+  <text x="80" y="380" font-size="40" font-weight="600" fill="url(#accent)">아이펠 AI 에이전트 1기 기록장</text>
+
+  <!-- footer -->
+  <rect x="80" y="470" width="72" height="6" rx="3" fill="url(#accent)"/>
+  <text x="80" y="540" font-size="28" fill="#aab0d6">수업 노트 · 에이전트 제작기 · 회고</text>
+  <text x="1120" y="560" text-anchor="end" font-size="34" font-weight="800" fill="#ffffff" opacity="0.9">209</text>
+</svg>
