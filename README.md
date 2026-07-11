@@ -60,13 +60,31 @@ description: 목록/검색에 보일 한 줄 요약
 _이미지 캡션_
 ```
 
-## 💬 댓글 기능 켜기 (선택)
+## ⚙️ 운영 기능 켜기
 
-Chirpy는 **giscus**(GitHub Discussions 기반) 댓글을 지원합니다.
+`_config.yml`은 **값만 채우면 바로 켜지도록 미리 배선**돼 있습니다.
 
-1. 이 저장소 **Settings → General → Features → Discussions** 체크
-2. https://giscus.app 에서 저장소를 입력해 `repo-id`, `category-id` 발급
-3. `_config.yml`의 `comments:` 섹션에 `provider: giscus`와 값들을 채우기
+### 💬 댓글 (giscus) — 약 2분
+
+1. 저장소 **Settings → General → Features → `Discussions`** 체크
+2. https://github.com/apps/giscus 에서 **giscus 앱을 이 저장소(`200gyu/209`)에 설치**
+3. https://giscus.app 접속 → 저장소 `200gyu/209` 입력 → 매핑 `pathname`, 카테고리 `Announcements` 선택
+4. 화면 하단에 생성된 **`data-repo-id`** 와 **`data-category-id`** 값 복사
+5. `_config.yml`의 `comments.giscus.repo_id` / `category_id` 에 붙여넣고, `comments.provider` 를 `giscus` 로 변경 → push
+
+### 📊 방문자 통계 (GoatCounter, 무료·쿠키 없음) — 약 2분
+
+1. https://www.goatcounter.com 가입 → 사이트 코드(예: `myblog`) 발급
+2. `_config.yml`의 `analytics.goatcounter.id` 에 코드 입력
+3. `pageviews.provider` 를 `goatcounter` 로 변경 → push
+
+> 위 3단계(계정 생성·앱 설치·저장소 설정)는 소유자만 할 수 있어요. 발급된 값만 알려주면 나머지 배선은 도와드릴 수 있습니다.
+
+### ✅ 이미 켜져 있는 것들 (Chirpy 기본)
+
+- **RSS 구독** (`/209/feed.xml`, 사이드바 RSS 아이콘)
+- **공유 버튼** (글 하단) · **목차(TOC)** · **최종 수정일**
+- **SEO**(sitemap·메타태그) · **PWA**(설치·오프라인) · **다크/라이트 토글**
 
 ## 💻 로컬에서 미리보기 (선택)
 
