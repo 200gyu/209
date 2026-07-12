@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1410"/><stop offset="0.5" stop-color="#1a1a2e"/><stop offset="1" stop-color="#062017"/></linearGradient>
+    <radialGradient id="glow" cx="82%" cy="10%" r="72%"><stop offset="0" stop-color="#f59e0b" stop-opacity="0.4"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity="0.06"/></pattern>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#6ee7b7"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(80,90)"><rect width="252" height="48" rx="24" fill="#10b981" opacity="0.2"/><text x="126" y="32" text-anchor="middle" font-size="23" font-weight="700" fill="#6ee7b7">⚡ Workplace Automation</text></g>
+  <text x="80" y="278" font-size="66" font-weight="800" fill="#fff">자동화가 실패하는</text>
+  <text x="80" y="360" font-size="66" font-weight="800" fill="url(#ac)">5가지 이유</text>
+  <text x="80" y="428" font-size="30" font-weight="500" fill="#c9c4b0">…그리고 피하는 법</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+</svg>
