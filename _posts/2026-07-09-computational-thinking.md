@@ -1,5 +1,5 @@
 ---
-title: "[수업노트] Computational Thinking — 컴퓨터처럼 사고하는 법"
+title: "[AX] Computational Thinking — 컴퓨터처럼 사고하는 법"
 date: 2026-07-09 21:00:00 +0900
 categories: ["AI Transformation"]
 tags: [컴퓨팅사고, 문제분해, 추상화, 알고리즘]

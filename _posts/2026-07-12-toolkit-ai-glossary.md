@@ -1,5 +1,5 @@
 ---
-title: "[자료실] 기획자를 위한 AI 용어 사전 — 회의에서 안 밀리는 최소 지식"
+title: "[AX] 기획자를 위한 AI 용어 사전 — 회의에서 안 밀리는 최소 지식"
 date: 2026-07-12 14:00:00 +0900
 categories: ["AI Transformation"]
 tags: [ai용어, 사전, 기획자, llm, rag, 에이전트]

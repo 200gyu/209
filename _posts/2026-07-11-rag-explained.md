@@ -1,5 +1,5 @@
 ---
-title: "[수업노트] RAG 쉽게 이해하기 — '내 문서를 아는 AI'의 원리"
+title: "[AX] RAG 쉽게 이해하기 — '내 문서를 아는 AI'의 원리"
 date: 2026-07-11 16:00:00 +0900
 categories: ["AI Transformation"]
 tags: [rag, 검색증강생성, llm, 환각방지, 벡터검색]

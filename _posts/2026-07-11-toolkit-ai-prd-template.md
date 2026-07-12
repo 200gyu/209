@@ -1,5 +1,5 @@
 ---
-title: "[자료실] AI 기능 기획서(PRD) 템플릿 — 복사해서 바로 쓰기"
+title: "[AX] AI 기능 기획서(PRD) 템플릿 — 복사해서 바로 쓰기"
 date: 2026-07-11 23:00:00 +0900
 categories: ["AI Transformation"]
 tags: [prd, 기획서, ai기획, 템플릿, 체크리스트]

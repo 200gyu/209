@@ -7,7 +7,7 @@ description: "처음 오셨나요? 기획자가 AI 에이전트를 만드는 여
 image:
   path: /assets/img/posts/reading-guide.svg
   alt: "이 블로그 읽는 순서"
-pin: true
+pin: false
 ---
 
 > 👋 처음 오셨나요? 이 블로그는 **기획/PM/운영자가 AI 에이전트를 직접 만드는 여정**을 기록합니다.

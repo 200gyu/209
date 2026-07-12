@@ -1,5 +1,5 @@
 ---
-title: "[에이전트 제작기 #5] 화면 붙이기 — 드디어 '앱'이 되다 (MVP v1.0)"
+title: "[Automation] 운영 리포트 자동화 #5 — 화면 붙이기 (MVP v1.0)"
 date: 2026-07-11 21:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [ui, mvp완성, 바이브코딩, 사람검수, 배포]

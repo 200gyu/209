@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1030"/><stop offset="0.5" stop-color="#1a1548"/><stop offset="1" stop-color="#2a1550"/></linearGradient>
+    <radialGradient id="glow" cx="82%" cy="12%" r="72%"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.5"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2" cx="10%" cy="88%" r="60%"><stop offset="0" stop-color="#2f6bff" stop-opacity="0.45"/><stop offset="1" stop-color="#2f6bff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity="0.06"/></pattern>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8ab4ff"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/><rect width="1200" height="630" fill="url(#glow2)"/>
+  <g transform="translate(80,88)"><rect width="230" height="48" rx="24" fill="#7c3aed" opacity="0.22"/><text x="115" y="32" text-anchor="middle" font-size="23" font-weight="700" fill="#c4b5fd">🤖 AI Transformation</text></g>
+  <text x="80" y="240" font-size="66" font-weight="800" fill="#fff">매주 2시간 → 40분</text>
+  <text x="80" y="322" font-size="46" font-weight="700" fill="url(#ac)">생성형 AI로 반복 업무를 없애다</text>
+  <text x="80" y="392" font-size="30" font-weight="500" fill="#aab0d6">NEXT X의 AX 접근법 — 문제 분해부터 배포까지</text>
+  <g transform="translate(80,452)" font-size="23" font-weight="700">
+    <g><rect width="130" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="65" y="34" text-anchor="middle" fill="#e8eaff">문제분해</text></g>
+    <g transform="translate(146,0)"><rect width="130" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="65" y="34" text-anchor="middle" fill="#e8eaff">프롬프트</text></g>
+    <g transform="translate(292,0)"><rect width="150" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="75" y="34" text-anchor="middle" fill="#e8eaff">데이터연결</text></g>
+    <g transform="translate(458,0)"><rect width="130" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="65" y="34" text-anchor="middle" fill="#e8eaff">사람검수</text></g>
+  </g>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+</svg>

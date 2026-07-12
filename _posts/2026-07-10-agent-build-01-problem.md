@@ -1,5 +1,5 @@
 ---
-title: "[에이전트 제작기 #1] 문제 정의 — 주간 운영 리포트 에이전트"
+title: "[Automation] 운영 리포트 자동화 #1 — 문제 정의"
 date: 2026-07-10 22:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [문제정의, 운영, pm, rag, 에이전트]

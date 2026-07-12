@@ -1,5 +1,5 @@
 ---
-title: "[자료실] AI 공부 리소스 모음 — 무료로 시작하는 검증된 자료들"
+title: "[AX] AI 공부 리소스 모음 — 무료로 시작하는 검증된 자료들"
 date: 2026-07-12 16:00:00 +0900
 categories: ["AI Transformation"]
 tags: [학습자료, 무료강의, anthropic, deeplearning, 리소스]

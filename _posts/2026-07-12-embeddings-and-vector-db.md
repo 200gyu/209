@@ -1,5 +1,5 @@
 ---
-title: "[수업노트] 임베딩 & 벡터 DB — RAG를 돌리는 '의미 검색' 엔진"
+title: "[Data] 임베딩 & 벡터 DB — RAG를 돌리는 '의미 검색' 엔진"
 date: 2026-07-12 15:00:00 +0900
 categories: ["Data Engineering"]
 tags: [임베딩, 벡터db, 의미검색, rag, embedding]

@@ -1,5 +1,5 @@
 ---
-title: "[인사이트] AI 에이전트 vs RPA — '시키는 대로' vs '목표를 주면 알아서'"
+title: "[Automation] AI 에이전트 vs RPA — '시키는 대로' vs '목표를 주면 알아서'"
 date: 2026-07-11 12:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [ai에이전트, rpa, 자동화, agentic, 개념정리]

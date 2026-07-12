@@ -1,5 +1,5 @@
 ---
-title: "[에이전트 제작기 #4] 데이터 연결하기 — 프롬프트에 진짜 지표를 물리다"
+title: "[Automation] 운영 리포트 자동화 #4 — 데이터 연결"
 date: 2026-07-11 18:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [데이터연결, csv, api, 자동화, tool]

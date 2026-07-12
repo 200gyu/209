@@ -1,5 +1,5 @@
 ---
-title: "[수업노트] Tool Calling & 멀티 에이전트 — AI에게 손발을 달아주기"
+title: "[AX] Tool Calling & 멀티 에이전트 — AI에게 손발을 달아주기"
 date: 2026-07-11 22:00:00 +0900
 categories: ["AI Transformation"]
 tags: [toolcalling, 멀티에이전트, 워크플로우, 에이전트설계, anthropic]

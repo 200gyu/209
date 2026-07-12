@@ -1,5 +1,5 @@
 ---
-title: "[에이전트 제작기 #6] 사용자 테스트 설계 — 내 에이전트를 남에게 처음 맡기기"
+title: "[Automation] 운영 리포트 자동화 #6 — 사용자 테스트"
 date: 2026-07-12 09:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [사용자테스트, 유저빌리티, 피드백, mvp, 검증]

@@ -1,5 +1,5 @@
 ---
-title: "[인사이트] 바이브코딩 도구 비교 — Claude Code · Cursor · v0 · Windsurf"
+title: "[Dev] 바이브코딩 도구 비교 — Claude Code · Cursor · v0 · Windsurf"
 date: 2026-07-11 20:00:00 +0900
 categories: ["Dev & DevOps"]
 tags: [바이브코딩, 도구비교, claudecode, cursor, v0]

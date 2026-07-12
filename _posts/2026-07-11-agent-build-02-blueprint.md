@@ -1,5 +1,5 @@
 ---
-title: "[에이전트 제작기 #2] 설계도 그리기 — 문제 정의를 '만들 수 있는 계획'으로"
+title: "[Automation] 운영 리포트 자동화 #2 — 설계도 그리기"
 date: 2026-07-11 10:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [에이전트설계, 워크플로우, 도구, mvp, 운영]

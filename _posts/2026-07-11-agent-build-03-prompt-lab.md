@@ -1,5 +1,5 @@
 ---
-title: "[에이전트 제작기 #3] 프롬프트 실험실 — 요약 프롬프트를 직접 튜닝하다"
+title: "[Automation] 운영 리포트 자동화 #3 — 프롬프트 실험실"
 date: 2026-07-11 15:00:00 +0900
 categories: ["Workplace Automation"]
 tags: [프롬프트, 실험로그, mvp, 운영리포트, 반복개선]
