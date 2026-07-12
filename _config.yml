@@ -19,7 +19,7 @@ future: true
 
 title: 209 # the main title
 
-tagline: NEXT X 공식 기술 블로그 · AX & 업무 자동화 솔루션 연구소 # it will display as the subtitle
+tagline: "NEXT X 공식 블로그<br>AX & 업무자동화 솔루션 연구소" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   주식회사 넥스트엑스(NEXT X)의 공식 기술 블로그. AI 전환(AX)·업무 자동화·데이터 엔지니어링 실무 기술과 문제 해결 과정을 공유합니다.
