@@ -47,6 +47,7 @@ pin: true
 ## 📩 프로젝트 문의
 
 우리 회사 업무에 적용할 방법이 궁금하시면 **무료 진단**부터 시작하세요.
+
 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com) · 010-4125-2009 (이경규 전무)
 
 > **주식회사 넥스트엑스(NEXT X)** — 만든 것으로 증명합니다.
