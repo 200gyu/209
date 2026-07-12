@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1f"/><stop offset="0.5" stop-color="#141a33"/><stop offset="1" stop-color="#1e1a44"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="-8%" r="80%"><stop offset="0" stop-color="#4f46e5" stop-opacity="0.5"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity="0.06"/></pattern>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a5b4fc"/><stop offset="0.5" stop-color="#c4b5fd"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(80,92)"><rect width="176" height="48" rx="24" fill="#a5b4fc" opacity="0.2"/><text x="88" y="32" text-anchor="middle" font-size="23" font-weight="700" fill="#c7d2fe">Inside NEXT X</text></g>
+  <text x="80" y="282" font-size="66" font-weight="800" fill="#fff">2026 중소기업이 주목할</text>
+  <text x="80" y="362" font-size="66" font-weight="800" fill="url(#ac)">AI 자동화 트렌드</text>
+  <text x="80" y="430" font-size="30" font-weight="500" fill="#aab0d6">에이전트 · 비용중심 · 실무 밀착</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+</svg>
