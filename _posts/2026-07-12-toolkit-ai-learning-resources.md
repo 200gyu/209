@@ -1,7 +1,7 @@
 ---
 title: "[자료실] AI 공부 리소스 모음 — 무료로 시작하는 검증된 자료들"
 date: 2026-07-12 16:00:00 +0900
-categories: [자료실]
+categories: ["AI Transformation"]
 tags: [학습자료, 무료강의, anthropic, deeplearning, 리소스]
 description: "기획자·비개발자가 AI를 처음 배울 때 믿고 볼 수 있는 무료·공식 자료들을 레벨별로 정리. 계속 업데이트합니다."
 image:

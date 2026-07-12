@@ -1,7 +1,7 @@
 ---
 title: "[수업노트] 기획자는 원래 프롬프트 강자다 — 프롬프트 엔지니어링 첫걸음"
 date: 2026-07-11 11:00:00 +0900
-categories: [수업노트]
+categories: ["AI Transformation"]
 tags: [프롬프트엔지니어링, llm, 기획, 역할부여, few-shot]
 description: "좋은 기획서를 쓰는 역량은 그대로 좋은 프롬프트가 된다. 역할·맥락·예시·검증 4가지 기법을 기획자의 언어로 정리."
 image:

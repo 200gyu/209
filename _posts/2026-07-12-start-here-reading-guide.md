@@ -1,7 +1,7 @@
 ---
 title: "📌 이 블로그 읽는 순서 — AI 에이전트를 처음부터 만들어보고 싶다면"
 date: 2026-07-12 12:00:00 +0900
-categories: [블로그]
+categories: ["Inside NEXT X"]
 tags: [가이드, 시작하기, 목차, 로드맵]
 description: "처음 오셨나요? 기획자가 AI 에이전트를 만드는 여정을 순서대로 따라 읽는 큐레이션 가이드입니다."
 image:

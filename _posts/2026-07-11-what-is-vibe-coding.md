@@ -1,7 +1,7 @@
 ---
 title: "[수업노트] 바이브 코딩이란? — '말하듯' 만드는 개발의 시대"
 date: 2026-07-11 19:00:00 +0900
-categories: [수업노트]
+categories: ["Dev & DevOps"]
 tags: [바이브코딩, vibecoding, karpathy, 비개발자, 프로토타입]
 description: "2025년 Karpathy가 만든 용어 '바이브 코딩'. 무엇이고, 왜 비개발자에게 혁명이며, 어디까지 믿으면 안 되는지."
 image:

@@ -1,7 +1,7 @@
 ---
 title: "[자료실] 기획자를 위한 AI 용어 사전 — 회의에서 안 밀리는 최소 지식"
 date: 2026-07-12 14:00:00 +0900
-categories: [자료실]
+categories: ["AI Transformation"]
 tags: [ai용어, 사전, 기획자, llm, rag, 에이전트]
 description: "LLM·토큰·프롬프트·RAG·에이전트·환각·파인튜닝… 기획/PM/운영자가 딱 알아야 할 AI 용어를 쉬운 말로 정리."
 image:

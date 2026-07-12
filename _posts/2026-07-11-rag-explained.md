@@ -1,7 +1,7 @@
 ---
 title: "[수업노트] RAG 쉽게 이해하기 — '내 문서를 아는 AI'의 원리"
 date: 2026-07-11 16:00:00 +0900
-categories: [수업노트]
+categories: ["AI Transformation"]
 tags: [rag, 검색증강생성, llm, 환각방지, 벡터검색]
 description: "RAG(검색 증강 생성)를 비개발자도 이해하도록 정리. 왜 필요한지, 어떻게 동작하는지, 내 운영 문서에 어떻게 쓸지."
 image:

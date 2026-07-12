@@ -1,7 +1,7 @@
 ---
 title: "[인사이트] 바이브코딩 도구 비교 — Claude Code · Cursor · v0 · Windsurf"
 date: 2026-07-11 20:00:00 +0900
-categories: [인사이트]
+categories: ["Dev & DevOps"]
 tags: [바이브코딩, 도구비교, claudecode, cursor, v0]
 description: "대표 바이브코딩 도구들의 강점과 적합 대상을 기획자/비개발자 관점에서 정리. 무엇으로 시작하면 좋을까?"
 image:

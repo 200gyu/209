@@ -1,7 +1,7 @@
 ---
 title: "[에이전트 제작기 #2] 설계도 그리기 — 문제 정의를 '만들 수 있는 계획'으로"
 date: 2026-07-11 10:00:00 +0900
-categories: [프로젝트]
+categories: ["Workplace Automation"]
 tags: [에이전트설계, 워크플로우, 도구, mvp, 운영]
 description: "문제 정의(#1)를 누구나 따라 만들 수 있는 제작 설계도로 바꾸는 과정. 업무 분해 → 도구 목록 → 기술 선택 → MVP 범위."
 image:

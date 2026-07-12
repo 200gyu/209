@@ -1,7 +1,7 @@
 ---
 title: "[수업노트] Tool Calling & 멀티 에이전트 — AI에게 손발을 달아주기"
 date: 2026-07-11 22:00:00 +0900
-categories: [수업노트]
+categories: ["AI Transformation"]
 tags: [toolcalling, 멀티에이전트, 워크플로우, 에이전트설계, anthropic]
 description: "에이전트가 '도구를 쓴다'는 것의 의미, 워크플로우 vs 에이전트, 멀티 에이전트 협업. Anthropic 가이드 기반 정리."
 image:

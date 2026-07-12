@@ -1,7 +1,7 @@
 ---
 title: "[인사이트] 1인 AI 서비스 시대, 한국은 어디까지 왔나"
 date: 2026-07-12 10:00:00 +0900
-categories: [인사이트]
+categories: ["Inside NEXT X"]
 tags: [1인기업, 국내트렌드, ai창업, 설계자, 커리어]
 description: "피터 레벨스 같은 1인 AI 서비스 흐름이 한국에도 오고 있다. 거시 트렌드와, 기획자에게 주는 신호를 정리."
 image:

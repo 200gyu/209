@@ -1,7 +1,7 @@
 ---
 title: "[수업노트] Computational Thinking — 컴퓨터처럼 사고하는 법"
 date: 2026-07-09 21:00:00 +0900
-categories: [수업노트]
+categories: ["AI Transformation"]
 tags: [컴퓨팅사고, 문제분해, 추상화, 알고리즘]
 description: 첫 수업. 막연한 업무를 '분해→패턴→추상화→알고리즘'으로 바라보는 법.
 image:
