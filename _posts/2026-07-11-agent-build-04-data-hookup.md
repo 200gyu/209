@@ -72,3 +72,10 @@ flowchart LR
 
 > 참고로 이 모든 걸 코드 한 줄 안 짜고 **바이브 코딩**으로 만들 수 있습니다 — 그게 뭔지는 [수업노트: 바이브 코딩이란?]({% post_url 2026-07-11-what-is-vibe-coding %})에 정리했어요.
 {: .prompt-info }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

@@ -53,3 +53,10 @@ AI 코딩 도구의 발전으로, 코드를 직접 다 짜는 사람보다 **무
 
 > 요약: 1인 AI 서비스의 물결은 한국에도 온다. 무기는 코드가 아니라 **문제를 아는 힘** — 기획자에게 유리한 시대.
 {: .prompt-info }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

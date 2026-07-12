@@ -88,3 +88,10 @@ AI에게 "너는 누구다"를 정해주면 답의 품질이 크게 오릅니다
 - [Claude 프롬프트 엔지니어링 개요 (Anthropic 공식 문서)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 - [Prompting best practices (Claude Platform Docs)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
 - [프롬프트 엔지니어링 베스트 프랙티스 (Anthropic 블로그)](https://claude.com/blog/best-practices-for-prompt-engineering)
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

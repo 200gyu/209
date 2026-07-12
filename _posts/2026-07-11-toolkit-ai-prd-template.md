@@ -80,3 +80,10 @@ image:
 
 > 이 템플릿도 살아있는 문서로 계속 다듬어갈게요. 실제 기획에 써보고 부족한 항목이 보이면 업데이트합니다. 📌
 {: .prompt-info }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

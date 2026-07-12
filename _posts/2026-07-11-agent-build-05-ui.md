@@ -72,3 +72,10 @@ image:
 
 > 첫 주 만에 **면접·포트폴리오에서 시연 가능한 MVP** 하나가 나왔습니다. 완벽하진 않지만, [1인 AI 기업 인사이트]({% post_url 2026-07-10-insight-solo-ai-business %})에서 배운 대로 *"완벽한 하나보다 작동하는 최소한"* 을 먼저 만든 게 주효했어요.
 {: .prompt-tip }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

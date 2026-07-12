@@ -85,3 +85,10 @@ image:
 
 > v3 프롬프트는 [자료실]({% post_url 2026-07-11-toolkit-prompts-checklists %})에도 정리해 뒀습니다. 다음 **#4**에서는 이 프롬프트에 **실제 지표 데이터를 자동으로 연결**하는 도구를 붙여봅니다.
 {: .prompt-tip }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

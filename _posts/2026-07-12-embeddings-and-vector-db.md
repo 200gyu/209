@@ -75,3 +75,10 @@ flowchart LR
 
 > 요약: **임베딩 = 의미를 숫자로**, **벡터 DB = 가까운 의미를 빠르게 검색.** 둘이 RAG의 '똑똑한 검색'을 만든다.
 {: .prompt-info }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

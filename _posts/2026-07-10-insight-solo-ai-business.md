@@ -110,3 +110,10 @@ pin: false
 
 > 이 글은 참고 영상을 개인적으로 분석·정리한 것으로, 수치는 공개 자료 기준이며 시점에 따라 달라질 수 있습니다.
 {: .prompt-tip }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

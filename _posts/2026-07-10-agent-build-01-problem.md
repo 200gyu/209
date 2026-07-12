@@ -65,3 +65,10 @@ flowchart TD
 - ▶️ **다음:** 프롬프트 엔지니어링 수업에서 *VOC 분류·요약* 프롬프트부터 실험해보기
 
 *이 시리즈는 수업 진도에 맞춰 `#2 프롬프트`, `#3 도구 연동`, `#4 배포`로 이어집니다.*
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

@@ -56,3 +56,10 @@ image:
 
 > 요약: 바이브 코딩 = **"말하면 만들어지는 개발".** 아이디어를 가진 사람에게 무기를 쥐여주지만, **검증은 여전히 사람의 몫**.
 {: .prompt-tip }
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }

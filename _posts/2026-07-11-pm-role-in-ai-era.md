@@ -55,3 +55,10 @@ AI는 기획자의 일을 없애기보다 **무게중심을 옮깁니다.**
 - [How AI Is Changing Product Management (Product Leadership)](https://www.productleadership.com/blog/how-ai-is-changing-product-management/)
 - [AI Skills Product Managers Need (Productboard)](https://www.productboard.com/blog/ai-skills-product-managers-need/)
 - [Will AI Replace Product Managers? (Product School)](https://productschool.com/blog/artificial-intelligence/will-ai-replace-product-managers)
+
+
+---
+
+> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+{: .prompt-info }
