@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+{: .prompt-tip }
+
 > 대시보드를 만들었는데 **아무도 안 본다면?** 대부분 "숫자는 많은데 결정에 안 쓰이기" 때문입니다.
 > [데이터 파이프라인]({% post_url 2026-07-12-data-pipeline-showcase %})으로 데이터를 모았다면, 마지막은 **"보면 결정되는" 대시보드**입니다.
 {: .prompt-info }

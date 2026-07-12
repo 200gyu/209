@@ -10,6 +10,9 @@ image:
 pin: false
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 > 실무에서 바로 복사해 쓰는 자료 모음입니다. 배우면서 **계속 추가·업데이트**할 예정이에요. 📌
 {: .prompt-tip }
 

@@ -9,6 +9,9 @@ image:
   alt: "화면 붙이기 — 드디어 앱이 되다"
 ---
 
+> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+{: .prompt-tip }
+
 > [#4 데이터 연결]({% post_url 2026-07-11-agent-build-04-data-hookup %})까지 오면 기능은 다 됐지만, 아직 **나만 터미널에서** 쓸 수 있어요.
 > 이번 편에서 **화면(UI)** 을 붙여, 동료 누구나 쓰는 **MVP v1.0** 으로 완성합니다. 🎉
 {: .prompt-info }

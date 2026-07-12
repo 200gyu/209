@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+{: .prompt-tip }
+
 > [#3 프롬프트 실험실]({% post_url 2026-07-11-agent-build-03-prompt-lab %})에서 좋은 요약 프롬프트(v3)를 완성했습니다.
 > 그런데 아직 **지표를 손으로 붙여넣고** 있어요. 이번 편은 그 마지막 수작업을 없앱니다.
 {: .prompt-info }

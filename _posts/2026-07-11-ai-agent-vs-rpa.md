@@ -9,6 +9,9 @@ image:
   alt: "AI 에이전트 vs RPA"
 ---
 
+> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+{: .prompt-tip }
+
 > "그거 그냥 자동화(RPA) 아니야?" — AI 에이전트를 이야기하면 꼭 나오는 질문입니다. 둘은 **닮았지만 근본이 다릅니다.**
 {: .prompt-info }
 

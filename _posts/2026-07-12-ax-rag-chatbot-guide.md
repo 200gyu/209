@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 > "그 규정 어디 있죠?", "이 절차 담당이 누구였죠?" — 사내 지식이 문서 여기저기 흩어져 매번 사람에게 묻는다면, **RAG 기반 지식 챗봇**이 답입니다.
 > [RAG 개념]({% post_url 2026-07-11-rag-explained %})을 실제 **구축 관점**으로 한 단계 더 들어갑니다.
 {: .prompt-info }

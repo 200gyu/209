@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+{: .prompt-tip }
+
 > [데이터 파이프라인 구축 접근법]({% post_url 2026-07-12-data-pipeline-showcase %})에서 "왜 필요한지"를 봤다면, 이번엔 **"어떻게 굴러가는지"** 를 쉽게 정리합니다.
 {: .prompt-info }
 

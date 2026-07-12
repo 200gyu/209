@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 > LLM은 똑똑하지만 **"우리 회사 문서"** 는 모릅니다. 그리고 가끔 그럴듯한 거짓말(환각)을 하죠.
 > **RAG**는 이 두 문제를 한 번에 푸는 방법입니다.
 {: .prompt-info }

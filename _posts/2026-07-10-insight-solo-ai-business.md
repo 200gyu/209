@@ -10,6 +10,9 @@ image:
 pin: false
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 > 📺 **참고 영상**: [직원 0명으로 월 4억 버는 1인 기업의 AI 서비스, 분석하고 직접 만들었습니다](https://youtu.be/dKgzepcAvE0) — 채널 *제이멘토*
 >
 > 세계적 1인 AI 기업가 **피터 레벨스(Pieter Levels)**의 비즈니스 모델을 분석하고, 그 서비스를 **바이브 코딩**으로 직접 구현하는 실전 교육 영상입니다.

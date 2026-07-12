@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+{: .prompt-tip }
+
 > [RAG]({% post_url 2026-07-11-rag-explained %})는 "관련 문서를 찾아 근거로 답한다"고 했죠. 그런데 **"관련 있는 문서"를 어떻게 찾을까요?** 그 비밀이 임베딩과 벡터 DB입니다.
 {: .prompt-info }
 

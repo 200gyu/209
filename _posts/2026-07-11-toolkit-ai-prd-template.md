@@ -9,6 +9,9 @@ image:
   alt: "AI 기능 기획서(PRD) 템플릿"
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 > 일반 기획서에 **AI 기능 특유의 항목**(무엇을 AI가/사람이 판단할지, 환각 대비, 데이터 출처·권한)을 더한 PRD 템플릿입니다. 복사해서 채우세요.
 {: .prompt-tip }
 

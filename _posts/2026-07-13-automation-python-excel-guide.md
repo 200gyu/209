@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+{: .prompt-tip }
+
 > [엑셀 자동화 쇼케이스]({% post_url 2026-07-12-automation-excel-showcase %})에서 "왜"를 봤다면, 이번엔 **"어떻게"** 입니다. 실무에서 가장 많이 쓰는 3가지 패턴을 정리했습니다.
 {: .prompt-info }
 

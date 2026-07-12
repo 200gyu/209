@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+{: .prompt-tip }
+
 > 지난 글 [#1 문제 정의]({% post_url 2026-07-10-agent-build-01-problem %})에서 *"주간 운영 리포트 작성을 대신하는 에이전트"* 라는 목표를 세웠습니다.
 > 이번 편은 그 목표를 **누구나 따라 만들 수 있는 설계도**로 바꾸는 과정입니다. 코딩을 몰라도 읽을 수 있게 정리했어요.
 {: .prompt-info }

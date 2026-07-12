@@ -9,6 +9,9 @@ image:
   alt: "프롬프트 실험실 — 요약 프롬프트를 직접 튜닝하다"
 ---
 
+> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+{: .prompt-tip }
+
 > [#2 설계도]({% post_url 2026-07-11-agent-build-02-blueprint %})에서 정한 MVP v0.1 = *"지표를 넣으면 3줄 요약 초안을 만든다"*.
 > 이번엔 그 심장인 **요약 프롬프트**를 실제로 v1 → v3까지 고쳐봤습니다. [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %})을 실전에 적용한 로그예요.
 {: .prompt-info }

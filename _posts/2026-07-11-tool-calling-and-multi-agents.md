@@ -10,6 +10,9 @@ image:
 mermaid: true
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 > LLM은 '말'은 잘하지만 혼자선 아무것도 '실행'하지 못합니다. **도구(tool)** 를 쥐여줘야 검색·계산·저장을 하죠.
 > [#4 데이터 연결]({% post_url 2026-07-11-agent-build-04-data-hookup %})에서 예고한 그 개념을 정리합니다.
 {: .prompt-info }

@@ -9,6 +9,9 @@ image:
   alt: "Computational Thinking — 컴퓨터처럼 사고하는 법"
 ---
 
+> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+{: .prompt-tip }
+
 ## 오늘 배운 것
 
 첫 프로젝트 수업은 **컴퓨팅 사고(Computational Thinking)**.
