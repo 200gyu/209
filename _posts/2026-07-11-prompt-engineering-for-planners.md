@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [프롬프트엔지니어링, llm, 기획, 역할부여, few-shot]
 description: "좋은 기획서를 쓰는 역량은 그대로 좋은 프롬프트가 된다. 역할·맥락·예시·검증 4가지 기법을 기획자의 언어로 정리."
 image:
-  path: /assets/img/posts/prompt-engineering.svg
+  path: /assets/img/posts/prompt-engineering.png
   alt: "기획자는 원래 프롬프트 강자다"
 ---
 

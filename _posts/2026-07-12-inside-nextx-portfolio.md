@@ -5,7 +5,7 @@ categories: ["Inside NEXT X"]
 tags: [포트폴리오, 대표사례, 기술스택, nextx, ax]
 description: "넥스트엑스가 실제로 만든 것과 다루는 기술을 한눈에. AX·자동화·데이터·개발 4대 역량의 대표 사례 모음."
 image:
-  path: /assets/img/posts/portfolio.svg
+  path: /assets/img/posts/portfolio.png
   alt: "NEXT X 대표 사례 & 기술 스택"
 pin: true
 ---

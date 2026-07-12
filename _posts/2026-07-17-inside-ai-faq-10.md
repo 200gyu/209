@@ -5,7 +5,7 @@ categories: ["Inside NEXT X"]
 tags: [faq, ai도입, 비용, roi, 보안, 넥스트엑스]
 description: "비용·기간·정확도·보안·직원 반발까지 — AI 자동화 도입 전 대표·실무자가 가장 많이 묻는 질문 10가지에 솔직하게 답합니다."
 image:
-  path: /assets/img/posts/faq.svg
+  path: /assets/img/posts/faq.png
   alt: "AI 도입 전 자주 묻는 질문 10"
 ---
 

@@ -5,7 +5,7 @@ categories: ["Dev & DevOps"]
 tags: [api, rest, 연동, 비개발자, 개념, nextx]
 description: "회의에서 자주 나오는 'API 연동'. 식당 주문서 비유로 API의 개념과, 기획자가 알아야 할 핵심만 정리."
 image:
-  path: /assets/img/posts/dev-api.svg
+  path: /assets/img/posts/dev-api.png
   alt: "API란 무엇인가 — 비개발자를 위한 설명"
 mermaid: true
 ---

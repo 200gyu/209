@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [문서자동화, 메일머지, 계약서, 증명서, docx, nextx]
 description: "이름·금액만 다른 문서 수백 장을 데이터로 자동 생성하는 법. 계약서·안내문·증명서·라벨을 실수 없이 대량으로."
 image:
-  path: /assets/img/posts/automation-docgen.svg
+  path: /assets/img/posts/automation-docgen.png
   alt: "문서 대량 생성 자동화 — 100장을 1분에"
 mermaid: true
 ---

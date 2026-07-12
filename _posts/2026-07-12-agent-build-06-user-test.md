@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [사용자테스트, 유저빌리티, 피드백, mvp, 검증]
 description: "MVP를 만든 뒤 가장 중요한 단계. 동료에게 써보게 하고 관찰·피드백을 구조적으로 모으는 방법과 기록 템플릿."
 image:
-  path: /assets/img/posts/agent-build-06.svg
+  path: /assets/img/posts/agent-build-06.png
   alt: "사용자 테스트 설계 — 내 에이전트를 남에게 처음 맡기기"
 ---
 

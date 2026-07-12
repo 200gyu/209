@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [prd, 기획서, ai기획, 템플릿, 체크리스트]
 description: "AI 기능을 기획할 때 그대로 채워 쓰는 PRD 템플릿. 일반 PRD에 'AI 특유' 항목(판단 분담·환각·데이터)을 더했다."
 image:
-  path: /assets/img/posts/toolkit-prd.svg
+  path: /assets/img/posts/toolkit-prd.png
   alt: "AI 기능 기획서(PRD) 템플릿"
 ---
 

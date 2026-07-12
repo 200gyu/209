@@ -5,7 +5,7 @@ categories: ["Data Engineering"]
 tags: [데이터파이프라인, etl, 데이터엔지니어링, 대시보드, 개념]
 description: "ETL, 데이터 웨어하우스, 대시보드… 비개발자도 이해하는 데이터 파이프라인의 개념과 각 단계의 역할."
 image:
-  path: /assets/img/posts/data-what-is-pipeline.svg
+  path: /assets/img/posts/data-what-is-pipeline.png
   alt: "데이터 파이프라인이란?"
 mermaid: true
 ---

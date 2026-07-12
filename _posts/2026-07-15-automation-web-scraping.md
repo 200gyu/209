@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [크롤링, 웹스크래핑, 데이터수집, 자동화, 준법, nextx]
 description: "가격·리뷰·공고 등 반복 수집을 자동화하는 웹 크롤링의 원리와 실무. 그리고 반드시 지켜야 할 법적·윤리적 경계."
 image:
-  path: /assets/img/posts/automation-scraping.svg
+  path: /assets/img/posts/automation-scraping.png
   alt: "웹 데이터 수집 자동화 — 크롤링"
 mermaid: true
 ---

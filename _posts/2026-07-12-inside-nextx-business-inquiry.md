@@ -5,7 +5,7 @@ categories: ["Inside NEXT X"]
 tags: [넥스트엑스, nextx, 비즈니스문의, ax, 공지]
 description: "주식회사 넥스트엑스(NEXT X)의 AX·업무 자동화 솔루션 안내와 비즈니스 문의 창구. 무료 진단부터 시작하세요."
 image:
-  path: /assets/img/posts/nextx-notice.svg
+  path: /assets/img/posts/nextx-notice.png
   alt: "주식회사 넥스트엑스 — AX·업무 자동화 비즈니스 문의 안내"
 pin: true
 ---

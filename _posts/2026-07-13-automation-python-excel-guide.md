@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [파이썬, 엑셀자동화, pandas, openpyxl, rpa, nextx]
 description: "여러 엑셀 취합·정산·리포트 생성을 파이썬으로 자동화하는 실전 패턴. 매크로 vs 파이썬 vs RPA 선택 기준과 예약 실행까지."
 image:
-  path: /assets/img/posts/automation-python-excel.svg
+  path: /assets/img/posts/automation-python-excel.png
   alt: "파이썬으로 엑셀 업무 자동화하기"
 mermaid: true
 ---

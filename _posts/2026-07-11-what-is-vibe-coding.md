@@ -5,7 +5,7 @@ categories: ["Dev & DevOps"]
 tags: [바이브코딩, vibecoding, karpathy, 비개발자, 프로토타입]
 description: "2025년 Karpathy가 만든 용어 '바이브 코딩'. 무엇이고, 왜 비개발자에게 혁명이며, 어디까지 믿으면 안 되는지."
 image:
-  path: /assets/img/posts/vibe-coding.svg
+  path: /assets/img/posts/vibe-coding.png
   alt: "바이브 코딩이란?"
 ---
 

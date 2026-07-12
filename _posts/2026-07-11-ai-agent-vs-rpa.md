@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [ai에이전트, rpa, 자동화, agentic, 개념정리]
 description: "실무자가 가장 헷갈리는 개념 정리. RPA는 스크립트를, 에이전트는 목표를 받는다. 언제 무엇을 쓰고 어떻게 결합할까."
 image:
-  path: /assets/img/posts/agent-vs-rpa.svg
+  path: /assets/img/posts/agent-vs-rpa.png
   alt: "AI 에이전트 vs RPA"
 ---
 

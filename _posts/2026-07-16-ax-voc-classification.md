@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [voc, cs, 자동분류, 응대초안, llm, nextx]
 description: "쌓이는 고객 문의를 AI가 카테고리로 나누고 응대 초안까지 만드는 법. CS 팀의 반복을 줄이고 사람은 판단에 집중."
 image:
-  path: /assets/img/posts/ax-voc.svg
+  path: /assets/img/posts/ax-voc.png
   alt: "고객 문의(VOC) 자동 분류·응대 초안"
 mermaid: true
 ---

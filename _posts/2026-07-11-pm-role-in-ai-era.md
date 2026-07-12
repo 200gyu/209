@@ -5,7 +5,7 @@ categories: ["Inside NEXT X"]
 tags: [기획자, pm, 커리어, ai시대, 역량]
 description: "AI가 기획자를 대체할까? 데이터로 본 결론은 '역할 이동'. 사라지는 일과 더 중요해지는 역량을 정리했다."
 image:
-  path: /assets/img/posts/pm-role-ai.svg
+  path: /assets/img/posts/pm-role-ai.png
   alt: "AI 시대, 기획자의 무기는 무엇인가"
 ---
 

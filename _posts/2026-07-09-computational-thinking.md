@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [컴퓨팅사고, 문제분해, 추상화, 알고리즘]
 description: 첫 수업. 막연한 업무를 '분해→패턴→추상화→알고리즘'으로 바라보는 법.
 image:
-  path: /assets/img/posts/computational-thinking.svg
+  path: /assets/img/posts/computational-thinking.png
   alt: "Computational Thinking — 컴퓨터처럼 사고하는 법"
 ---
 

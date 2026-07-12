@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [프롬프트, 실험로그, mvp, 운영리포트, 반복개선]
 description: "MVP의 심장인 '지표 요약 프롬프트'를 v1→v3까지 실제로 고쳐본 실험 로그. 실패와 개선 과정을 그대로 공개."
 image:
-  path: /assets/img/posts/agent-build-03.svg
+  path: /assets/img/posts/agent-build-03.png
   alt: "프롬프트 실험실 — 요약 프롬프트를 직접 튜닝하다"
 ---
 

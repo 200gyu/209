@@ -5,7 +5,7 @@ categories: ["Data Engineering"]
 tags: [데이터엔지니어링, 파이프라인, etl, 대시보드, bi, nextx]
 description: "여기저기 흩어진 원시 데이터를 자동으로 모아 경영 의사결정에 쓰는 지표로 만드는 넥스트엑스의 데이터 파이프라인 접근법."
 image:
-  path: /assets/img/posts/data-pipeline.svg
+  path: /assets/img/posts/data-pipeline.png
   alt: "흩어진 데이터를 경영 지표로 — 데이터 파이프라인 구축 접근법"
 pin: false
 mermaid: true

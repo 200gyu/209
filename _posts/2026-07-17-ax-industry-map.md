@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [업종별, ai활용, 제조, 유통, 서비스, nextx]
 description: "제조·유통·서비스·병원·교육 등 업종별로 AI·자동화가 가장 효과를 내는 지점을 정리. 우리 회사에 바로 대입해보세요."
 image:
-  path: /assets/img/posts/industry-map.svg
+  path: /assets/img/posts/industry-map.png
   alt: "업종별 AI 활용 지도"
 ---
 

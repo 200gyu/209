@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [데이터연결, csv, api, 자동화, tool]
 description: "손으로 붙여넣던 지표를 CSV/API로 자동 주입한다. 비개발자도 이해하는 '데이터 → 프롬프트' 연결 과정."
 image:
-  path: /assets/img/posts/agent-build-04.svg
+  path: /assets/img/posts/agent-build-04.png
   alt: "데이터 연결하기 — 프롬프트에 진짜 지표를 물리다"
 mermaid: true
 ---

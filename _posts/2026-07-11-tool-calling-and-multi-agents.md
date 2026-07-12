@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [toolcalling, 멀티에이전트, 워크플로우, 에이전트설계, anthropic]
 description: "에이전트가 '도구를 쓴다'는 것의 의미, 워크플로우 vs 에이전트, 멀티 에이전트 협업. Anthropic 가이드 기반 정리."
 image:
-  path: /assets/img/posts/tool-calling-agents.svg
+  path: /assets/img/posts/tool-calling-agents.png
   alt: "Tool Calling & 멀티 에이전트"
 mermaid: true
 ---

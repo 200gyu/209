@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [ax, 업무자동화, 생성형ai, llm, 사례, nextx]
 description: "반복 업무를 생성형 AI로 자동화하는 넥스트엑스의 AX 접근법. 운영 리포트 자동화 레퍼런스 빌드로 문제 분해부터 배포까지 공개합니다."
 image:
-  path: /assets/img/posts/ax-showcase.svg
+  path: /assets/img/posts/ax-showcase.png
   alt: "매주 2시간 → 40분: 생성형 AI로 반복 업무를 없애는 법"
 pin: false
 mermaid: true

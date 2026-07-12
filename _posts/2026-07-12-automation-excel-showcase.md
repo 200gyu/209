@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [업무자동화, 엑셀자동화, rpa, 비용절감, roi, nextx]
 description: "여러 시트 취합·정산·보고서 작성 같은 엑셀 반복작업을 자동화하는 넥스트엑스의 접근법과 ROI 계산법. 비용 절감 관점에서 정리."
 image:
-  path: /assets/img/posts/automation-excel.svg
+  path: /assets/img/posts/automation-excel.png
   alt: "엑셀 반복작업, 사람이 안 해도 됩니다"
 pin: false
 mermaid: true

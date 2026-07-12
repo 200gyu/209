@@ -5,7 +5,7 @@ categories: ["Data Engineering"]
 tags: [대시보드, bi, kpi, 지표설계, 데이터시각화, nextx]
 description: "숫자만 잔뜩인 대시보드는 아무도 안 본다. 경영진이 '보고 바로 결정하는' 대시보드를 설계하는 원칙과 지표 구조."
 image:
-  path: /assets/img/posts/data-dashboard.svg
+  path: /assets/img/posts/data-dashboard.png
   alt: "경영진 대시보드 설계"
 mermaid: true
 ---

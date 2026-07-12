@@ -5,7 +5,7 @@ categories: ["Data Engineering"]
 tags: [데이터클렌징, 데이터정제, 데이터품질, etl, nextx]
 description: "분석·자동화의 8할은 데이터 정제에서 갈린다. 중복·결측·표기 불일치를 잡아 '쓸 수 있는 데이터'로 만드는 실전 체크리스트."
 image:
-  path: /assets/img/posts/data-cleansing.svg
+  path: /assets/img/posts/data-cleansing.png
   alt: "데이터 클렌징 실전"
 ---
 

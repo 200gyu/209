@@ -5,7 +5,7 @@ categories: ["Workplace Automation"]
 tags: [ui, mvp완성, 바이브코딩, 사람검수, 배포]
 description: "터미널에서 돌던 요약 기능에 간단한 화면을 붙여, 동료도 쓸 수 있는 MVP v1.0으로 완성한다."
 image:
-  path: /assets/img/posts/agent-build-05.svg
+  path: /assets/img/posts/agent-build-05.png
   alt: "화면 붙이기 — 드디어 앱이 되다"
 ---
 

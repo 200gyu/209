@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [rag, 사내챗봇, 지식검색, llm, 임베딩, nextx]
 description: "규정·매뉴얼·과거 문서를 학습한 사내 지식 검색 챗봇을 RAG로 구축하는 실전 가이드. 아키텍처·구축 5단계·실무 함정까지."
 image:
-  path: /assets/img/posts/ax-rag-chatbot.svg
+  path: /assets/img/posts/ax-rag-chatbot.png
   alt: "사내 지식 검색 챗봇 만들기 — RAG"
 mermaid: true
 ---

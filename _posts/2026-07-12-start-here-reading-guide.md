@@ -5,7 +5,7 @@ categories: ["Inside NEXT X"]
 tags: [가이드, 카테고리, 안내, nextx]
 description: "처음 오셨나요? NEXT X 기술 블로그의 5대 카테고리와, 관심사별 추천 글을 안내합니다."
 image:
-  path: /assets/img/posts/reading-guide.svg
+  path: /assets/img/posts/reading-guide.png
   alt: "블로그 이용 안내"
 pin: false
 ---

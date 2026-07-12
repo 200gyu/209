@@ -5,7 +5,7 @@ categories: ["Dev & DevOps"]
 tags: [webhook, api, 실시간, 자동화, 연동, nextx]
 description: "API와 뭐가 다를까? 웹훅을 비개발자도 이해하도록 쉽게. 결제·문의·배포 알림 같은 실시간 자동화의 핵심."
 image:
-  path: /assets/img/posts/dev-webhook.svg
+  path: /assets/img/posts/dev-webhook.png
   alt: "웹훅(Webhook)이란?"
 mermaid: true
 ---

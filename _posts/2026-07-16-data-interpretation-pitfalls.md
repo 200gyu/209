@@ -5,7 +5,7 @@ categories: ["Data Engineering"]
 tags: [데이터해석, 통계함정, 의사결정, 평균, 상관관계, nextx]
 description: "데이터가 많다고 옳은 결정이 나오진 않는다. 경영진·기획자가 자주 빠지는 데이터 해석의 함정 5가지와 피하는 법."
 image:
-  path: /assets/img/posts/data-pitfalls.svg
+  path: /assets/img/posts/data-pitfalls.png
   alt: "숫자에 속지 않기 — 데이터 해석의 함정 5"
 ---
 

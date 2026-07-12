@@ -5,7 +5,7 @@ categories: ["AI Transformation"]
 tags: [rag, 검색증강생성, llm, 환각방지, 벡터검색]
 description: "RAG(검색 증강 생성)를 비개발자도 이해하도록 정리. 왜 필요한지, 어떻게 동작하는지, 내 운영 문서에 어떻게 쓸지."
 image:
-  path: /assets/img/posts/rag-explained.svg
+  path: /assets/img/posts/rag-explained.png
   alt: "RAG 쉽게 이해하기"
 mermaid: true
 ---

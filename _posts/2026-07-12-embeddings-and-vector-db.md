@@ -5,7 +5,7 @@ categories: ["Data Engineering"]
 tags: [임베딩, 벡터db, 의미검색, rag, embedding]
 description: "RAG의 '검색'은 어떻게 관련 문서를 찾을까? 임베딩과 벡터 DB의 원리를 비개발자도 이해하게 정리."
 image:
-  path: /assets/img/posts/embeddings.svg
+  path: /assets/img/posts/embeddings.png
   alt: "임베딩 & 벡터 DB"
 mermaid: true
 ---
