@@ -40,7 +40,7 @@ pin: true
 |------|------|
 | **김현열** | 대표이사 (CEO) |
 | **정석현** | 상무 (Managing Director) |
-| **이경규** | 전무이사 (Executive Director) |
+| **이경규** | 전무 (Executive Director) |
 
 > 소규모 정예 팀이 **문제 정의 → 작은 검증(MVP) → 확장**의 원칙으로 직접 만들고 책임집니다.
 
