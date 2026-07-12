@@ -1,7 +1,7 @@
 ---
 title: "[에이전트 제작기 #1] 문제 정의 — 주간 운영 리포트 에이전트"
 date: 2026-07-10 22:00:00 +0900
-categories: [에이전트 제작기]
+categories: [프로젝트]
 tags: [문제정의, 운영, pm, rag, 에이전트]
 description: 과정 내내 만들 개인 프로젝트의 문제를 한 문장으로 정의한다.
 mermaid: true

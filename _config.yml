@@ -19,10 +19,10 @@ future: true
 
 title: 209 # the main title
 
-tagline: 아이펠 AI 에이전트 과정 1기 · 수업 기록과 나만의 에이전트 제작기 # it will display as the subtitle
+tagline: AI 에이전트를 만드는 기획자 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  모두의연구소 아이펠 AI 에이전트 과정 1기 학습 노트와, 기획/PM/운영 도메인을 활용한 AI 에이전트 제작 과정을 기록합니다.
+  기획·PM·운영자가 AI 에이전트를 직접 배우고 만드는 과정과 결과물. 실무 문제를 AI로 푸는 프로젝트 중심 포트폴리오입니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
