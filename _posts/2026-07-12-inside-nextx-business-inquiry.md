@@ -39,7 +39,7 @@ pin: true
 | 이름 | 직위 |
 |------|------|
 | **김현열** | 대표이사 (CEO) |
-| **정석현** | 상무 |
+| **정석현** | 상무 (Managing Director) |
 | **이경규** | 전무이사 (Executive Director) |
 
 > 소규모 정예 팀이 **문제 정의 → 작은 검증(MVP) → 확장**의 원칙으로 직접 만들고 책임집니다.
@@ -62,8 +62,6 @@ pin: true
 | 소재지 | 경기도 오산시 수목원로88번길 35, 현대테라타워CMC 지식산업센터 A동 2518호 |
 
 <div align="center">
-
-**[📬 지금 문의하기](mailto:csnextx@gmail.com?subject=[NEXT X]%20비즈니스%20문의)**  ·  [대표 사례 보기]({% post_url 2026-07-12-inside-nextx-portfolio %})
 
 <sub>© 2026 주식회사 넥스트엑스 (NEXT X Inc.) All rights reserved.</sub>
 
