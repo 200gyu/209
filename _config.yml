@@ -64,7 +64,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # ← goatcounter.com 가입 후 코드 입력 → 무료 방문자 통계 (아래 pageviews.provider 도 goatcounter 로)
+    id: "209" # goatcounter 사이트 코드 → https://209.goatcounter.com
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -78,7 +78,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
