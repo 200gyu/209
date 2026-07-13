@@ -44,6 +44,16 @@ pin: true
 - **데이터**: ETL 파이프라인 · 데이터 웨어하우스 · 대시보드(BI) · 벡터 DB
 - **개발/운영**: Web(HTML/CSS/JS) · API 연동 · GitHub Actions · GitHub Pages 배포
 
+## 🔗 카테고리별 더 깊이
+
+대표 사례 외에 각 영역의 심화 글도 살펴보세요:
+
+- 🤖 **AX** → [프롬프트 강자]({% post_url 2026-07-11-prompt-engineering-for-planners %}) · [RAG 챗봇]({% post_url 2026-07-12-ax-rag-chatbot-guide %}) · [AI 용어 사전]({% post_url 2026-07-12-toolkit-ai-glossary %})
+- ⚡ **Automation** → [파이썬 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [노코드]({% post_url 2026-07-14-automation-nocode-starter %}) · [실패 5가지]({% post_url 2026-07-17-automation-failure-reasons %})
+- 📊 **Data** → [파이프라인 개념]({% post_url 2026-07-12-what-is-data-pipeline %}) · [대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %}) · [데이터 함정]({% post_url 2026-07-16-data-interpretation-pitfalls %})
+- 🛠️ **Dev** → [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅]({% post_url 2026-07-16-dev-what-is-webhook %})
+- 🏢 **Inside** → [블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [AI 도입 FAQ]({% post_url 2026-07-17-inside-ai-faq-10 %})
+
 ## 📩 프로젝트 문의
 
 우리 회사 업무에 적용할 방법이 궁금하시면 **무료 진단**부터 시작하세요.

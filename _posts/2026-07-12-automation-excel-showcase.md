@@ -82,6 +82,13 @@ flowchart TD
 
 2개 이상이면 **자동화로 비용을 줄일 여지**가 큽니다.
 
+## 🔗 이어지는 솔루션 (카테고리 교차 참고)
+
+- ⚡ **더 깊이(Automation)** → [파이썬 엑셀 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [노코드 시작]({% post_url 2026-07-14-automation-nocode-starter %}) · [문서 대량 생성]({% post_url 2026-07-16-automation-doc-generation %})
+- 🤖 **판단이 필요하면(AX)** → [운영 리포트 자동화(대표)]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [에이전트 vs RPA]({% post_url 2026-07-11-ai-agent-vs-rpa %}) · [VOC 자동 분류]({% post_url 2026-07-16-ax-voc-classification %})
+- 📊 **데이터 품질(Data)** → 자동화 전에 [데이터 클렌징]({% post_url 2026-07-15-data-cleansing %})으로 원천 정리
+- 🛠️ **실행·연동(Dev)** → [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅으로 자동 알림]({% post_url 2026-07-16-dev-what-is-webhook %})
+
 ## 📩 우리 회사 엑셀, 자동화될까요?
 
 **무료 진단**으로 시작하세요. 반복 업무 1건만 알려주시면, 자동화 가능 여부와 예상 절감을 짚어드립니다.

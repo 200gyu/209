@@ -59,6 +59,13 @@ tags: [태그]
 > 이런 "안 겪으면 모르는" 지점을 미리 잡는 게 실무 역량입니다.
 {: .prompt-tip }
 
+## 🔗 이어지는 솔루션 (카테고리 교차 참고)
+
+- 🛠️ **더 깊이(Dev)** → [커스텀 도메인·HTTPS]({% post_url 2026-07-12-dev-custom-domain-https %}) · [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅]({% post_url 2026-07-16-dev-what-is-webhook %})
+- 🤖 **무엇을 배포하나(AX)** → [운영 리포트 자동화(대표)]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [사내 RAG 챗봇]({% post_url 2026-07-12-ax-rag-chatbot-guide %})
+- ⚡ **자동화 연결(Automation)** → [엑셀 자동화(대표)]({% post_url 2026-07-12-automation-excel-showcase %})
+- 📊 **데이터 기반(Data)** → [데이터 파이프라인(대표)]({% post_url 2026-07-12-data-pipeline-showcase %})
+
 ## 🔗 다음 편
 
 배포까지 됐다면, 이제 **내 도메인**을 붙일 차례. → [커스텀 도메인 + HTTPS 연결하기]({% post_url 2026-07-12-dev-custom-domain-https %})
