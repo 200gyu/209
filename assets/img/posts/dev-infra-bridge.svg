@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1326"/><stop offset="0.5" stop-color="#161d3a"/><stop offset="1" stop-color="#1e1a44"/></linearGradient>
+    <radialGradient id="glow" cx="80%" cy="10%" r="72%"><stop offset="0" stop-color="#6366f1" stop-opacity="0.5"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity="0.06"/></pattern>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(80,96)"><rect width="190" height="48" rx="24" fill="#6366f1" opacity="0.22"/><text x="95" y="32" text-anchor="middle" font-size="23" font-weight="700" fill="#c7d2fe">🛠️ Dev &amp; DevOps</text></g>
+  <text x="80" y="278" font-size="66" font-weight="800" fill="#fff">온프레미스에서 AI 파이프라인까지</text>
+  <text x="80" y="360" font-size="38" font-weight="600" fill="url(#ac)">단단한 인프라 이해가 AI를 안전하게 한다</text>
+  <text x="80" y="430" font-size="29" font-weight="500" fill="#aab0d6">네트워크(CCNP) · DB(OCA) · 무장애 운영  →  AI 에이전트 · 클라우드</text>
+  <g transform="translate(80,470)" font-size="27" font-weight="700">
+    <rect width="150" height="46" rx="10" fill="#334155" opacity="0.55"/><text x="75" y="30" text-anchor="middle" fill="#e2e8f0">과거 Engine</text>
+    <text x="176" y="30" fill="#7dd3fc" font-size="30">──▶</text>
+    <rect x="240" width="150" height="46" rx="10" fill="#4338ca" opacity="0.55"/><text x="315" y="30" text-anchor="middle" fill="#e0e7ff">미래 AI</text>
+  </g>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+</svg>

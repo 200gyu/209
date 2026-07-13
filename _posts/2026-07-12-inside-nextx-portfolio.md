@@ -43,6 +43,10 @@ pin: true
 - **자동화**: Python · 매크로(VBA) · RPA · 웹 자동화
 - **데이터**: ETL 파이프라인 · 데이터 웨어하우스 · 대시보드(BI) · 벡터 DB
 - **개발/운영**: Web(HTML/CSS/JS) · API 연동 · GitHub Actions · GitHub Pages 배포
+- **인프라(기반 역량)**: 네트워크(CCNP·CCNA) · DB(OCA/Oracle) · 온프레미스/클라우드 · 무장애 운영
+
+> 🌉 **인프라 → AI 브릿지** — 넥스트엑스의 강점은 *새 기술만 좇는 게 아니라 뿌리를 안다는 것*입니다. CCNP·CCNA 네트워크와 OCA(Oracle) DB, 국제행사 무장애 운영으로 다진 **온프레미스 인프라 이해**가 있어야, 현대의 AI 에이전트·클라우드 파이프라인을 **장애·보안 리스크 없이** 설계할 수 있습니다. → [온프레미스에서 AI 파이프라인까지]({% post_url 2026-07-17-dev-infra-to-ai-bridge %})
+{: .prompt-tip }
 
 ## 🔗 카테고리별 더 깊이
 
@@ -51,7 +55,7 @@ pin: true
 - 🤖 **AX** → [프롬프트 강자]({% post_url 2026-07-11-prompt-engineering-for-planners %}) · [RAG 챗봇]({% post_url 2026-07-12-ax-rag-chatbot-guide %}) · [AI 용어 사전]({% post_url 2026-07-12-toolkit-ai-glossary %})
 - ⚡ **Automation** → [파이썬 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [노코드]({% post_url 2026-07-14-automation-nocode-starter %}) · [실패 5가지]({% post_url 2026-07-17-automation-failure-reasons %})
 - 📊 **Data** → [파이프라인 개념]({% post_url 2026-07-12-what-is-data-pipeline %}) · [대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %}) · [데이터 함정]({% post_url 2026-07-16-data-interpretation-pitfalls %})
-- 🛠️ **Dev** → [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅]({% post_url 2026-07-16-dev-what-is-webhook %})
+- 🛠️ **Dev** → [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅]({% post_url 2026-07-16-dev-what-is-webhook %}) · [인프라→AI 브릿지]({% post_url 2026-07-17-dev-infra-to-ai-bridge %})
 - 🏢 **Inside** → [블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [AI 도입 FAQ]({% post_url 2026-07-17-inside-ai-faq-10 %})
 
 ## 📩 프로젝트 문의
