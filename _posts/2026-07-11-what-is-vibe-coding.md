@@ -3,7 +3,7 @@ title: "[Dev] 바이브 코딩이란? — '말하듯' 만드는 개발의 시대
 date: 2026-07-11 19:00:00 +0900
 categories: ["Dev & DevOps"]
 tags: [바이브코딩, vibecoding, karpathy, 비개발자, 프로토타입]
-description: "2025년 Karpathy가 만든 용어 '바이브 코딩'. 무엇이고, 왜 비개발자에게 혁명이며, 어디까지 믿으면 안 되는지."
+description: "바이브 코딩이란 무엇인가 — 2025년 Karpathy가 제안한 '말하듯 만드는' AI 코딩. 뜻과 장점, 비개발자 활용법, 프로덕션에서 조심할 한계까지."
 image:
   path: /assets/img/posts/vibe-coding.png
   alt: "바이브 코딩이란?"

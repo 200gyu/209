@@ -9,6 +9,25 @@ image:
   alt: "AI 도입 전 자주 묻는 질문 10"
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"AI 자동화 도입, 돈 많이 들지 않나요?","acceptedAnswer":{"@type":"Answer","text":"작게 시작하면 아닙니다. 대부분 월 몇만 원대 API 비용과 1건 자동화 구축비로 시작해, 효과를 본 뒤 확장합니다."}},
+    {"@type":"Question","name":"AI 도입, 얼마나 걸리나요?","acceptedAnswer":{"@type":"Answer","text":"첫 MVP는 보통 며칠에서 2주입니다. 작게 만들어 검증한 뒤 확장하므로 오래 붙잡지 않습니다."}},
+    {"@type":"Question","name":"AI 자동화가 진짜 효과가 있나요?","acceptedAnswer":{"@type":"Answer","text":"반복·규칙 업무일수록 확실합니다. 다만 효과를 시간·오류 절감 같은 숫자로 측정하고 시작하길 권합니다."}},
+    {"@type":"Question","name":"우리 업종이나 회사에도 AI가 적용되나요?","acceptedAnswer":{"@type":"Answer","text":"반복 업무가 있으면 적용 가능합니다. 제조·유통·서비스 등 업종별 활용 예시가 있습니다."}},
+    {"@type":"Question","name":"AI 자동화, 어디부터 시작해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"가장 시간을 많이 잡아먹는 반복 업무 1건부터 시작합니다. 전사 도입이 아니라 한 업무 파일럿이 정석입니다."}},
+    {"@type":"Question","name":"개발자가 없는데 AI 자동화가 가능한가요?","acceptedAnswer":{"@type":"Answer","text":"많은 부분이 노코드와 바이브 코딩으로 가능하며, 복잡한 부분은 넥스트엑스가 맡습니다."}},
+    {"@type":"Question","name":"AI에 데이터를 주면 유출되지 않나요?","acceptedAnswer":{"@type":"Answer","text":"데이터 처리 범위·보관·권한을 계약 단계에서 명확히 합니다. 민감 데이터는 최소 수집과 비식별화가 원칙입니다."}},
+    {"@type":"Question","name":"AI가 틀린 답을 내면 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"틀릴 수 있습니다. 그래서 사람 검수 단계를 반드시 두는 책임 있는 자동화를 설계합니다."}},
+    {"@type":"Question","name":"직원들이 AI 도입에 반발하면요?","acceptedAnswer":{"@type":"Answer","text":"일자리 대체가 아니라 반복을 덜고 판단에 집중하도록 설계합니다. 담당자를 초기부터 참여시키는 것이 성공의 열쇠입니다."}},
+    {"@type":"Question","name":"AI 자동화를 만든 뒤 유지보수는 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"페이지 구조 변경이나 정책 변경에 대응이 필요합니다. 운영·모니터링 방안까지 함께 설계합니다."}}
+  ]
+}
+</script>
+
 > "우리도 해야 할 것 같은데, 막상 물어볼 데가 없다." — AI 도입을 앞둔 대표·실무자가 가장 많이 하는 질문 10가지에 **과장 없이** 답합니다.
 {: .prompt-info }
 
