@@ -22,7 +22,7 @@ mermaid: true
 
 > 📇 **대표 이력 (요약)**
 >
-> <span style="display:inline-block; letter-spacing:0.01em; word-spacing:0.04em; line-height:2.0; word-break:keep-all;">정보처리기사 · 네트워크관리사 · **CCNP · CCNA**(Cisco 네트워크) · **OCA**(Oracle DBA),<br>2015 광주 하계 유니버시아드 **ICT 인프라 무장애 운영**, 제주도청·제주시청·서귀포시청 등 전산장비 유지보수 총괄</span>
+> <span style="display:inline-block; letter-spacing:0.01em; word-spacing:0.04em; line-height:2.0; word-break:keep-all;">정보처리기사 · 네트워크관리사 · **CCNP · CCNA**(Cisco 네트워크) · **OCA**(Oracle DBA),<br>2015 광주 하계 유니버시아드 **ICT 인프라 무장애 운영**, 제주도청·제주시청·서귀포시청 등 전산장비 유지보수</span>
 {: .prompt-tip }
 
 ## 🌉 과거의 스펙(Engine) → 현재의 AI(Future)
