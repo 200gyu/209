@@ -64,6 +64,15 @@ flowchart LR
 - 🗣️ **회의록 정리** — 녹취 → 결정사항·액션아이템 추출
 - 🔎 **사내 지식 검색** — RAG로 "우리 문서를 아는" 챗봇
 
+## 🔗 이어지는 솔루션 (카테고리 교차 참고)
+
+이 에이전트를 **실제 시스템**으로 굴리려면 여러 카테고리가 맞물립니다:
+
+- 🧠 **판단 로직(AX)** → [프롬프트를 v1→v3로 튜닝한 실험]({% post_url 2026-07-11-agent-build-03-prompt-lab %}) · [사내 문서를 아는 RAG 챗봇]({% post_url 2026-07-12-ax-rag-chatbot-guide %})
+- 📊 **백엔드 데이터(Data)** → 지표는 [데이터 파이프라인]({% post_url 2026-07-12-data-pipeline-showcase %})으로 모으고, [데이터 클렌징]({% post_url 2026-07-15-data-cleansing %})으로 품질을 확보해야 결과가 정확합니다
+- ⚡ **다른 반복 업무로 확장(Automation)** → [엑셀 자동화]({% post_url 2026-07-12-automation-excel-showcase %}) · [문서 대량 생성]({% post_url 2026-07-16-automation-doc-generation %})
+- 🛠️ **연동·실시간화(Dev)** → [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅으로 자동 알림]({% post_url 2026-07-16-dev-what-is-webhook %})
+
 ## 📩 우리 회사 업무에 적용하려면
 
 "이 반복 업무, 자동화될까?"가 궁금하시면 편하게 문의 주세요. **문제 분해 → 작은 MVP로 효과 검증 → 확장** 순서로 함께 시작합니다.

@@ -64,6 +64,15 @@ flowchart LR
 > 💬 **팀 노트** — 넥스트엑스는 이런 데이터 구조를 회의실 안에서만 논하지 않습니다. 얼마 전엔 **정석현 상무와 청계천을 걸으며** "흩어진 데이터를 어떻게 한눈에 보이게 할까"를 두고 한참 이야기했죠. 좋은 설계는 대체로 이런 편한 대화에서 시작됩니다.
 {: .prompt-tip }
 
+## 🔗 이어지는 솔루션 (카테고리 교차 참고)
+
+파이프라인은 앞뒤 단계와 맞물릴 때 힘을 냅니다:
+
+- 🧹 **들어가기 전(선행)** → 지저분한 원천은 [데이터 클렌징]({% post_url 2026-07-15-data-cleansing %})으로 먼저 정리 (Garbage In, Garbage Out)
+- 📈 **나온 뒤(후행)** → 쌓인 데이터는 [경영진 대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %})로 "보면 결정되는" 지표로, 단 [숫자에 속지 않기]({% post_url 2026-07-16-data-interpretation-pitfalls %})도 함께
+- 🤖 **AI로 활용(AX)** → 모인 데이터를 [운영 리포트 자동화]({% post_url 2026-07-12-ax-showcase-report-automation %})·[사내 지식 챗봇(RAG)]({% post_url 2026-07-12-ax-rag-chatbot-guide %})에 연결
+- 🔌 **자동 수집(Automation·Dev)** → [웹 데이터 수집]({% post_url 2026-07-15-automation-web-scraping %}) · [API 연동]({% post_url 2026-07-15-dev-what-is-api %})
+
 ## 📩 데이터, 지표로 바꿔드립니다
 
 "우리 데이터로 이런 지표 볼 수 있을까요?" 궁금하시면 **무료 진단**부터 시작하세요.
