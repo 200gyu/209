@@ -84,6 +84,8 @@ mermaid: true
 
 ## 🔗 이어지는 R&D 일지
 
+- 🎮 **실전편** → [관심사의 분리를 몸으로 익히다 — 오목 웹 게임 만들기]({% post_url 2026-07-14-dev-gomoku-game %})
+- ⚡ **심화편** → [웹이 멈추지 않는 마법 — 이벤트 루프]({% post_url 2026-07-14-dev-async-event-loop %})
 - 🛠️ **작업대·개념** → [바이브 코딩 작업대]({% post_url 2026-07-13-dev-vibe-coding-workbench %}) · [터미널·셸·커널·프롬프트]({% post_url 2026-07-13-dev-terminal-shell-kernel-prompt %})
 - 🔌 **다음 편 예고** → 이 3-Layer 위에서 백엔드 서버와 오가는 비동기 통신, [API란 무엇인가]({% post_url 2026-07-15-dev-what-is-api %})로 이어집니다.
 
