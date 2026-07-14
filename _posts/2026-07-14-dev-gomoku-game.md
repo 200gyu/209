@@ -148,6 +148,7 @@ flowchart LR
 
 ## 🔗 이어지는 R&D 일지
 
+- 🎮 **같은 날 협업** → [이모지가 쏟아진다 — 3매치 퍼즐의 연쇄 알고리즘]({% post_url 2026-07-14-dev-match3-puzzle %})
 - 🧱 **이론편** → [웹을 지탱하는 세 겹(HTML·CSS·JS)]({% post_url 2026-07-14-dev-web-three-layers %})
 - ⚡ **심화편** → [웹이 멈추지 않는 마법 — 이벤트 루프]({% post_url 2026-07-14-dev-async-event-loop %})
 - 🛠️ **작업대** → [바이브 코딩 작업대 차리기]({% post_url 2026-07-13-dev-vibe-coding-workbench %}) · [터미널·셸·커널]({% post_url 2026-07-13-dev-terminal-shell-kernel-prompt %})
