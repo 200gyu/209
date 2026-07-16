@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid -->
+  <g opacity="0.05">
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="320" x2="1200" y2="320" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="80" y1="0" x2="80" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="160" y1="0" x2="160" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="240" y1="0" x2="240" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="320" y1="0" x2="320" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="560" y1="0" x2="560" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="640" y1="0" x2="640" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="880" y1="0" x2="880" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1040" y1="0" x2="1040" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1120" y1="0" x2="1120" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Network topology -->
+  <!-- Core Router -->
+  <g transform="translate(560, 80)">
+    <rect x="0" y="0" width="100" height="60" rx="10" fill="#fff" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="2"/>
+    <text x="50" y="25" text-anchor="middle" fill="#38bdf8" font-size="18">🌐</text>
+    <text x="50" y="48" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">Core Router</text>
+  </g>
+
+  <!-- Firewall -->
+  <g transform="translate(350, 180)">
+    <rect x="0" y="0" width="90" height="55" rx="10" fill="#fff" fill-opacity="0.08" stroke="#f97316" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" fill="#f97316" font-size="16">🛡️</text>
+    <text x="45" y="44" text-anchor="middle" fill="#fff" fill-opacity="0.7" font-size="10">Firewall</text>
+  </g>
+
+  <!-- Switch -->
+  <g transform="translate(560, 180)">
+    <rect x="0" y="0" width="90" height="55" rx="10" fill="#fff" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" fill="#22d3ee" font-size="16">🔀</text>
+    <text x="45" y="44" text-anchor="middle" fill="#fff" fill-opacity="0.7" font-size="10">L3 Switch</text>
+  </g>
+
+  <!-- Load Balancer -->
+  <g transform="translate(770, 180)">
+    <rect x="0" y="0" width="90" height="55" rx="10" fill="#fff" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" fill="#a78bfa" font-size="16">⚖️</text>
+    <text x="45" y="44" text-anchor="middle" fill="#fff" fill-opacity="0.7" font-size="10">Load Balancer</text>
+  </g>
+
+  <!-- Servers -->
+  <g transform="translate(460, 290)">
+    <rect x="0" y="0" width="75" height="50" rx="8" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.15"/>
+    <text x="37" y="22" text-anchor="middle" fill="#fff" fill-opacity="0.6" font-size="14">🖥️</text>
+    <text x="37" y="40" text-anchor="middle" fill="#fff" fill-opacity="0.5" font-size="9">Server 1</text>
+  </g>
+  <g transform="translate(560, 290)">
+    <rect x="0" y="0" width="75" height="50" rx="8" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.15"/>
+    <text x="37" y="22" text-anchor="middle" fill="#fff" fill-opacity="0.6" font-size="14">🖥️</text>
+    <text x="37" y="40" text-anchor="middle" fill="#fff" fill-opacity="0.5" font-size="9">Server 2</text>
+  </g>
+  <g transform="translate(660, 290)">
+    <rect x="0" y="0" width="75" height="50" rx="8" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.15"/>
+    <text x="37" y="22" text-anchor="middle" fill="#fff" fill-opacity="0.6" font-size="14">🖥️</text>
+    <text x="37" y="40" text-anchor="middle" fill="#fff" fill-opacity="0.5" font-size="9">Server 3</text>
+  </g>
+
+  <!-- Connection lines -->
+  <line x1="610" y1="140" x2="395" y2="180" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5"/>
+  <line x1="610" y1="140" x2="605" y2="180" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5"/>
+  <line x1="610" y1="140" x2="815" y2="180" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5"/>
+  <line x1="605" y1="235" x2="497" y2="290" stroke="#fff" stroke-opacity="0.1" stroke-width="1"/>
+  <line x1="605" y1="235" x2="597" y2="290" stroke="#fff" stroke-opacity="0.1" stroke-width="1"/>
+  <line x1="605" y1="235" x2="697" y2="290" stroke="#fff" stroke-opacity="0.1" stroke-width="1"/>
+  <line x1="815" y1="235" x2="697" y2="290" stroke="#fff" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Network Engineer icon -->
+  <g transform="translate(80, 140)">
+    <circle cx="55" cy="25" r="30" fill="#fff" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
+    <text x="55" y="34" text-anchor="middle" fill="#fff" font-size="26">👤</text>
+    <rect x="5" y="65" width="100" height="40" rx="10" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
+    <text x="55" y="90" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700">NE</text>
+  </g>
+
+  <!-- Role tags on left -->
+  <g transform="translate(60, 230)">
+    <rect x="0" y="0" width="120" height="28" rx="14" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="60" y="19" text-anchor="middle" fill="#7dd3fc" font-size="11" font-weight="600">Design</text>
+    <rect x="0" y="38" width="120" height="28" rx="14" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="60" y="57" text-anchor="middle" fill="#7dd3fc" font-size="11" font-weight="600">Monitoring</text>
+    <rect x="0" y="76" width="120" height="28" rx="14" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="60" y="95" text-anchor="middle" fill="#7dd3fc" font-size="11" font-weight="600">Security</text>
+    <rect x="0" y="114" width="120" height="28" rx="14" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="60" y="133" text-anchor="middle" fill="#7dd3fc" font-size="11" font-weight="600">Troubleshoot</text>
+  </g>
+
+  <!-- Dashed lines from NE to topology -->
+  <line x1="185" y1="185" x2="350" y2="207" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="185" y1="185" x2="560" y2="207" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <!-- OSI Layer labels on right -->
+  <g transform="translate(930, 80)">
+    <rect x="0" y="0" width="200" height="32" rx="6" fill="#ef4444" fill-opacity="0.12" stroke="#ef4444" stroke-opacity="0.25"/>
+    <text x="100" y="21" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="600">L7 Application</text>
+    <rect x="0" y="40" width="200" height="32" rx="6" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.25"/>
+    <text x="100" y="61" text-anchor="middle" fill="#fdba74" font-size="11" font-weight="600">L4 Transport (TCP/UDP)</text>
+    <rect x="0" y="80" width="200" height="32" rx="6" fill="#eab308" fill-opacity="0.12" stroke="#eab308" stroke-opacity="0.25"/>
+    <text x="100" y="101" text-anchor="middle" fill="#fde047" font-size="11" font-weight="600">L3 Network (IP/Routing)</text>
+    <rect x="0" y="120" width="200" height="32" rx="6" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.25"/>
+    <text x="100" y="141" text-anchor="middle" fill="#86efac" font-size="11" font-weight="600">L2 Data Link (Switch)</text>
+    <rect x="0" y="160" width="200" height="32" rx="6" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.25"/>
+    <text x="100" y="181" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="600">L1 Physical (Cable)</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="500" fill="#fff" font-size="34" font-weight="800" letter-spacing="-0.5">Network &amp; Network Engineer</text>
+  <text x="60" y="540" fill="#fff" fill-opacity="0.7" font-size="18">OSI 7계층부터 네트워크 엔지니어의 역할까지</text>
+  <text x="60" y="575" fill="#7dd3fc" font-size="14">NEXT X R&amp;D · Dev &amp; DevOps</text>
+</svg>
