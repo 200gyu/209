@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1326"/><stop offset="0.5" stop-color="#161d3a"/><stop offset="1" stop-color="#1e1a44"/></linearGradient>
+    <radialGradient id="glow" cx="80%" cy="10%" r="72%"><stop offset="0" stop-color="#6366f1" stop-opacity="0.5"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity="0.06"/></pattern>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366f1" stop-opacity="0.6"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0.6"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Network illustration -->
+  <g transform="translate(860,70)" opacity="0.38">
+    <!-- Browser client -->
+    <rect x="0" y="0" width="90" height="65" rx="8" fill="#a5b4fc" opacity="0.45"/>
+    <rect x="8" y="8" width="74" height="36" rx="4" fill="#1e1a44" opacity="0.6"/>
+    <text x="45" y="32" text-anchor="middle" font-size="11" font-weight="700" fill="#c7d2fe">Browser</text>
+    <circle cx="45" cy="56" r="4" fill="#c7d2fe" opacity="0.4"/>
+
+    <!-- Arrow: browser -> server -->
+    <line x1="95" y1="32" x2="155" y2="62" stroke="url(#wire)" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <text x="125" y="38" font-size="9" fill="#a5b4fc" opacity="0.7">HTTP</text>
+
+    <!-- Server -->
+    <rect x="160" y="40" width="100" height="70" rx="10" fill="#6366f1" opacity="0.35"/>
+    <rect x="172" y="52" width="76" height="14" rx="3" fill="#a5b4fc" opacity="0.25"/>
+    <rect x="172" y="72" width="76" height="14" rx="3" fill="#a5b4fc" opacity="0.2"/>
+    <rect x="172" y="92" width="76" height="14" rx="3" fill="#a5b4fc" opacity="0.15"/>
+    <text x="210" y="128" text-anchor="middle" font-size="13" font-weight="700" fill="#c7d2fe">Server</text>
+    <!-- LED dots -->
+    <circle cx="178" cy="59" r="2.5" fill="#34d399" opacity="0.8"/>
+    <circle cx="178" cy="79" r="2.5" fill="#34d399" opacity="0.6"/>
+    <circle cx="178" cy="99" r="2.5" fill="#fbbf24" opacity="0.5"/>
+
+    <!-- Arrow: server -> DB -->
+    <line x1="210" y1="115" x2="210" y2="155" stroke="url(#wire)" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+    <!-- Database -->
+    <ellipse cx="210" cy="165" rx="45" ry="12" fill="#6366f1" opacity="0.3"/>
+    <rect x="165" y="165" width="90" height="35" fill="#6366f1" opacity="0.2"/>
+    <ellipse cx="210" cy="200" rx="45" ry="12" fill="#6366f1" opacity="0.3"/>
+    <text x="210" y="188" text-anchor="middle" font-size="12" font-weight="700" fill="#c7d2fe">DB</text>
+
+    <!-- DNS label -->
+    <rect x="-20" y="100" width="70" height="30" rx="6" fill="#fff" opacity="0.08"/>
+    <text x="15" y="120" text-anchor="middle" font-size="11" font-weight="600" fill="#7dd3fc">DNS</text>
+    <line x1="55" y1="115" x2="90" y2="75" stroke="#7dd3fc" stroke-width="1.5" opacity="0.3" stroke-dasharray="4 3"/>
+
+    <!-- Lock icon for HTTPS -->
+    <g transform="translate(280,30)">
+      <rect x="0" y="12" width="28" height="22" rx="4" fill="#a5b4fc" opacity="0.3"/>
+      <path d="M6,12 V8 a8,8 0 0 1 16,0 V12" fill="none" stroke="#a5b4fc" stroke-width="2.5" opacity="0.4"/>
+      <text x="14" y="50" text-anchor="middle" font-size="10" font-weight="600" fill="#a5b4fc" opacity="0.6">HTTPS</text>
+    </g>
+
+    <!-- Port label -->
+    <g transform="translate(280,90)">
+      <rect x="0" y="0" width="40" height="24" rx="5" fill="#fff" opacity="0.08"/>
+      <text x="20" y="17" text-anchor="middle" font-size="10" font-weight="600" fill="#fbbf24" opacity="0.7">:443</text>
+    </g>
+  </g>
+
+  <!-- Category badge -->
+  <g transform="translate(80,90)"><rect width="190" height="48" rx="24" fill="#6366f1" opacity="0.22"/><text x="95" y="32" text-anchor="middle" font-size="23" font-weight="700" fill="#c7d2fe">🛠️ Dev &amp; DevOps</text></g>
+
+  <!-- Title -->
+  <text x="80" y="248" font-size="56" font-weight="800" fill="#fff">화면 뒤에서 일어나는 일들</text>
+  <text x="80" y="330" font-size="50" font-weight="800" fill="url(#ac)">백엔드 · 네트워크 완전 지도</text>
+  <text x="80" y="400" font-size="26" font-weight="500" fill="#aab0d6">DNS · HTTP · API · 보안 · 배포 · 홈서버 — localhost에서 세상까지</text>
+
+  <!-- Tag pills -->
+  <g transform="translate(80,450)" font-size="20" font-weight="700">
+    <g><rect width="100" height="46" rx="12" fill="#fff" opacity="0.08"/><text x="50" y="31" text-anchor="middle" fill="#e8eaff">네트워크</text></g>
+    <g transform="translate(116,0)"><rect width="90" height="46" rx="12" fill="#fff" opacity="0.08"/><text x="45" y="31" text-anchor="middle" fill="#e8eaff">백엔드</text></g>
+    <g transform="translate(222,0)"><rect width="70" height="46" rx="12" fill="#6366f1" opacity="0.25"/><text x="35" y="31" text-anchor="middle" fill="#e0e7ff">보안</text></g>
+    <g transform="translate(308,0)"><rect width="70" height="46" rx="12" fill="#fff" opacity="0.08"/><text x="35" y="31" text-anchor="middle" fill="#e8eaff">배포</text></g>
+    <g transform="translate(394,0)"><rect width="90" height="46" rx="12" fill="#fff" opacity="0.08"/><text x="45" y="31" text-anchor="middle" fill="#e8eaff">홈서버</text></g>
+  </g>
+
+  <!-- NEXT X -->
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+</svg>
