@@ -418,6 +418,7 @@ flowchart LR
 
 ## 🔗 이어지는 R&D 일지
 
+- 🚀 **실전 프로젝트** → [파트너스 매칭 매니저 제작기]({% post_url 2026-07-16-dev-partners-manager %})
 - 🧱 **이전 수업** → [프레임워크·PRD·목업 데이터]({% post_url 2026-07-15-dev-framework-prd-mock %})
 - 🔌 **API 기초** → [API란 무엇인가]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅이란 무엇인가]({% post_url 2026-07-16-dev-what-is-webhook %})
 - 🌐 **배포 실전** → [GitHub Pages 배포하기]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [커스텀 도메인·HTTPS]({% post_url 2026-07-12-dev-custom-domain-https %})
