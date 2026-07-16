@@ -184,6 +184,7 @@ flowchart LR
 
 ## 🔗 이어지는 R&D 일지
 
+- 🌐 **다음 수업** → [백엔드·네트워크 완전 지도]({% post_url 2026-07-16-dev-backend-networking %})
 - 🔌 **API 기초** → [API란 무엇인가]({% post_url 2026-07-15-dev-what-is-api %})
 - 🧱 **웹의 기초** → [웹 3계층(HTML·CSS·JS)]({% post_url 2026-07-14-dev-web-three-layers %}) · [이벤트 루프]({% post_url 2026-07-14-dev-async-event-loop %})
 - 🎮 **실습** → [오목 게임]({% post_url 2026-07-14-dev-gomoku-game %}) · [3매치 퍼즐]({% post_url 2026-07-14-dev-match3-puzzle %})
