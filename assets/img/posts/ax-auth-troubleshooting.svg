@@ -1,0 +1,145 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.04"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.06">
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#fff" stroke-width="1" transform="translate(60,0)" />
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#fff" stroke-width="1" transform="translate(120,0)" />
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#fff" stroke-width="1" transform="translate(180,0)" />
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#fff" stroke-width="1" transform="translate(240,0)" />
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#fff" stroke-width="1" transform="translate(0,60)" />
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#fff" stroke-width="1" transform="translate(0,120)" />
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#fff" stroke-width="1" transform="translate(0,180)" />
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#fff" stroke-width="1" transform="translate(0,240)" />
+  </g>
+
+  <!-- Error → Fix flow (left side) -->
+  <!-- Error card -->
+  <rect x="60" y="180" width="320" height="130" rx="16" fill="url(#card)" stroke="rgba(239,68,68,0.4)" stroke-width="1.5"/>
+  <circle cx="90" cy="215" r="14" fill="url(#red)"/>
+  <text x="90" y="220" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">!</text>
+  <text x="115" y="220" fill="#fca5a5" font-size="14" font-weight="600">localhost:3000 리다이렉트</text>
+  <text x="80" y="248" fill="rgba(255,255,255,0.5)" font-size="11">Confirm your email → localhost:3000</text>
+  <text x="80" y="268" fill="rgba(255,255,255,0.5)" font-size="11">invalid_credentials 에러 반복</text>
+  <text x="80" y="288" fill="rgba(255,255,255,0.5)" font-size="11">Supabase Dashboard 설정 미완료</text>
+
+  <!-- Arrow -->
+  <line x1="395" y1="245" x2="445" y2="245" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#arrowYellow)"/>
+  <defs>
+    <marker id="arrowYellow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#fbbf24"/>
+    </marker>
+  </defs>
+
+  <!-- Debug card -->
+  <rect x="460" y="180" width="280" height="130" rx="16" fill="url(#card)" stroke="rgba(251,191,36,0.4)" stroke-width="1.5"/>
+  <circle cx="490" cy="215" r="14" fill="#f59e0b"/>
+  <text x="490" y="220" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">?</text>
+  <text x="515" y="220" fill="#fde68a" font-size="14" font-weight="600">원인 분석</text>
+  <text x="480" y="248" fill="rgba(255,255,255,0.5)" font-size="11">Site URL → localhost (기본값)</text>
+  <text x="480" y="268" fill="rgba(255,255,255,0.5)" font-size="11">이메일 인증 ON → 가입만 되고 로그인 불가</text>
+  <text x="480" y="288" fill="rgba(255,255,255,0.5)" font-size="11">emailRedirectTo 옵션 누락</text>
+
+  <!-- Arrow -->
+  <line x1="755" y1="245" x2="805" y2="245" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrowGreen)"/>
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#34d399"/>
+    </marker>
+  </defs>
+
+  <!-- Fix card -->
+  <rect x="820" y="180" width="320" height="130" rx="16" fill="url(#card)" stroke="rgba(52,211,153,0.4)" stroke-width="1.5"/>
+  <circle cx="850" cy="215" r="14" fill="url(#green)"/>
+  <text x="850" y="221" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">&#10003;</text>
+  <text x="875" y="220" fill="#6ee7b7" font-size="14" font-weight="600">해결</text>
+  <text x="840" y="248" fill="rgba(255,255,255,0.5)" font-size="11">Site URL → Vercel 도메인으로 변경</text>
+  <text x="840" y="268" fill="rgba(255,255,255,0.5)" font-size="11">Confirm sign up → OFF</text>
+  <text x="840" y="288" fill="rgba(255,255,255,0.5)" font-size="11">auth.js에 emailRedirectTo 추가</text>
+
+  <!-- Title area -->
+  <text x="600" y="80" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="800" letter-spacing="-0.5">Supabase Auth 실전 트러블슈팅</text>
+  <text x="600" y="120" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="18">관리자 로그인이 안 될 때 — 에러에서 해결까지의 전 과정</text>
+  <text x="600" y="148" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="13">KJ Partners × NEXT X  |  AX Solution Delivery</text>
+
+  <!-- Bottom: Supabase Dashboard mockup -->
+  <rect x="180" y="360" width="840" height="220" rx="12" fill="#1c1c1c" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect x="180" y="360" width="840" height="36" rx="12" fill="#2a2a2a"/>
+  <rect x="180" y="380" width="840" height="16" fill="#2a2a2a"/>
+  <circle cx="202" cy="378" r="5" fill="#ff5f56"/>
+  <circle cx="220" cy="378" r="5" fill="#ffbd2e"/>
+  <circle cx="238" cy="378" r="5" fill="#27c93f"/>
+  <text x="600" y="383" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">Supabase Dashboard — Authentication Providers</text>
+
+  <!-- Sidebar -->
+  <rect x="180" y="396" width="160" height="184" fill="#222"/>
+  <text x="200" y="425" fill="rgba(255,255,255,0.3)" font-size="10">Authentication</text>
+  <text x="210" y="448" fill="rgba(255,255,255,0.6)" font-size="11">Users</text>
+  <rect x="195" y="456" width="130" height="24" rx="4" fill="rgba(59,130,246,0.15)"/>
+  <text x="210" y="473" fill="#60a5fa" font-size="11" font-weight="600">Providers</text>
+  <text x="210" y="498" fill="rgba(255,255,255,0.6)" font-size="11">URL Configuration</text>
+  <text x="210" y="523" fill="rgba(255,255,255,0.6)" font-size="11">Templates</text>
+
+  <!-- Main content -->
+  <text x="370" y="425" fill="rgba(255,255,255,0.9)" font-size="13" font-weight="600">Email Provider</text>
+
+  <!-- Toggle row: Confirm sign up -->
+  <rect x="360" y="440" width="640" height="44" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="380" y="466" fill="rgba(255,255,255,0.8)" font-size="12">Confirm sign up</text>
+  <text x="530" y="466" fill="rgba(255,255,255,0.35)" font-size="10">Ask users to verify their email address</text>
+  <!-- Toggle OFF -->
+  <rect x="920" y="453" width="44" height="22" rx="11" fill="#374151"/>
+  <circle cx="933" cy="464" r="8" fill="#9ca3af"/>
+  <text x="975" y="468" fill="#ef4444" font-size="10" font-weight="bold">OFF</text>
+
+  <!-- Toggle row: Site URL -->
+  <rect x="360" y="492" width="640" height="44" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(52,211,153,0.3)" stroke-width="1"/>
+  <text x="380" y="518" fill="rgba(255,255,255,0.8)" font-size="12">Site URL</text>
+  <rect x="520" y="503" width="360" height="22" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <text x="530" y="518" fill="#6ee7b7" font-size="11">https://partners-manager-omega.vercel.app</text>
+  <!-- Check mark -->
+  <text x="975" y="520" fill="#34d399" font-size="14" font-weight="bold">&#10003;</text>
+
+  <!-- Save button -->
+  <rect x="890" y="548" width="90" height="28" rx="6" fill="url(#green)"/>
+  <text x="935" y="566" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">Save</text>
+
+  <!-- Tech badges -->
+  <rect x="60" y="590" width="90" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <text x="105" y="606" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">Supabase Auth</text>
+  <rect x="160" y="590" width="60" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <text x="190" y="606" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">JWT</text>
+  <rect x="230" y="590" width="50" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <text x="255" y="606" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">RLS</text>
+  <rect x="290" y="590" width="60" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <text x="320" y="606" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">Vercel</text>
+
+  <!-- NEXT X badge -->
+  <text x="1140" y="606" text-anchor="end" fill="rgba(255,255,255,0.25)" font-size="11">NEXT X R&amp;D</text>
+</svg>
