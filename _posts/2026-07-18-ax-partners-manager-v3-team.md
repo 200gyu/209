@@ -19,6 +19,7 @@ mermaid: true
 > 3. [Auth 트러블슈팅]({% post_url 2026-07-17-ax-supabase-auth-troubleshooting %}) — 로그인 오류 해결
 > 4. [v2 업그레이드]({% post_url 2026-07-18-ax-partners-manager-v2-upgrade %}) — 명부 교체·스키마 유연화
 > 5. **[현재 글] v3 업그레이드** — 팀 배정 시스템·캘린더 뷰
+> 6. [v3.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v3-dayoff %}) — 휴무일 관리·스케줄 충돌 방지
 {: .prompt-info }
 
 ## 📋 업그레이드 배경
@@ -501,6 +502,7 @@ gantt
 | **시리즈 #2** | [실전 납품 개발기]({% post_url 2026-07-17-ax-partners-manager-delivery %}) |
 | **시리즈 #3** | [Auth 트러블슈팅]({% post_url 2026-07-17-ax-supabase-auth-troubleshooting %}) |
 | **시리즈 #4** | [v2 업그레이드]({% post_url 2026-07-18-ax-partners-manager-v2-upgrade %}) |
+| **시리즈 #6** | [v3.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v3-dayoff %}) |
 
 ---
 
@@ -518,7 +520,7 @@ v3까지 완료된 시스템의 현재 상태와 앞으로의 계획:
 | AI 자동 매칭 | 🔜 | 지역·전문성·과거 이력 기반 추천 |
 | 급여 정산 | 🔜 | 배정 기록 기반 월별 자동 정산 |
 
-> v1에서 시작한 1:1 단일 배정이, v3에서 팀 단위 협업 체계로 진화했습니다. **"한 명이 한 곳을 담당한다"**에서 **"팀이 함께 현장을 수행한다"**로 — 실무의 복잡성을 시스템이 따라가는 과정이 곧 AX입니다.
+> v1에서 시작한 1:1 단일 배정이, v3에서 팀 단위 협업 체계로 진화했습니다. **"한 명이 한 곳을 담당한다"**에서 **"팀이 함께 현장을 수행한다"**로 — 실무의 복잡성을 시스템이 따라가는 과정이 곧 AX입니다. ➡️ 이어서 [v3.1에서 휴무일 관리]({% post_url 2026-07-19-ax-partners-manager-v3-dayoff %})가 추가됩니다.
 {: .prompt-tip }
 
 ---
