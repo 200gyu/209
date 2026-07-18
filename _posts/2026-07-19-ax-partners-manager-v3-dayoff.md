@@ -20,6 +20,7 @@ mermaid: true
 > 4. [v2 업그레이드]({% post_url 2026-07-18-ax-partners-manager-v2-upgrade %}) — 명부 교체·스키마 유연화
 > 5. [v3 업그레이드]({% post_url 2026-07-18-ax-partners-manager-v3-team %}) — 팀 배정 시스템·캘린더 뷰
 > 6. **[현재 글] v3.1 업그레이드** — 휴무일 관리·스케줄 충돌 방지
+> 7. [v4 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v4-payroll %}) — 급여 정산 및 관리 시스템
 {: .prompt-info }
 
 ## 📋 업그레이드 배경
