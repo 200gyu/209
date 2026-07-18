@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 웹훅(Webhook)이란? — '물어보기'가 아니라 '알려주기'"
 date: 2026-07-16 13:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "웹 기초"]
 tags: [webhook, api, 실시간, 자동화, 연동, nextx]
 description: "API와 뭐가 다를까? 웹훅을 비개발자도 이해하도록 쉽게. 결제·문의·배포 알림 같은 실시간 자동화의 핵심."
 image:

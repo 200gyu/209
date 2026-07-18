@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 엑셀 반복작업, 사람이 안 해도 됩니다 — 문서 자동화로 인건비 되찾기"
 date: 2026-07-12 20:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "오피스 자동화"]
 tags: [업무자동화, 엑셀자동화, rpa, 비용절감, roi, nextx]
 description: "엑셀 취합·정산·보고서 반복작업을 자동화해 인건비를 줄이는 법. 월 20시간·연 480만원 절감 예시로 보는 ROI 계산법과 도입 순서."
 image:

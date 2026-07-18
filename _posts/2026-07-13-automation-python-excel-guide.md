@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 파이썬으로 엑셀 업무 자동화하기 — 취합·정산·리포트 실전 패턴"
 date: 2026-07-13 10:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "오피스 자동화"]
 tags: [파이썬, 엑셀자동화, pandas, openpyxl, rpa, nextx]
 description: "파이썬으로 엑셀 취합·정산·리포트를 자동화하는 실전 코드 예제. pandas·openpyxl 패턴과 매크로·RPA 선택 기준, 예약 실행(스케줄러)까지."
 image:

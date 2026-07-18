@@ -1,7 +1,7 @@
 ---
 title: "[Data] DB와 DBA — 데이터베이스의 구조부터 DBA가 하는 일까지"
 date: 2026-07-17 12:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "SQL·데이터베이스"]
 tags: [데이터베이스, db, dba, sql, rdbms, nosql, 인덱스, 백업, 성능튜닝, nextx]
 description: "데이터베이스란 무엇이고 왜 필요한가부터 RDBMS·NoSQL 차이, SQL 기본기, 그리고 DBA가 조직에서 수행하는 핵심 역할 6가지까지 한 글로 정리합니다."
 image:

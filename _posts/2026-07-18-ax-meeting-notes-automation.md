@@ -1,8 +1,8 @@
 ---
 title: "[AX] 회의록 자동 정리 — 녹취를 요약·액션아이템으로 (AI 활용법)"
 date: 2026-07-18 09:00:00 +0900
-categories: ["AI Transformation"]
-tags: [회의록, 녹취, stt, 요약, 액션아이템, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [회의록, 녹취, stt, 요약, 액션아이템, nextx, ax프로젝트]
 description: "회의록 자동 정리하는 법 — 녹음/녹취를 AI로 전사·요약하고 결정사항·액션아이템까지 뽑아내는 실전 워크플로와 프롬프트."
 image:
   path: /assets/img/posts/ax-meeting-notes.png

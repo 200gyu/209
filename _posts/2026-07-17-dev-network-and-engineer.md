@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 네트워크 완전 정복 — OSI 7계층부터 네트워크 엔지니어의 역할까지"
 date: 2026-07-17 18:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "개발자 역할"]
 tags: [네트워크, osi, tcp, ip, 라우터, 스위치, 방화벽, dns, 네트워크엔지니어, ccna, ccnp, nextx]
 description: "OSI 7계층·TCP/IP·라우팅·스위칭·방화벽의 동작 원리와 네트워크 엔지니어가 조직에서 수행하는 6대 역할을 비유와 실전 예시로 풀어냅니다."
 image:

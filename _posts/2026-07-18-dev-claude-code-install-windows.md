@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 윈도우에서 Claude Code 설치 완전 가이드 — 설치부터 첫 실행까지"
 date: 2026-07-18 17:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "도구·환경"]
 tags: [claudecode, 설치, windows, nodejs, 바이브코딩, nextx]
 description: "윈도우에서 Claude Code 설치하는 법 — Node.js 준비부터 npm 설치, PATH 문제, 첫 실행·검증, 흔한 에러 해결까지 단계별 가이드."
 image:

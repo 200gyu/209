@@ -1,8 +1,8 @@
 ---
 title: "[Automation] 운영 리포트 자동화 #4 — 데이터 연결"
 date: 2026-07-11 18:00:00 +0900
-categories: ["Workplace Automation"]
-tags: [데이터연결, csv, api, 자동화, tool]
+categories: ["Workplace Automation", "AI 에이전트 빌드"]
+tags: [데이터연결, csv, api, 자동화, tool, nextx, ai에이전트]
 description: "손으로 붙여넣던 지표를 CSV/API로 자동 주입한다. 비개발자도 이해하는 '데이터 → 프롬프트' 연결 과정."
 image:
   path: /assets/img/posts/agent-build-04.png

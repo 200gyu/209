@@ -2,7 +2,7 @@
 title: "[Inside] AI 시대, 기획자의 무기는 무엇인가 — 정보 처리자에서 의사결정자로"
 date: 2026-07-11 17:00:00 +0900
 categories: ["Inside NEXT X"]
-tags: [기획자, pm, 커리어, ai시대, 역량]
+tags: [기획자, pm, 커리어, ai시대, 역량, nextx]
 description: "AI가 기획자를 대체할까? 데이터로 본 결론은 '역할 이동'. 사라지는 일과 더 중요해지는 역량을 정리했다."
 image:
   path: /assets/img/posts/pm-role-ai.png

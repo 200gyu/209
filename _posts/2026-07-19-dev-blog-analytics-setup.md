@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 블로그 방문자, 어떻게 측정하나 — GoatCounter에서 Clarity까지 도입기"
 date: 2026-07-19 11:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "인프라·배포"]
 tags: [goatcounter, clarity, 방문자통계, 애널리틱스, jekyll, chirpy, nextx]
 description: "Jekyll(Chirpy) 블로그에 방문자 통계를 붙인 실제 기록 — 가벼운 GoatCounter로 시작해 행동 분석용 Microsoft Clarity까지. 선택 기준·설치 코드·함정."
 image:

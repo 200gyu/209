@@ -1,8 +1,8 @@
 ---
 title: "[Automation] 운영 리포트 자동화 #3 — 프롬프트 실험실"
 date: 2026-07-11 15:00:00 +0900
-categories: ["Workplace Automation"]
-tags: [프롬프트, 실험로그, mvp, 운영리포트, 반복개선]
+categories: ["Workplace Automation", "AI 에이전트 빌드"]
+tags: [프롬프트, 실험로그, mvp, 운영리포트, 반복개선, nextx, ai에이전트]
 description: "MVP의 심장인 '지표 요약 프롬프트'를 v1→v3까지 실제로 고쳐본 실험 로그. 실패와 개선 과정을 그대로 공개."
 image:
   path: /assets/img/posts/agent-build-03.png

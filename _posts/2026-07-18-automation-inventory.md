@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 소상공인 재고·발주 자동화 — 품절·과재고 없이"
 date: 2026-07-18 14:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "오피스 자동화"]
 tags: [재고관리, 발주, 자동화, 소상공인, 안전재고, nextx]
 description: "재고 관리 자동화 — 입출고 기록으로 현재고를 자동 집계하고, 안전재고 미달 시 발주 알림까지. 소상공인·중소기업용 실전 방법."
 image:

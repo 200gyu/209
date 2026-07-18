@@ -1,8 +1,8 @@
 ---
 title: "[AX] 사내 지식 검색 챗봇 만들기 — RAG로 '우리 회사를 아는 AI'"
 date: 2026-07-12 23:00:00 +0900
-categories: ["AI Transformation"]
-tags: [rag, 사내챗봇, 지식검색, llm, 임베딩, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [rag, 사내챗봇, 지식검색, llm, 임베딩, nextx, ax프로젝트]
 description: "사내 문서(규정·매뉴얼)를 학습한 RAG 챗봇 만드는 법. '우리 회사를 아는 AI' 구축 아키텍처와 5단계, 환각 방지·비용까지 실전 정리."
 image:
   path: /assets/img/posts/ax-rag-chatbot.png

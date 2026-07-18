@@ -1,7 +1,7 @@
 ---
 title: "[Data] 실시간 데이터 처리 — 배치를 넘어 스트리밍으로"
 date: 2026-07-23 14:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "파이프라인·아키텍처"]
 tags: [실시간처리, 스트리밍, kafka, 이벤트기반, 배치, flink, pub-sub, nextx]
 description: "배치 처리와 스트림 처리의 차이, 이벤트 기반 아키텍처의 핵심 개념, Kafka·Flink·Pub/Sub 등 실전 도구, 그리고 실시간 처리가 빛나는 현업 사례까지."
 image:

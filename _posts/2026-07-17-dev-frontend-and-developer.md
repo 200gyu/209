@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 프론트엔드와 프론트엔드 개발자 — 사용자가 만지는 모든 것을 만드는 사람들"
 date: 2026-07-17 22:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "개발자 역할"]
 tags: [프론트엔드, frontend, html, css, javascript, react, ux, 웹개발, 커리어, nextx]
 description: "프론트엔드란 무엇이고, 프론트엔드 개발자는 어떤 일을 하는가? HTML·CSS·JS 기초부터 프레임워크, 성능 최적화, 접근성, AI 시대의 역할 변화까지 — 프론트엔드의 모든 것."
 image:

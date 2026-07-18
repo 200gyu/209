@@ -1,8 +1,8 @@
 ---
 title: "[AX] 생성형 AI로 마케팅 콘텐츠 자동화 — 빠르게, 일관되게, 여러 채널로"
 date: 2026-07-15 10:00:00 +0900
-categories: ["AI Transformation"]
-tags: [콘텐츠자동화, 마케팅, 생성형ai, sns, 브랜딩, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [콘텐츠자동화, 마케팅, 생성형ai, sns, 브랜딩, nextx, ax프로젝트]
 description: "하나의 소재를 SNS·블로그·상세페이지로 빠르게 확장하는 생성형 AI 콘텐츠 자동화 워크플로. 톤 일관성과 브랜드 안전까지."
 image:
   path: /assets/img/posts/ax-marketing.png

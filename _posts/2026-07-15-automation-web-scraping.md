@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 웹 데이터 수집 자동화 — 크롤링, 어디까지 되고 어디부터 조심해야 하나"
 date: 2026-07-15 11:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "프로세스·전략"]
 tags: [크롤링, 웹스크래핑, 데이터수집, 자동화, 준법, nextx]
 description: "가격·리뷰·공고 등 반복 수집을 자동화하는 웹 크롤링의 원리와 실무. 그리고 반드시 지켜야 할 법적·윤리적 경계."
 image:

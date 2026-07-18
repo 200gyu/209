@@ -1,7 +1,7 @@
 ---
 title: "[Automation] PDF·스캔 문서에서 표 자동 추출 — 파이썬 실전"
 date: 2026-07-18 13:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "오피스 자동화"]
 tags: [pdf, 표추출, ocr, 파이썬, pdfplumber, nextx]
 description: "PDF 데이터 추출을 파이썬으로 — 거래명세서·견적서·보고서의 표를 자동으로 뽑아 엑셀로. 텍스트 PDF와 스캔(OCR) PDF 처리법과 주의점."
 image:

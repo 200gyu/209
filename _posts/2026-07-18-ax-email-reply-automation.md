@@ -1,8 +1,8 @@
 ---
 title: "[AX] 이메일·문의 답장 자동화 — 반복 답변 초안 만들기"
 date: 2026-07-18 11:00:00 +0900
-categories: ["AI Transformation"]
-tags: [이메일자동화, cs, 답변초안, llm, 자동응대, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [이메일자동화, cs, 답변초안, llm, 자동응대, nextx, ax프로젝트]
 description: "반복되는 이메일·문의 답장을 AI가 먼저 써주는 자동화. 유형 분류 → 답변 초안 생성 → 사람 검수 흐름과 프롬프트, 노코드 연결까지."
 image:
   path: /assets/img/posts/ax-email-reply.png

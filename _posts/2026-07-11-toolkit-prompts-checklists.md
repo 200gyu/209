@@ -1,8 +1,8 @@
 ---
 title: "[AX] 복사해서 바로 쓰는 프롬프트 & 체크리스트"
 date: 2026-07-11 14:00:00 +0900
-categories: ["AI Transformation"]
-tags: [프롬프트템플릿, 체크리스트, toolkit, 자료실]
+categories: ["AI Transformation", "리소스·도구"]
+tags: [프롬프트템플릿, 체크리스트, toolkit, 자료실, nextx]
 description: "운영/기획 실무에 바로 쓰는 프롬프트 템플릿과, 에이전트 기획·프롬프트 작성 체크리스트 모음. 계속 업데이트됩니다."
 image:
   path: /assets/img/posts/toolkit-prompts.png

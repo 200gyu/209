@@ -1,8 +1,8 @@
 ---
 title: "[Data] 데이터 파이프라인이란? — 원시 데이터가 대시보드가 되기까지"
 date: 2026-07-12 21:30:00 +0900
-categories: ["Data Engineering"]
-tags: [데이터파이프라인, etl, 데이터엔지니어링, 대시보드, 개념]
+categories: ["Data Engineering", "파이프라인·아키텍처"]
+tags: [데이터파이프라인, etl, 데이터엔지니어링, 대시보드, 개념, nextx]
 description: "ETL, 데이터 웨어하우스, 대시보드… 비개발자도 이해하는 데이터 파이프라인의 개념과 각 단계의 역할."
 image:
   path: /assets/img/posts/data-what-is-pipeline.png

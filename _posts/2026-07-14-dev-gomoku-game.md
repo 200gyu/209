@@ -1,8 +1,8 @@
 ---
 title: "[Dev] 관심사의 분리를 몸으로 익히다 — 오목 웹 게임 만들기"
 date: 2026-07-14 22:00:00 +0900
-categories: ["Dev & DevOps"]
-tags: [오목, 웹게임, html, css, javascript, 관심사분리, 바이브코딩, githubpages, 아이펠, nextx]
+categories: ["Dev & DevOps", "실전 프로젝트"]
+tags: [오목, 웹게임, html, css, javascript, 관심사분리, 바이브코딩, github-pages, 아이펠, nextx]
 description: "HTML·CSS·JS 3파일 분리로 오목(Gomoku) 웹 게임을 만들고 GitHub Pages에 배포한 실전 R&D 기록. 관심사의 분리(SoC)를 이론이 아닌 손으로 익히는 과정."
 image:
   path: /assets/img/posts/dev-gomoku-game.png

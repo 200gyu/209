@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 백엔드와 백엔드 개발자 — 사용자가 모르는 모든 것을 만드는 사람들"
 date: 2026-07-17 23:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "개발자 역할"]
 tags: [백엔드, backend, api, 데이터베이스, 인증, 보안, 서버, 커리어, nextx]
 description: "백엔드란 무엇이고, 백엔드 개발자는 어떤 일을 하는가? API 설계, 데이터베이스, 인증·보안, 확장성, DevOps까지 — 무대 뒤에서 시스템을 지탱하는 사람들의 모든 것."
 image:

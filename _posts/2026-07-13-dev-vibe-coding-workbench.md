@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 바이브 코딩의 시작 — 나만의 AI 작업대 차리기 & 첫 웹페이지 빌드"
 date: 2026-07-13 20:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "도구·환경"]
 tags: [바이브코딩, claudecode, nodejs, uv, git, 터미널, 아이펠, nextx]
 description: "AI에게 '코드 짜줘'를 넘어, 내 컴퓨터에서 말하는 대로 손이 움직이는 에이전틱 코딩 작업대(Claude Code·Node·uv·Git·터미널)를 세팅하고 첫 웹페이지를 빌드한 R&D 실전 일지."
 image:

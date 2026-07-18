@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 프레임워크·PRD·목업 데이터 — 웹 서비스의 뼈대를 세우는 법"
 date: 2026-07-15 20:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "설계·아키텍처"]
 tags: [프레임워크, react, prd, 목업데이터, api, json, 컴포넌트, 바이브코딩, 아이펠, nextx]
 description: "프레임워크란 무엇이고 왜 쓰는가, AI와 대화하며 PRD를 만드는 3단계, 백엔드 없이 목업 데이터로 프론트엔드를 먼저 만드는 실전 전략까지."
 image:

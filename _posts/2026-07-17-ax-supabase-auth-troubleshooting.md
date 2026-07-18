@@ -1,7 +1,7 @@
 ---
 title: "[AX] Supabase Auth 실전 트러블슈팅 — 관리자 로그인이 안 될 때"
 date: 2026-07-17 20:00:00 +0900
-categories: ["AI Transformation"]
+categories: ["AI Transformation", "AX 솔루션"]
 tags: [ax프로젝트, supabase-auth, 트러블슈팅, 인증, 이메일확인, 케이제이파트너스, 바이브코딩, nextx]
 description: "Supabase Auth 이메일 로그인을 프로덕션에 적용하며 마주친 실제 오류들 — localhost 리다이렉트, invalid_credentials, Dashboard 설정 누락까지 — 원인 분석과 해결 과정을 그대로 공개합니다."
 image:

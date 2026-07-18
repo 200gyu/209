@@ -1,8 +1,8 @@
 ---
 title: "[AX] 매주 2시간 → 40분: 생성형 AI로 반복 업무를 없애는 법"
 date: 2026-07-12 18:00:00 +0900
-categories: ["AI Transformation"]
-tags: [ax, 업무자동화, 생성형ai, llm, 사례, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [ax프로젝트, 업무자동화, 생성형ai, llm, 사례, nextx]
 description: "생성형 AI로 반복 업무를 자동화하는 방법과 실제 사례. 매주 2시간짜리 운영 리포트를 40분으로 줄인 문제 분해→프롬프트→데이터→검수 4단계 접근법."
 image:
   path: /assets/img/posts/ax-showcase.png

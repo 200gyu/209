@@ -1,8 +1,8 @@
 ---
 title: "[AX] 고객 문의(VOC) 자동 분류·응대 초안 만들기"
 date: 2026-07-16 10:00:00 +0900
-categories: ["AI Transformation"]
-tags: [voc, cs, 자동분류, 응대초안, llm, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [voc, cs, 자동분류, 응대초안, llm, nextx, ax프로젝트]
 description: "쌓이는 고객 문의를 AI가 카테고리로 나누고 응대 초안까지 만드는 법. CS 팀의 반복을 줄이고 사람은 판단에 집중."
 image:
   path: /assets/img/posts/ax-voc.png

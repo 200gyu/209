@@ -1,8 +1,8 @@
 ---
 title: "[AX] 업종별 AI 활용 지도 — 우리 업종은 뭘 자동화할까"
 date: 2026-07-17 11:00:00 +0900
-categories: ["AI Transformation"]
-tags: [업종별, ai활용, 제조, 유통, 서비스, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [업종별, ai활용, 제조, 유통, 서비스, nextx, ax프로젝트]
 description: "제조·유통·서비스·병원·교육 등 업종별로 AI·자동화가 가장 효과를 내는 지점을 정리. 우리 회사에 바로 대입해보세요."
 image:
   path: /assets/img/posts/industry-map.png

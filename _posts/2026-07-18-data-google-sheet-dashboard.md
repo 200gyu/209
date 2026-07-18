@@ -1,7 +1,7 @@
 ---
 title: "[Data] 구글시트로 경영 대시보드 만들기 — 코딩 없이"
 date: 2026-07-18 15:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "분석·도구"]
 tags: [구글시트, 대시보드, bi, query함수, 경영지표, nextx]
 description: "구글시트 대시보드 만드는 법 — 코딩 없이 흩어진 데이터를 취합하고 QUERY·SUMIFS·차트로 자동 갱신되는 경영 지표판을 만드는 실전 순서."
 image:

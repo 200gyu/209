@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 비개발자를 위한 Git 최소 명령어 10 — 되돌릴 수 있는 안전장치"
 date: 2026-07-18 18:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "도구·환경"]
 tags: [git, 버전관리, 초보, 명령어, 바이브코딩, nextx]
 description: "깃 초보를 위한 Git 최소 명령어 10개 — init·add·commit·log부터 되돌리기까지. 비개발자도 '실수해도 되돌릴 수 있는' 안전장치를 만드는 법."
 image:

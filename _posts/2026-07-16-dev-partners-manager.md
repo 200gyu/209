@@ -1,8 +1,8 @@
 ---
 title: "[Dev] 내 서비스에 백엔드 한 겹 붙이기 — 파트너스 매칭 매니저 제작기"
 date: 2026-07-16 22:00:00 +0900
-categories: ["Dev & DevOps"]
-tags: [supabase, vite, tailwindcss, javascript, baas, rls, crud, 배포, github-pages, 바이브코딩, 아이펠, nextx]
+categories: ["Dev & DevOps", "실전 프로젝트"]
+tags: [supabase, vite, tailwindcss, javascript, baas, rls, crud, 배포, github-pages, 바이브코딩, 아이펠, nextx, 파트너스매칭매니저]
 description: "Vite + Supabase + GitHub Pages로 프리랜서 정리수납 파트너 배정 관리 시스템을 만들고 배포하기까지의 전 과정. .env 격리, RLS 보안, CRUD 구현, 상태 워크플로우를 실전으로 다룹니다."
 image:
   path: /assets/img/posts/dev-partners-manager.png

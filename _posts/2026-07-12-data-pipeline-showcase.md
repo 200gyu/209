@@ -1,7 +1,7 @@
 ---
 title: "[Data] 흩어진 데이터를 경영 지표로 — 데이터 파이프라인 구축 접근법"
 date: 2026-07-12 21:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "파이프라인·아키텍처"]
 tags: [데이터엔지니어링, 파이프라인, etl, 대시보드, bi, nextx]
 description: "흩어진 매출·광고·CRM 데이터를 자동으로 모아 경영 지표·대시보드로 만드는 데이터 파이프라인 구축법. 지표 정의부터 ETL·시각화까지 4단계."
 image:

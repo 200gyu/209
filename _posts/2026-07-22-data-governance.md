@@ -1,7 +1,7 @@
 ---
 title: "[Data] 데이터 거버넌스 & 품질 관리 — 믿을 수 있는 데이터 만들기"
 date: 2026-07-22 14:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "데이터 품질"]
 tags: [데이터거버넌스, 데이터품질, 데이터카탈로그, 데이터리니지, dbt-test, great-expectations, nextx]
 description: "데이터 거버넌스란 무엇이고, 데이터 품질을 어떻게 측정하고 보장하는가? 데이터 카탈로그, 리니지, 조직 역할(스튜어드/오너)부터 실전 도구까지."
 image:

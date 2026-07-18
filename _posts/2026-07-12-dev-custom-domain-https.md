@@ -1,8 +1,8 @@
 ---
 title: "[Dev] 커스텀 도메인 + HTTPS 연결 — 가비아에서 GitHub Pages로"
 date: 2026-07-12 22:30:00 +0900
-categories: ["Dev & DevOps"]
-tags: [커스텀도메인, dns, githubpages, https, 가비아, cname]
+categories: ["Dev & DevOps", "인프라·배포"]
+tags: [커스텀도메인, dns, github-pages, https, 가비아, cname, nextx]
 description: "가비아에서 산 도메인(code209.kr)을 GitHub Pages 블로그에 연결하고 HTTPS까지 켠 실제 과정. A레코드·CNAME·baseurl 함정 포함."
 image:
   path: /assets/img/posts/dev-domain.png

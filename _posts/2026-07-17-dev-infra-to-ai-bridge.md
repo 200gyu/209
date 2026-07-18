@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 온프레미스에서 AI 파이프라인까지 — 단단한 인프라 이해가 AI를 안전하게 한다"
 date: 2026-07-17 14:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "개발자 역할"]
 tags: [인프라, 네트워크, 데이터베이스, 클라우드, aiops, nextx]
 description: "CCNP·OCA로 다진 온프레미스 네트워크·DB 운영 경험이 왜 현대 AI 에이전트·클라우드 파이프라인 설계의 안전판이 되는가. 과거의 엔진과 미래의 기술을 잇는 브릿지."
 image:

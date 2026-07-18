@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 이모지가 쏟아진다 — 바닐라 JS로 만든 3매치 퍼즐의 연쇄 알고리즘"
 date: 2026-07-14 23:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "실전 프로젝트"]
 tags: [3매치, 웹게임, javascript, 알고리즘, 바이브코딩, 협업, 아이펠, nextx]
 description: "7×7 그리드 위 동물 이모지가 터지고, 떨어지고, 다시 터지는 3매치 퍼즐을 바닐라 JS로 구현. 중력 낙하·연쇄 콤보·비동기 애니메이션 체인의 알고리즘을 해부합니다."
 image:

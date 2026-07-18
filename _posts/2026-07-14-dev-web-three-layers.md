@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 웹을 지탱하는 세 겹(HTML·CSS·JS)과 멈추지 않는 브라우저의 비밀"
 date: 2026-07-14 20:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "웹 기초"]
 tags: [html, css, javascript, 이벤트루프, 동시성, 아이펠, nextx]
 description: "HTML·CSS·JS 세 겹의 탄생 비화와 '관심사의 분리(SoC)', 그리고 넥스트엑스가 이 3계층을 AI 에이전트 시스템(표현·로직·벡터DB)에 적용하는 법."
 image:

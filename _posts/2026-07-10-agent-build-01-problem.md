@@ -1,8 +1,8 @@
 ---
 title: "[Automation] 운영 리포트 자동화 #1 — 문제 정의"
 date: 2026-07-10 22:00:00 +0900
-categories: ["Workplace Automation"]
-tags: [문제정의, 운영, pm, rag, 에이전트]
+categories: ["Workplace Automation", "AI 에이전트 빌드"]
+tags: [문제정의, 운영, pm, rag, ai에이전트, nextx]
 description: 과정 내내 만들 개인 프로젝트의 문제를 한 문장으로 정의한다.
 mermaid: true
 image:

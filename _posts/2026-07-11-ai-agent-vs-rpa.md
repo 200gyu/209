@@ -1,8 +1,8 @@
 ---
 title: "[Automation] AI 에이전트 vs RPA — '시키는 대로' vs '목표를 주면 알아서'"
 date: 2026-07-11 12:00:00 +0900
-categories: ["Workplace Automation"]
-tags: [ai에이전트, rpa, 자동화, agentic, 개념정리]
+categories: ["Workplace Automation", "AI 에이전트 빌드"]
+tags: [ai에이전트, rpa, 자동화, agentic, 개념정리, nextx]
 description: "실무자가 가장 헷갈리는 개념 정리. RPA는 스크립트를, 에이전트는 목표를 받는다. 언제 무엇을 쓰고 어떻게 결합할까."
 image:
   path: /assets/img/posts/agent-vs-rpa.png

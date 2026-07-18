@@ -1,7 +1,7 @@
 ---
 title: "[Dev] API란 무엇인가 — 비개발자를 위한 가장 쉬운 설명"
 date: 2026-07-15 13:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "웹 기초"]
 tags: [api, rest, 연동, 비개발자, 개념, nextx]
 description: "회의에서 자주 나오는 'API 연동'. 식당 주문서 비유로 API의 개념과, 기획자가 알아야 할 핵심만 정리."
 image:

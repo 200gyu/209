@@ -1,8 +1,8 @@
 ---
 title: "[Automation] 운영 리포트 자동화 #2 — 설계도 그리기"
 date: 2026-07-11 10:00:00 +0900
-categories: ["Workplace Automation"]
-tags: [에이전트설계, 워크플로우, 도구, mvp, 운영]
+categories: ["Workplace Automation", "AI 에이전트 빌드"]
+tags: [에이전트설계, 워크플로우, 도구, mvp, 운영, nextx, ai에이전트]
 description: "문제 정의(#1)를 누구나 따라 만들 수 있는 제작 설계도로 바꾸는 과정. 업무 분해 → 도구 목록 → 기술 선택 → MVP 범위."
 image:
   path: /assets/img/posts/agent-build-02.png

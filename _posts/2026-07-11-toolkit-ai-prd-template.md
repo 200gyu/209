@@ -1,8 +1,8 @@
 ---
 title: "[AX] AI 기능 기획서(PRD) 템플릿 — 복사해서 바로 쓰기"
 date: 2026-07-11 23:00:00 +0900
-categories: ["AI Transformation"]
-tags: [prd, 기획서, ai기획, 템플릿, 체크리스트]
+categories: ["AI Transformation", "리소스·도구"]
+tags: [prd, 기획서, ai기획, 템플릿, 체크리스트, nextx]
 description: "AI 기능을 기획할 때 그대로 채워 쓰는 PRD 템플릿. 일반 PRD에 'AI 특유' 항목(판단 분담·환각·데이터)을 더했다."
 image:
   path: /assets/img/posts/toolkit-prd.png

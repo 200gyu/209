@@ -1,8 +1,8 @@
 ---
 title: "[AX] 직원 0명, 월 4억 — 1인 AI 기업의 공식"
 date: 2026-07-10 23:30:00 +0900
-categories: ["AI Transformation"]
-tags: [1인기업, 바이브코딩, 피터레벨스, 비즈니스모델, ai서비스, 인디해커]
+categories: ["AI Transformation", "개념·전략"]
+tags: [1인기업, 바이브코딩, 피터레벨스, 비즈니스모델, ai서비스, 인디해커, nextx]
 description: "제이멘토 영상 분석 — 피터 레벨스의 1인 AI 기업 전략을 원리로 압축하고, 하이프와 실제를 구분해 정리했습니다."
 image:
   path: /assets/img/posts/insight-solo-ai-business.png

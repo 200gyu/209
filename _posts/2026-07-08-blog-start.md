@@ -2,7 +2,7 @@
 title: "[Inside] NEXT X가 기술 블로그를 운영하는 이유"
 date: 2026-07-08 20:00:00 +0900
 categories: ["Inside NEXT X"]
-tags: [넥스트엑스, 기술블로그, ax]
+tags: [기술블로그, ax프로젝트, nextx]
 description: 넥스트엑스가 기술 블로그(code209.kr)를 공개적으로 운영하는 이유와, 이 블로그에서 다루는 것들.
 image:
   path: /assets/img/posts/blog-start.png

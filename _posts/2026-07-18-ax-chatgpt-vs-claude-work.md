@@ -1,8 +1,8 @@
 ---
 title: "[AX] 업무용 생성형 AI 비교 — ChatGPT vs Claude, 뭘 어디에 쓸까"
 date: 2026-07-18 10:00:00 +0900
-categories: ["AI Transformation"]
-tags: [chatgpt, claude, 생성형ai, 비교, 업무활용, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [chatgpt, claude, 생성형ai, 비교, 업무활용, nextx, ax프로젝트]
 description: "업무용 생성형 AI 비교 — ChatGPT와 Claude, 글쓰기·코딩·긴 문서·데이터 분석에서 뭘 어디에 쓰는 게 좋은지 실무 관점으로 정리."
 image:
   path: /assets/img/posts/ax-ai-compare.png

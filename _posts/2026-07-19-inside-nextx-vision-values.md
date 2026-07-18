@@ -2,7 +2,7 @@
 title: "[Inside] 우리는 왜 NEXT X인가 — 미션·비전·핵심가치"
 date: 2026-07-19 09:00:00 +0900
 categories: ["Inside NEXT X"]
-tags: [넥스트엑스, 미션, 비전, 핵심가치, 회사소개, nextx]
+tags: [미션, 비전, 핵심가치, 회사소개, nextx]
 description: "주식회사 넥스트엑스(NEXT X)가 존재하는 이유 — 미션·비전·핵심가치. '반복은 기계에게, 판단은 사람에게'라는 철학으로 기업의 일하는 방식을 바꿉니다."
 image:
   path: /assets/img/posts/inside-vision.png

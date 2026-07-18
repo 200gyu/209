@@ -1,8 +1,8 @@
 ---
 title: "[AX] 계약부터 납품까지 — 파트너스 매칭 매니저 실전 개발기"
 date: 2026-07-17 18:00:00 +0900
-categories: ["AI Transformation"]
-tags: [ax프로젝트, supabase-auth, rls, 로그인, 보안강화, 프로덕션, 케이제이파트너스, 바이브코딩, nextx]
+categories: ["AI Transformation", "AX 솔루션"]
+tags: [ax프로젝트, supabase-auth, rls, 로그인, 보안강화, 프로덕션, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "주식회사 케이제이파트너스와의 AX 솔루션 계약 체결 후, 프로토타입에서 관리자 인증·보안 강화·실데이터 연동까지 — 실무 납품 수준으로 완성하는 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-delivery.png

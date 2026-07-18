@@ -2,7 +2,7 @@
 title: "[Inside] 넥스트엑스와 일하는 방식 — 왜 우리인가, 진단부터 책임까지"
 date: 2026-07-19 10:00:00 +0900
 categories: ["Inside NEXT X"]
-tags: [넥스트엑스, 일하는방식, 프로세스, 차별점, 컨설팅, nextx]
+tags: [일하는방식, 프로세스, 차별점, 컨설팅, nextx]
 description: "넥스트엑스와 일하면 무엇이 다른가 — 대형 SI·프리랜서와의 차이, 진단→MVP→측정→확장 4단계 프로세스, 그리고 '끝까지 책임'까지."
 image:
   path: /assets/img/posts/inside-how-we-work.png

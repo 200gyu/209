@@ -1,7 +1,7 @@
 ---
 title: "[Data] SQL 실전 심화 — JOIN·윈도우 함수·CTE로 데이터 다루기"
 date: 2026-07-21 14:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "SQL·데이터베이스"]
 tags: [sql, join, 윈도우함수, cte, 서브쿼리, postgresql, 쿼리최적화, nextx]
 description: "SELECT를 넘어서 — INNER/LEFT/FULL JOIN 패턴, 윈도우 함수(ROW_NUMBER, RANK, LAG), CTE와 서브쿼리, 실행 계획 분석까지 현업에서 바로 쓰는 SQL 심화."
 image:

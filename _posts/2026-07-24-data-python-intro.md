@@ -1,7 +1,7 @@
 ---
 title: "[Data] Python 데이터 처리 입문 — pandas로 엑셀 자동화를 넘어서"
 date: 2026-07-24 14:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "분석·도구"]
 tags: [python, pandas, polars, 데이터처리, 엑셀자동화, dataframe, csv, nextx]
 description: "왜 데이터 엔지니어에게 Python인가? pandas 기초(DataFrame, 읽기/쓰기, 필터·그룹·병합)부터 Polars 소개, 그리고 수작업 엑셀을 코드로 대체하는 실전 패턴까지."
 image:

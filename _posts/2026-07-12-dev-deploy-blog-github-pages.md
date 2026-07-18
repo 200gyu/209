@@ -1,8 +1,8 @@
 ---
 title: "[Dev] 코드 없이 기업 블로그 배포하기 — Jekyll + Chirpy + GitHub Actions"
 date: 2026-07-12 22:00:00 +0900
-categories: ["Dev & DevOps"]
-tags: [jekyll, chirpy, githubpages, githubactions, cicd, 배포]
+categories: ["Dev & DevOps", "인프라·배포"]
+tags: [jekyll, chirpy, github-pages, githubactions, cicd, 배포, nextx]
 description: "이 블로그(code209.kr)를 실제로 배포한 방법. Jekyll + Chirpy 테마를 GitHub Actions로 자동 빌드·배포하는 전 과정과 함정."
 image:
   path: /assets/img/posts/dev-deploy.png

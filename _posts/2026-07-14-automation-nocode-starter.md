@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 코딩 없이 시작하는 업무 자동화 3가지"
 date: 2026-07-14 11:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "프로세스·전략"]
 tags: [노코드, 자동화, 구글시트, zapier, make, nextx]
 description: "개발자 없이도 오늘 시작하는 업무 자동화 3가지 — 구글 시트, 노코드 연결 툴, 예약 실행. 어디까지 되고 언제 전문가가 필요한지."
 image:

@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 자동화가 실패하는 5가지 이유 — 그리고 피하는 법"
 date: 2026-07-17 12:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "프로세스·전략"]
 tags: [자동화, 실패요인, 안티패턴, 도입전략, nextx]
 description: "자동화 프로젝트가 흐지부지되는 진짜 이유 5가지와, 넥스트엑스가 그것을 피하는 방법. 도입 전 꼭 읽어야 할 체크."
 image:

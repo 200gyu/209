@@ -1,7 +1,7 @@
 ---
 title: "[Data] ETL vs ELT — 데이터 이동의 두 가지 전략"
 date: 2026-07-19 14:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "파이프라인·아키텍처"]
 tags: [etl, elt, 데이터파이프라인, 데이터웨어하우스, dbt, airflow, 클라우드, nextx]
 description: "ETL과 ELT의 차이, 역사적 배경, 클라우드 시대에 ELT가 부상하는 이유, 실전 도구(Airflow, dbt, Fivetran)까지 — 데이터 이동 전략의 모든 것."
 image:

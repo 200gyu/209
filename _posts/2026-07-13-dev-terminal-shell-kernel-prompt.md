@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 터미널·셸·커널·프롬프트 — 헷갈리는 4가지 완벽 정리"
 date: 2026-07-13 21:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "웹 기초"]
 tags: [터미널, 셸, 커널, 프롬프트, 개발상식, 디버깅, 아이펠, nextx]
 description: "터미널·셸·커널·프롬프트의 차이를 역사와 비유로 완벽 정리. command not found·Permission denied 에러가 어느 층위 문제인지 바로 아는 디버깅 지도."
 image:

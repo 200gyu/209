@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 급여·근태 정산 자동화 실전 — 엑셀 반복을 코드로"
 date: 2026-07-18 12:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "오피스 자동화"]
 tags: [급여자동화, 근태, 정산, 파이썬, 명세서, nextx]
 description: "급여·근태 정산 자동화하는 법 — 근태 엑셀 취합, 수당 계산, 급여명세서 대량 생성까지 파이썬으로 자동화하는 실전 패턴과 주의점."
 image:

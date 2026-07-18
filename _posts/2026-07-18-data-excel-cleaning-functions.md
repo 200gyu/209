@@ -1,7 +1,7 @@
 ---
 title: "[Data] 지저분한 엑셀, 함수로 5분 정리 — 데이터 클렌징 실전"
 date: 2026-07-18 16:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "분석·도구"]
 tags: [엑셀함수, 데이터정리, 데이터클렌징, trim, 중복제거, nextx]
 description: "엑셀 데이터 정리 함수 총정리 — 공백·중복·표기 불일치·텍스트 숫자·빈값을 TRIM·COUNTIF·SUBSTITUTE 등으로 5분 만에 깨끗하게."
 image:

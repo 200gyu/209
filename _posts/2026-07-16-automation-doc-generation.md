@@ -1,7 +1,7 @@
 ---
 title: "[Automation] 문서 대량 생성 자동화 — 계약서·안내문 100장을 1분에"
 date: 2026-07-16 11:00:00 +0900
-categories: ["Workplace Automation"]
+categories: ["Workplace Automation", "프로세스·전략"]
 tags: [문서자동화, 메일머지, 계약서, 증명서, docx, nextx]
 description: "이름·금액만 다른 문서 수백 장을 데이터로 자동 생성하는 법. 계약서·안내문·증명서·라벨을 실수 없이 대량으로."
 image:

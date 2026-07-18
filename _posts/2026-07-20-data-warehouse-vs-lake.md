@@ -1,7 +1,7 @@
 ---
 title: "[Data] 데이터 웨어하우스 vs 데이터 레이크 — 우리 조직에 맞는 저장소는?"
 date: 2026-07-20 14:00:00 +0900
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "파이프라인·아키텍처"]
 tags: [데이터웨어하우스, 데이터레이크, 레이크하우스, bigquery, snowflake, s3, nextx]
 description: "데이터 웨어하우스와 데이터 레이크의 차이, 레이크하우스의 등장, 실전 도구(BigQuery, Snowflake, Databricks)까지 — 조직 규모에 맞는 데이터 저장 전략."
 image:

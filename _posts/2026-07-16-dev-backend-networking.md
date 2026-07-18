@@ -1,7 +1,7 @@
 ---
 title: "[Dev] 화면 뒤에서 일어나는 일들 — 백엔드·네트워크 완전 지도"
 date: 2026-07-16 20:00:00 +0900
-categories: ["Dev & DevOps"]
+categories: ["Dev & DevOps", "설계·아키텍처"]
 tags: [백엔드, 네트워크, dns, http, https, 서버, 배포, 보안, 포트, api, 바이브코딩, 아이펠, nextx]
 description: "localhost가 왜 친구에게 안 열리는지부터 DNS·HTTP·API·보안·배포·홈서버까지, 백엔드와 네트워크의 전체 지형을 한 장의 지도로 그려봅니다."
 image:
