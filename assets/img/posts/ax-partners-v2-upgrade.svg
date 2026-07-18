@@ -1,0 +1,174 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="320" x2="1200" y2="320" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="500" y1="0" x2="500" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="700" y1="0" x2="700" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1100" y1="0" x2="1100" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Version badge -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="55" height="28" rx="14" fill="#7c3aed" fill-opacity="0.4" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="27" y="19" text-anchor="middle" fill="#c4b5fd" font-size="12" font-weight="700">v2</text>
+  </g>
+
+  <!-- Phase flow: v1 → Schema → Data → UI → v2 -->
+  <g transform="translate(80, 95)">
+    <rect x="0" y="0" width="160" height="80" rx="14" fill="url(#cardGrad)" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="80" y="30" text-anchor="middle" fill="#fff" font-size="20">🗄️</text>
+    <text x="80" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">v1 Production</text>
+    <text x="80" y="68" text-anchor="middle" fill="#93c5fd" font-size="9">57명 / NOT NULL</text>
+  </g>
+
+  <line x1="250" y1="135" x2="290" y2="135" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2"/>
+  <polygon points="290,130 300,135 290,140" fill="#a78bfa" fill-opacity="0.5"/>
+
+  <g transform="translate(310, 95)">
+    <rect x="0" y="0" width="160" height="80" rx="14" fill="url(#cardGrad)" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="1.5"/>
+    <text x="80" y="30" text-anchor="middle" fill="#fff" font-size="20">🔧</text>
+    <text x="80" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Schema Migration</text>
+    <text x="80" y="68" text-anchor="middle" fill="#c4b5fd" font-size="9">NULLABLE + CHECK</text>
+  </g>
+
+  <line x1="480" y1="135" x2="520" y2="135" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2"/>
+  <polygon points="520,130 530,135 520,140" fill="#a78bfa" fill-opacity="0.5"/>
+
+  <g transform="translate(540, 95)">
+    <rect x="0" y="0" width="160" height="80" rx="14" fill="url(#cardGrad)" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="1.5"/>
+    <text x="80" y="30" text-anchor="middle" fill="#fff" font-size="20">📦</text>
+    <text x="80" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Bulk Import</text>
+    <text x="80" y="68" text-anchor="middle" fill="#c4b5fd" font-size="9">DELETE + INSERT 71</text>
+  </g>
+
+  <line x1="710" y1="135" x2="750" y2="135" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2"/>
+  <polygon points="750,130 760,135 750,140" fill="#a78bfa" fill-opacity="0.5"/>
+
+  <g transform="translate(770, 95)">
+    <rect x="0" y="0" width="160" height="80" rx="14" fill="url(#cardGrad)" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="1.5"/>
+    <text x="80" y="30" text-anchor="middle" fill="#fff" font-size="20">🎨</text>
+    <text x="80" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">UI Update</text>
+    <text x="80" y="68" text-anchor="middle" fill="#c4b5fd" font-size="9">Optional Fields</text>
+  </g>
+
+  <line x1="940" y1="135" x2="980" y2="135" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2"/>
+  <polygon points="980,130 990,135 980,140" fill="#a78bfa" fill-opacity="0.5"/>
+
+  <g transform="translate(1000, 95)">
+    <rect x="0" y="0" width="130" height="80" rx="14" fill="#7c3aed" fill-opacity="0.2" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="2"/>
+    <text x="65" y="30" text-anchor="middle" fill="#fff" font-size="20">🚀</text>
+    <text x="65" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">v2 Live</text>
+    <text x="65" y="68" text-anchor="middle" fill="#a78bfa" font-size="9">71명 / NULLABLE</text>
+  </g>
+
+  <!-- Before / After comparison -->
+  <!-- Before card -->
+  <g transform="translate(80, 220)">
+    <rect x="0" y="0" width="480" height="180" rx="16" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.1"/>
+    <text x="20" y="28" fill="#ef4444" fill-opacity="0.7" font-size="12" font-weight="700">BEFORE (v1)</text>
+    <!-- Table header -->
+    <rect x="20" y="40" width="440" height="24" rx="4" fill="#fff" fill-opacity="0.05"/>
+    <text x="35" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">이름</text>
+    <text x="150" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">전화번호</text>
+    <text x="310" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">지역</text>
+    <text x="400" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">전문분야</text>
+    <!-- Row 1 -->
+    <text x="35" y="84" fill="#fff" fill-opacity="0.7" font-size="11">강미경</text>
+    <text x="150" y="84" fill="#ef4444" fill-opacity="0.5" font-size="11">000-0000-0000</text>
+    <text x="310" y="84" fill="#fff" fill-opacity="0.5" font-size="11">제주</text>
+    <text x="400" y="84" fill="#fff" fill-opacity="0.4" font-size="11">정리수납</text>
+    <!-- Row 2 -->
+    <text x="35" y="106" fill="#fff" fill-opacity="0.7" font-size="11">김경숙A</text>
+    <text x="150" y="106" fill="#ef4444" fill-opacity="0.5" font-size="11">000-0000-0000</text>
+    <text x="310" y="106" fill="#fff" fill-opacity="0.5" font-size="11">제주</text>
+    <text x="400" y="106" fill="#fff" fill-opacity="0.4" font-size="11">정리수납</text>
+    <!-- Row 3 -->
+    <text x="35" y="128" fill="#fff" fill-opacity="0.7" font-size="11">김경숙B</text>
+    <text x="150" y="128" fill="#ef4444" fill-opacity="0.5" font-size="11">000-0000-0000</text>
+    <text x="310" y="128" fill="#fff" fill-opacity="0.5" font-size="11">제주</text>
+    <text x="400" y="128" fill="#fff" fill-opacity="0.4" font-size="11">정리수납</text>
+    <!-- Summary -->
+    <rect x="20" y="142" width="440" height="24" rx="4" fill="#ef4444" fill-opacity="0.06"/>
+    <text x="240" y="158" text-anchor="middle" fill="#ef4444" fill-opacity="0.6" font-size="10">57명 | 플레이스홀더 데이터 | NOT NULL 제약</text>
+  </g>
+
+  <!-- Arrow between cards -->
+  <g transform="translate(578, 300)">
+    <text x="0" y="0" fill="#a78bfa" font-size="28">→</text>
+  </g>
+
+  <!-- After card -->
+  <g transform="translate(640, 220)">
+    <rect x="0" y="0" width="480" height="180" rx="16" fill="#fff" fill-opacity="0.06" stroke="#a78bfa" stroke-opacity="0.25"/>
+    <text x="20" y="28" fill="#22c55e" fill-opacity="0.9" font-size="12" font-weight="700">AFTER (v2)</text>
+    <!-- Table header -->
+    <rect x="20" y="40" width="440" height="24" rx="4" fill="#fff" fill-opacity="0.05"/>
+    <text x="35" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">이름</text>
+    <text x="150" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">전화번호</text>
+    <text x="310" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">지역</text>
+    <text x="400" y="56" fill="#fff" fill-opacity="0.5" font-size="10" font-weight="600">전문분야</text>
+    <!-- Row 1 -->
+    <text x="35" y="84" fill="#fff" fill-opacity="0.8" font-size="11">강미경</text>
+    <text x="150" y="84" fill="#fff" fill-opacity="0.2" font-size="10" font-style="italic">연락처 미입력</text>
+    <text x="310" y="84" fill="#fff" fill-opacity="0.2" font-size="10" font-style="italic">지역 미입력</text>
+    <text x="400" y="84" fill="#fff" fill-opacity="0.4" font-size="11">정리수납</text>
+    <!-- Row 2 -->
+    <text x="35" y="106" fill="#fff" fill-opacity="0.8" font-size="11">김경숙1</text>
+    <text x="150" y="106" fill="#fff" fill-opacity="0.2" font-size="10" font-style="italic">연락처 미입력</text>
+    <text x="310" y="106" fill="#fff" fill-opacity="0.2" font-size="10" font-style="italic">지역 미입력</text>
+    <text x="400" y="106" fill="#fff" fill-opacity="0.4" font-size="11">정리수납</text>
+    <!-- Row 3 -->
+    <text x="35" y="128" fill="#22c55e" fill-opacity="0.8" font-size="11">강지현 (NEW)</text>
+    <text x="150" y="128" fill="#fff" fill-opacity="0.2" font-size="10" font-style="italic">연락처 미입력</text>
+    <text x="310" y="128" fill="#fff" fill-opacity="0.2" font-size="10" font-style="italic">지역 미입력</text>
+    <text x="400" y="128" fill="#fff" fill-opacity="0.4" font-size="11">정리수납</text>
+    <!-- Summary -->
+    <rect x="20" y="142" width="440" height="24" rx="4" fill="#22c55e" fill-opacity="0.06"/>
+    <text x="240" y="158" text-anchor="middle" fill="#22c55e" fill-opacity="0.7" font-size="10">71명 | 공란 허용 | NULLABLE + CHECK 완화</text>
+  </g>
+
+  <!-- Tech badges -->
+  <g transform="translate(80, 430)">
+    <rect x="0" y="0" width="100" height="26" rx="13" fill="#fff" fill-opacity="0.08" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="50" y="17" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">PostgreSQL</text>
+    <rect x="110" y="0" width="115" height="26" rx="13" fill="#fff" fill-opacity="0.08" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="167" y="17" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">Schema Migration</text>
+    <rect x="235" y="0" width="90" height="26" rx="13" fill="#fff" fill-opacity="0.08" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="280" y="17" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">Bulk Import</text>
+    <rect x="335" y="0" width="75" height="26" rx="13" fill="#fff" fill-opacity="0.08" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="372" y="17" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">Node.js</text>
+    <rect x="420" y="0" width="68" height="26" rx="13" fill="#fff" fill-opacity="0.08" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="454" y="17" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">Vercel</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="505" fill="#fff" font-size="34" font-weight="800" letter-spacing="-0.5">파트너스 매칭 매니저 v2</text>
+  <text x="60" y="545" fill="#fff" fill-opacity="0.7" font-size="18">명부 교체와 스키마 유연화 — 납품 후 첫 번째 업그레이드</text>
+  <text x="60" y="580" fill="#c4b5fd" font-size="14">NEXT X AX Solution · KJ Partners · Series #4</text>
+</svg>
