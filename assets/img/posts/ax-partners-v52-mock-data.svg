@@ -1,0 +1,177 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="excelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#217346" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#217346" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="jsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7df1e" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f7df1e" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="320" x2="1200" y2="320" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="500" y1="0" x2="500" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="700" y1="0" x2="700" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1100" y1="0" x2="1100" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Version badge -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="65" height="28" rx="14" fill="#0ea5e9" fill-opacity="0.4" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="32" y="19" text-anchor="middle" fill="#7dd3fc" font-size="12" font-weight="700">v5.2</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="140" fill="#ffffff" font-size="42" font-weight="800" letter-spacing="-1">Partners Matching Manager</text>
+  <text x="60" y="195" fill="#93c5fd" font-size="28" font-weight="600">Excel-to-Mock Data Pipeline</text>
+  <text x="60" y="230" fill="#93c5fd" font-size="28" font-weight="600">&amp; Supabase-Free Demo Mode</text>
+
+  <!-- Left card: Excel source -->
+  <g transform="translate(60, 270)">
+    <rect x="0" y="0" width="340" height="280" rx="16" fill="url(#excelGrad)" stroke="#34d399" stroke-opacity="0.3"/>
+    <text x="25" y="40" fill="#34d399" font-size="14" font-weight="700">&#x1F4CA; EXCEL SOURCE</text>
+    <text x="25" y="62" fill="#86efac" font-size="11">7&#xC6D4; &#xD504;&#xB9AC;&#xB79C;&#xC11C; &#xC77C;&#xBCC4; &#xAE09;&#xC5EC;&#xB300;&#xC7A5;</text>
+
+    <!-- Mini spreadsheet -->
+    <g transform="translate(25, 80)">
+      <rect x="0" y="0" width="290" height="25" rx="4" fill="#217346" fill-opacity="0.5"/>
+      <text x="10" y="17" fill="#bbf7d0" font-size="9" font-weight="600">NO</text>
+      <text x="45" y="17" fill="#bbf7d0" font-size="9" font-weight="600">&#xC131;&#xBA85;</text>
+      <text x="100" y="17" fill="#bbf7d0" font-size="9" font-weight="600">&#xD604;&#xC7A5;&#xBA85;</text>
+      <text x="175" y="17" fill="#bbf7d0" font-size="9" font-weight="600">&#xC2DC;&#xAE09;</text>
+      <text x="220" y="17" fill="#bbf7d0" font-size="9" font-weight="600">&#xC2DC;&#xAC04;</text>
+      <text x="255" y="17" fill="#bbf7d0" font-size="9" font-weight="600">&#xC218;&#xB2F9;</text>
+
+      <rect x="0" y="28" width="290" height="20" rx="2" fill="#ffffff" fill-opacity="0.06"/>
+      <text x="10" y="42" fill="#d1d5db" font-size="9">1</text>
+      <text x="45" y="42" fill="#d1d5db" font-size="9">&#xCD5C;&#xC724;&#xC815;</text>
+      <text x="100" y="42" fill="#d1d5db" font-size="9">&#xBC15;&#xACBD;&#xC6D0;_&#xC11C;&#xCD08;_0701</text>
+      <text x="175" y="42" fill="#d1d5db" font-size="9">16,000</text>
+      <text x="220" y="42" fill="#d1d5db" font-size="9">8</text>
+      <text x="255" y="42" fill="#d1d5db" font-size="9">30,000</text>
+
+      <rect x="0" y="50" width="290" height="20" rx="2" fill="#ffffff" fill-opacity="0.03"/>
+      <text x="10" y="64" fill="#9ca3af" font-size="9">2</text>
+      <text x="45" y="64" fill="#9ca3af" font-size="9">&#xCC44;&#xD61C;&#xB780;</text>
+      <text x="100" y="64" fill="#9ca3af" font-size="9">&#xBC15;&#xACBD;&#xC6D0;_&#xC11C;&#xCD08;_0701</text>
+      <text x="175" y="64" fill="#9ca3af" font-size="9">15,000</text>
+      <text x="220" y="64" fill="#9ca3af" font-size="9">8</text>
+      <text x="255" y="64" fill="#9ca3af" font-size="9">0</text>
+
+      <rect x="0" y="72" width="290" height="20" rx="2" fill="#ffffff" fill-opacity="0.06"/>
+      <text x="10" y="86" fill="#9ca3af" font-size="9">3</text>
+      <text x="45" y="86" fill="#9ca3af" font-size="9">&#xAC15;&#xBBF8;&#xACBD;</text>
+      <text x="100" y="86" fill="#9ca3af" font-size="9">&#xBC15;&#xACBD;&#xC6D0;_&#xC11C;&#xCD08;_0701</text>
+      <text x="175" y="86" fill="#9ca3af" font-size="9">15,000</text>
+      <text x="220" y="86" fill="#9ca3af" font-size="9">8</text>
+      <text x="255" y="86" fill="#9ca3af" font-size="9">0</text>
+
+      <text x="145" y="108" text-anchor="middle" fill="#6b7280" font-size="9">... 224 rows ...</text>
+    </g>
+
+    <!-- Stats -->
+    <g transform="translate(25, 210)">
+      <rect x="0" y="0" width="86" height="45" rx="8" fill="#ffffff" fill-opacity="0.08"/>
+      <text x="43" y="20" text-anchor="middle" fill="#6ee7b7" font-size="18" font-weight="700">72</text>
+      <text x="43" y="36" text-anchor="middle" fill="#6b7280" font-size="9">Partners</text>
+
+      <rect x="100" y="0" width="86" height="45" rx="8" fill="#ffffff" fill-opacity="0.08"/>
+      <text x="143" y="20" text-anchor="middle" fill="#6ee7b7" font-size="18" font-weight="700">71</text>
+      <text x="143" y="36" text-anchor="middle" fill="#6b7280" font-size="9">Sites</text>
+
+      <rect x="200" y="0" width="86" height="45" rx="8" fill="#ffffff" fill-opacity="0.08"/>
+      <text x="243" y="20" text-anchor="middle" fill="#6ee7b7" font-size="18" font-weight="700">224</text>
+      <text x="243" y="36" text-anchor="middle" fill="#6b7280" font-size="9">Records</text>
+    </g>
+  </g>
+
+  <!-- Arrow pipeline -->
+  <g transform="translate(420, 380)">
+    <rect x="0" y="0" width="130" height="40" rx="20" fill="#f7df1e" fill-opacity="0.15" stroke="#f7df1e" stroke-opacity="0.3"/>
+    <text x="65" y="15" text-anchor="middle" fill="#fde68a" font-size="10" font-weight="600">Node.js + xlsx</text>
+    <text x="65" y="30" text-anchor="middle" fill="#fbbf24" font-size="16">&#x27A1;</text>
+  </g>
+
+  <!-- Right card: App tabs -->
+  <g transform="translate(580, 270)">
+    <rect x="0" y="0" width="560" height="280" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="25" y="40" fill="#7dd3fc" font-size="14" font-weight="700">&#x1F680; MOCK DATA &#x2192; ALL 4 TABS</text>
+    <text x="25" y="60" fill="#94a3b8" font-size="11">USE_MOCK_DATA = true &#x2192; Supabase bypass</text>
+
+    <!-- 4 Tab cards -->
+    <g transform="translate(25, 80)">
+      <!-- Tab 1: Partners -->
+      <rect x="0" y="0" width="120" height="75" rx="8" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="60" y="22" text-anchor="middle" fill="#818cf8" font-size="18">&#x1F464;</text>
+      <text x="60" y="40" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Partner</text>
+      <text x="60" y="58" text-anchor="middle" fill="#818cf8" font-size="14" font-weight="700">72&#xBA85;</text>
+
+      <!-- Tab 2: Assignments -->
+      <rect x="135" y="0" width="120" height="75" rx="8" fill="#ffffff" fill-opacity="0.08" stroke="#f472b6" stroke-opacity="0.4"/>
+      <text x="195" y="22" text-anchor="middle" fill="#f472b6" font-size="18">&#x1F4CB;</text>
+      <text x="195" y="40" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Assignment</text>
+      <text x="195" y="58" text-anchor="middle" fill="#f472b6" font-size="14" font-weight="700">71&#xAC74;</text>
+
+      <!-- Tab 3: Payroll -->
+      <rect x="270" y="0" width="120" height="75" rx="8" fill="#ffffff" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity="0.4"/>
+      <text x="330" y="22" text-anchor="middle" fill="#fbbf24" font-size="18">&#x1F4B0;</text>
+      <text x="330" y="40" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Payroll</text>
+      <text x="330" y="58" text-anchor="middle" fill="#fbbf24" font-size="14" font-weight="700">224&#xAC74;</text>
+
+      <!-- Tab 4: Schedule -->
+      <rect x="405" y="0" width="120" height="75" rx="8" fill="#ffffff" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="465" y="22" text-anchor="middle" fill="#34d399" font-size="18">&#x1F4C5;</text>
+      <text x="465" y="40" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Schedule</text>
+      <text x="465" y="58" text-anchor="middle" fill="#34d399" font-size="14" font-weight="700">7&#xC6D4;</text>
+    </g>
+
+    <!-- Total amount highlight -->
+    <g transform="translate(25, 175)">
+      <rect x="0" y="0" width="510" height="40" rx="8" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="255" y="17" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="600">&#xCD1D; &#xC9C0;&#xAE09;&#xC561;</text>
+      <text x="255" y="34" text-anchor="middle" fill="#34d399" font-size="16" font-weight="700">&#x20A9;26,854,000 &#xB2EC;&#xC131; &#xC644;&#xB8CC;</text>
+    </g>
+
+    <!-- Mock mode badge -->
+    <g transform="translate(25, 230)">
+      <rect x="0" y="0" width="150" height="28" rx="14" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-opacity="0.4"/>
+      <text x="75" y="19" text-anchor="middle" fill="#fdba74" font-size="11" font-weight="600">&#x1F50C; No Supabase</text>
+
+      <rect x="165" y="0" width="150" height="28" rx="14" fill="#8b5cf6" fill-opacity="0.2" stroke="#8b5cf6" stroke-opacity="0.4"/>
+      <text x="240" y="19" text-anchor="middle" fill="#c4b5fd" font-size="11" font-weight="600">&#x1F512; No Auth Required</text>
+
+      <rect x="330" y="0" width="180" height="28" rx="14" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-opacity="0.4"/>
+      <text x="420" y="19" text-anchor="middle" fill="#67e8f9" font-size="11" font-weight="600">&#x26A1; Instant Data Load</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="600" fill="#64748b" font-size="13">NEXT X R&amp;D</text>
+  <text x="1140" y="600" text-anchor="end" fill="#64748b" font-size="13">KJ Partners System</text>
+</svg>
