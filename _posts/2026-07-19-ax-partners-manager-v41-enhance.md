@@ -22,6 +22,7 @@ mermaid: true
 > 6. [v3.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v3-dayoff %}) — 휴무일 관리·스케줄 충돌 방지
 > 7. [v4 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v4-payroll %}) — 급여 정산 및 관리 시스템
 > 8. **[현재 글] v4.1 업그레이드** — UX 고도화 및 급여 기타수당
+> 9. [v5 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v5-schedule %}) — 통합 일정 관리 달력
 {: .prompt-info }
 
 ## 📋 업그레이드 배경
