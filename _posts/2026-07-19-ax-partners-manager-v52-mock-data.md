@@ -75,7 +75,7 @@ NO | 대상여부 | 성명 | 지급년월일 | 현장명 | 시급 | 근무시간
 
 핵심 파싱 포인트:
 
-- **현장명** — `고객명_지역_MMDD` 형식 (예: `박경원_서초_0701`)으로 고객·지역·날짜 정보를 인코딩
+- **현장명** — `고객명_지역_MMDD` 형식 (예: `홍길동_서초_0701`)으로 고객·지역·날짜 정보를 인코딩
 - **같은 현장** — 같은 현장명에 속한 근무자들이 하나의 **배정(Assignment)** 단위
 - **첫 번째 근무자** — 각 현장의 첫 줄이 **팀장(Leader)**, 나머지가 팀원
 
@@ -121,7 +121,7 @@ roster.slice(1).forEach(r => {
 // 2단계: 급여대장에서 현장별로 그룹핑
 const sites = {};
 dataRows.forEach(r => {
-  const site = String(r[4]).trim();  // 현장명: "박경원_서초_0701"
+  const site = String(r[4]).trim();  // 현장명: "홍길동_서초_0701"
   if (!sites[site]) sites[site] = [];
   sites[site].push({
     name: String(r[2]).trim(),
@@ -154,12 +154,12 @@ Object.entries(sites).forEach(([site, workers]) => {
 ```mermaid
 flowchart TD
     subgraph "엑셀 1행"
-        R["NO=1, 최윤정, 박경원_서초_0701, 16000, 8, 30000"]
+        R["NO=1, 김팀장, 홍길동_서초_0701, 16000, 8, 30000"]
     end
 
     subgraph "파싱 결과"
-        P["Partner: 최윤정<br/>UUID 생성"]
-        A["Assignment: 박경원_서초<br/>date: 2026-07-01<br/>leader: 최윤정"]
+        P["Partner: 김팀장<br/>UUID 생성"]
+        A["Assignment: 홍길동_서초<br/>date: 2026-07-01<br/>leader: 김팀장"]
         PR["PayrollRecord:<br/>rate: 16000, hours: 8<br/>bonus: 30000, total: 158000"]
     end
 
@@ -189,17 +189,17 @@ flowchart TD
 ```javascript
 // src/mockData.js — ES Module로 export
 export const MOCK_PARTNERS = [
-  { id: "uuid-1", name: "주선희", region: "서울/경기",
+  { id: "uuid-1", name: "파트너A", region: "서울/경기",
     specialty: "정리수납", is_active: true },
-  { id: "uuid-2", name: "백수민", region: "서울/경기",
+  { id: "uuid-2", name: "파트너B", region: "서울/경기",
     specialty: "정리수납", is_active: true },
-  // ... 총 72명
+  // ... 총 72명 (실명 → 익명화)
 ];
 
 export const MOCK_ASSIGNMENTS = [
   { id: "uuid-a1", leader_id: "uuid-1",
     member_ids: ["uuid-2", "uuid-3", ...],
-    client_name: "박경원", client_address: "서초",
+    client_name: "홍길동", client_address: "서초",
     assignment_date: "2026-07-01", status: "완료" },
   // ... 총 71건
 ];
@@ -338,20 +338,23 @@ async function loadAssignments() {
 | **급여 관리** | ₩26,854,000 / 224건 / 46명 | 일치 | ✅ |
 | **일정 관리** | 7월 캘린더 71건 | 71건 | ✅ |
 
-### 급여 통계 상위 10명
+### 급여 통계 상위 10명 (익명화)
 
 | 파트너 | 근무 건수 | 총 근무시간 | 평균 시급 | 총 급여 |
 |--------|:-------:|:---------:|:-------:|------:|
-| 김경아 | 14건 | 109h | ₩16,143 | ₩1,907,000 |
-| 이상은 | 13건 | 99h | ₩15,154 | ₩1,560,000 |
-| 김경숙1 | 11건 | 81h | ₩15,364 | ₩1,282,000 |
-| 채혜란 | 10건 | 76h | ₩15,400 | ₩1,246,000 |
-| 윤미옥 | 9건 | 74h | ₩15,222 | ₩1,164,000 |
-| 김경화 | 10건 | 71h | ₩15,400 | ₩1,140,000 |
-| 강미경 | 9건 | 67h | ₩15,333 | ₩1,113,000 |
-| 이금란 | 9건 | 69h | ₩15,222 | ₩1,087,000 |
-| 김복형 | 9건 | 67h | ₩15,333 | ₩1,073,000 |
-| 배영화 | 10건 | 60h | ₩16,800 | ₩1,008,000 |
+| 파트너 A | 14건 | 109h | ₩16,143 | ₩1,907,000 |
+| 파트너 B | 13건 | 99h | ₩15,154 | ₩1,560,000 |
+| 파트너 C | 11건 | 81h | ₩15,364 | ₩1,282,000 |
+| 파트너 D | 10건 | 76h | ₩15,400 | ₩1,246,000 |
+| 파트너 E | 9건 | 74h | ₩15,222 | ₩1,164,000 |
+| 파트너 F | 10건 | 71h | ₩15,400 | ₩1,140,000 |
+| 파트너 G | 9건 | 67h | ₩15,333 | ₩1,113,000 |
+| 파트너 H | 9건 | 69h | ₩15,222 | ₩1,087,000 |
+| 파트너 I | 9건 | 67h | ₩15,333 | ₩1,073,000 |
+| 파트너 J | 10건 | 60h | ₩16,800 | ₩1,008,000 |
+
+> 실제 시스템에서는 실명으로 표시되지만, 블로그에서는 **개인정보 보호**를 위해 익명화했습니다.
+{: .prompt-warning }
 
 ---
 
@@ -439,7 +442,7 @@ flowchart TD
 ### 1. 엑셀 컨벤션이 곧 스키마
 
 ```
-현장명: "박경원_서초_0701"
+현장명: "홍길동_서초_0701"
          ↓        ↓     ↓
    client_name  addr  date
 ```
@@ -461,7 +464,7 @@ Mock 데이터라고 하면 `"홍길동"`, `"테스트"` 같은 더미 데이터
 
 ```javascript
 // Supabase JOIN 결과
-{ ...assignment, leader: { name: "최윤정", region: "서초" } }
+{ ...assignment, leader: { name: "김팀장", region: "서초" } }
 
 // Mock 시뮬레이션 — 동일한 구조
 const leaderP = partners.find(p => p.id === a.leader_id);

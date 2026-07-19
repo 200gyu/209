@@ -70,24 +70,24 @@
 
       <rect x="0" y="28" width="290" height="20" rx="2" fill="#ffffff" fill-opacity="0.06"/>
       <text x="10" y="42" fill="#d1d5db" font-size="9">1</text>
-      <text x="45" y="42" fill="#d1d5db" font-size="9">&#xCD5C;&#xC724;&#xC815;</text>
-      <text x="100" y="42" fill="#d1d5db" font-size="9">&#xBC15;&#xACBD;&#xC6D0;_&#xC11C;&#xCD08;_0701</text>
+      <text x="45" y="42" fill="#d1d5db" font-size="9">Partner A</text>
+      <text x="100" y="42" fill="#d1d5db" font-size="9">Client_&#xC11C;&#xCD08;_0701</text>
       <text x="175" y="42" fill="#d1d5db" font-size="9">16,000</text>
       <text x="220" y="42" fill="#d1d5db" font-size="9">8</text>
       <text x="255" y="42" fill="#d1d5db" font-size="9">30,000</text>
 
       <rect x="0" y="50" width="290" height="20" rx="2" fill="#ffffff" fill-opacity="0.03"/>
       <text x="10" y="64" fill="#9ca3af" font-size="9">2</text>
-      <text x="45" y="64" fill="#9ca3af" font-size="9">&#xCC44;&#xD61C;&#xB780;</text>
-      <text x="100" y="64" fill="#9ca3af" font-size="9">&#xBC15;&#xACBD;&#xC6D0;_&#xC11C;&#xCD08;_0701</text>
+      <text x="45" y="64" fill="#9ca3af" font-size="9">Partner B</text>
+      <text x="100" y="64" fill="#9ca3af" font-size="9">Client_&#xC11C;&#xCD08;_0701</text>
       <text x="175" y="64" fill="#9ca3af" font-size="9">15,000</text>
       <text x="220" y="64" fill="#9ca3af" font-size="9">8</text>
       <text x="255" y="64" fill="#9ca3af" font-size="9">0</text>
 
       <rect x="0" y="72" width="290" height="20" rx="2" fill="#ffffff" fill-opacity="0.06"/>
       <text x="10" y="86" fill="#9ca3af" font-size="9">3</text>
-      <text x="45" y="86" fill="#9ca3af" font-size="9">&#xAC15;&#xBBF8;&#xACBD;</text>
-      <text x="100" y="86" fill="#9ca3af" font-size="9">&#xBC15;&#xACBD;&#xC6D0;_&#xC11C;&#xCD08;_0701</text>
+      <text x="45" y="86" fill="#9ca3af" font-size="9">Partner C</text>
+      <text x="100" y="86" fill="#9ca3af" font-size="9">Client_&#xC11C;&#xCD08;_0701</text>
       <text x="175" y="86" fill="#9ca3af" font-size="9">15,000</text>
       <text x="220" y="86" fill="#9ca3af" font-size="9">8</text>
       <text x="255" y="86" fill="#9ca3af" font-size="9">0</text>
