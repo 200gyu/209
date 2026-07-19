@@ -23,6 +23,7 @@ mermaid: true
 > 7. [v4 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v4-payroll %}) — 급여 정산 및 관리 시스템
 > 8. [v4.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v41-enhance %}) — UX 고도화 및 급여 기타수당
 > 9. **[현재 글] v5 업그레이드** — 통합 일정 관리 달력
+> 10. [v5.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v51-payroll-mobile %}) — 급여 산식 정밀화 및 모바일 카드 레이아웃
 {: .prompt-info }
 
 ## 📋 업그레이드 배경
@@ -502,6 +503,7 @@ gantt
 | **시리즈 #6** | [v3.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v3-dayoff %}) |
 | **시리즈 #7** | [v4 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v4-payroll %}) |
 | **시리즈 #8** | [v4.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v41-enhance %}) |
+| **시리즈 #10** | [v5.1 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v51-payroll-mobile %}) |
 
 ---
 
