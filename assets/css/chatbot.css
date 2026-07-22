@@ -1,0 +1,131 @@
+/* NEXT X 기술 블로그 AI 챗봇 위젯 — Chirpy 테마 톤에 맞춘 스타일 (라이트/다크 대응) */
+:root {
+  --nx-chat-accent: #1d4ed8;
+  --nx-chat-accent-2: #0ea5e9;
+}
+
+#nx-chat-fab {
+  position: fixed;
+  right: 1.4rem;
+  bottom: 1.4rem;
+  z-index: 2147483000;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--nx-chat-accent), var(--nx-chat-accent-2));
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+  box-shadow: 0 6px 20px rgba(29, 78, 216, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nx-chat-fab:hover { transform: translateY(-2px) scale(1.05); box-shadow: 0 8px 26px rgba(29, 78, 216, 0.45); }
+#nx-chat-fab:active { transform: scale(0.97); }
+
+#nx-chat-panel {
+  position: fixed;
+  right: 1.4rem;
+  bottom: 5.6rem;
+  z-index: 2147483000;
+  width: 380px;
+  max-width: calc(100vw - 2rem);
+  height: 560px;
+  max-height: calc(100vh - 8rem);
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+#nx-chat-panel.nx-open { display: flex; }
+
+.nx-chat-header {
+  background: linear-gradient(135deg, #1e3a5f, var(--nx-chat-accent));
+  color: #fff;
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nx-chat-header .nx-title { font-weight: 700; font-size: 0.95rem; }
+.nx-chat-header .nx-sub { font-size: 0.72rem; opacity: 0.8; display: block; margin-top: 2px; }
+.nx-chat-close { background: none; border: none; color: #fff; font-size: 1.3rem; cursor: pointer; line-height: 1; opacity: 0.85; }
+.nx-chat-close:hover { opacity: 1; }
+
+.nx-chat-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #f8fafc;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.nx-msg { margin-bottom: 0.8rem; display: flex; }
+.nx-msg.nx-user { justify-content: flex-end; }
+.nx-bubble {
+  max-width: 85%;
+  padding: 0.55rem 0.8rem;
+  border-radius: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.nx-user .nx-bubble { background: var(--nx-chat-accent); color: #fff; border-bottom-right-radius: 3px; }
+.nx-bot .nx-bubble { background: #fff; color: #1f2937; border: 1px solid #e5e7eb; border-bottom-left-radius: 3px; }
+.nx-bubble a { color: var(--nx-chat-accent); font-weight: 600; text-decoration: underline; }
+.nx-user .nx-bubble a { color: #fff; }
+
+.nx-typing .nx-bubble { color: #94a3b8; font-style: italic; }
+
+.nx-chat-input {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.7rem;
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+}
+.nx-chat-input textarea {
+  flex: 1;
+  resize: none;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.88rem;
+  font-family: inherit;
+  max-height: 90px;
+  outline: none;
+  background: #fff;
+  color: #1f2937;
+}
+.nx-chat-input textarea:focus { border-color: var(--nx-chat-accent); }
+.nx-chat-send {
+  border: none;
+  background: var(--nx-chat-accent);
+  color: #fff;
+  border-radius: 10px;
+  padding: 0 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.nx-chat-send:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.nx-chat-disclaimer { font-size: 0.68rem; color: #9ca3af; text-align: center; padding: 0 0.7rem 0.5rem; background: #fff; }
+
+/* 다크 모드 (Chirpy: html[data-mode="dark"]) */
+html[data-mode='dark'] #nx-chat-panel { background: #1b1b1e; border-color: #2c2c2e; }
+html[data-mode='dark'] .nx-chat-body { background: #161618; }
+html[data-mode='dark'] .nx-bot .nx-bubble { background: #232326; color: #e5e7eb; border-color: #2f2f33; }
+html[data-mode='dark'] .nx-chat-input { background: #1b1b1e; border-color: #2c2c2e; }
+html[data-mode='dark'] .nx-chat-input textarea { background: #232326; color: #e5e7eb; border-color: #2f2f33; }
+html[data-mode='dark'] .nx-chat-disclaimer { background: #1b1b1e; }
+
+@media (max-width: 520px) {
+  #nx-chat-panel { right: 0.6rem; left: 0.6rem; width: auto; bottom: 5rem; }
+  #nx-chat-fab { right: 1rem; bottom: 1rem; }
+}
