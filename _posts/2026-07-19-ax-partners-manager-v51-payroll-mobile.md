@@ -25,6 +25,7 @@ mermaid: true
 > 9. [v5 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v5-schedule %}) — 통합 일정 관리 달력
 > 10. **[현재 글] v5.1 업그레이드** — 급여 산식 정밀화 및 모바일 카드 레이아웃
 > 11. [v5.2 업그레이드]({% post_url 2026-07-19-ax-partners-manager-v52-mock-data %}) — 엑셀 기반 Mock 데이터 파이프라인
+> 12. [v5.3 업그레이드]({% post_url 2026-07-20-ax-partners-manager-v53-production-data %}) — 운영 데이터 전환 및 공제액 산식
 {: .prompt-info }
 
 ## 📋 업그레이드 배경
