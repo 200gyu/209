@@ -1,0 +1,103 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="320" x2="1200" y2="320" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Version badge -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="65" height="28" rx="14" fill="#0ea5e9" fill-opacity="0.4" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="32" y="19" text-anchor="middle" fill="#7dd3fc" font-size="12" font-weight="700">v5.4</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="135" fill="#ffffff" font-size="40" font-weight="800" letter-spacing="-1">Partners Matching Manager</text>
+  <text x="60" y="188" fill="#93c5fd" font-size="27" font-weight="600">Security Audit &amp; RBAC</text>
+  <text x="60" y="222" fill="#93c5fd" font-size="27" font-weight="600">권한 분리 · 엑셀 · 중복 방지</text>
+
+  <!-- Left card: the RLS OR-policy bug -->
+  <g transform="translate(60, 262)">
+    <rect x="0" y="0" width="530" height="292" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="25" y="38" fill="#fca5a5" font-size="14" font-weight="700">🛡 THE RLS TRAP (found &amp; fixed)</text>
+
+    <!-- before: OR of policies leaves anon open -->
+    <g transform="translate(25, 58)">
+      <rect x="0" y="0" width="480" height="70" rx="10" fill="url(#redGrad)" stroke="#ef4444" stroke-opacity="0.4"/>
+      <text x="15" y="26" fill="#fecaca" font-size="12" font-weight="700">BEFORE — v2가 authenticated 정책만 추가</text>
+      <text x="15" y="46" fill="#e2e8f0" font-size="12">anon 정책(v1) 잔존 + RLS는 OR →</text>
+      <text x="15" y="62" fill="#fca5a5" font-size="12" font-weight="700">누구나 실명 조회 가능 (문 열림)</text>
+    </g>
+
+    <text x="265" y="150" text-anchor="middle" fill="#7dd3fc" font-size="18">▼ anon 정책 제거</text>
+
+    <!-- after -->
+    <g transform="translate(25, 162)">
+      <rect x="0" y="0" width="480" height="70" rx="10" fill="url(#greenGrad)" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="15" y="26" fill="#bbf7d0" font-size="12" font-weight="700">AFTER — 역할별 RLS로 통일</text>
+      <text x="15" y="46" fill="#e2e8f0" font-size="12">anon 정책 0건 · authenticated만 접근</text>
+      <text x="15" y="62" fill="#6ee7b7" font-size="12" font-weight="700">실명 조회 3행 → 0행 (실증)</text>
+    </g>
+
+    <text x="25" y="262" fill="#94a3b8" font-size="12">교훈: 정책 "추가" ≠ 기존 정책 "제거". RLS는 OR.</text>
+    <text x="25" y="282" fill="#94a3b8" font-size="12">클라이언트 역할은 UI용 — 진짜 방어는 서버 RLS.</text>
+  </g>
+
+  <!-- Right card: what shipped -->
+  <g transform="translate(620, 262)">
+    <rect x="0" y="0" width="520" height="292" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="25" y="38" fill="#7dd3fc" font-size="14" font-weight="700">✅ 이번에 라이브</text>
+
+    <g transform="translate(25, 58)">
+      <rect x="0" y="0" width="470" height="46" rx="10" fill="#ffffff" fill-opacity="0.06"/>
+      <text x="15" y="20" fill="#e2e8f0" font-size="13" font-weight="700">🔐 RBAC 권한 분리</text>
+      <text x="15" y="38" fill="#94a3b8" font-size="11">관리자 앱 vs 파트너 마이페이지 · 역할별 RLS</text>
+
+      <rect x="0" y="56" width="470" height="46" rx="10" fill="#ffffff" fill-opacity="0.06"/>
+      <text x="15" y="76" fill="#e2e8f0" font-size="13" font-weight="700">📊 엑셀 내보내기 / 대량 등록</text>
+      <text x="15" y="94" fill="#94a3b8" font-size="11">SheetJS 동적 import · 급여명세·파트너 일괄</text>
+
+      <rect x="0" y="112" width="470" height="46" rx="10" fill="#ffffff" fill-opacity="0.06"/>
+      <text x="15" y="132" fill="#e2e8f0" font-size="13" font-weight="700">🚫 중복 배정 방지</text>
+      <text x="15" y="150" fill="#94a3b8" font-size="11">이중배정 경고 + DB UNIQUE 인덱스</text>
+
+      <rect x="0" y="168" width="470" height="46" rx="10" fill="#ffffff" fill-opacity="0.06"/>
+      <text x="15" y="188" fill="#e2e8f0" font-size="13" font-weight="700">🚀 배포 함정 발견</text>
+      <text x="15" y="206" fill="#94a3b8" font-size="11">git push 자동배포 안 됨 → CLI 배포로 해결</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="600" fill="#64748b" font-size="13">NEXT X R&amp;D</text>
+  <text x="1140" y="600" text-anchor="end" fill="#64748b" font-size="13">KJ Partners System</text>
+</svg>
