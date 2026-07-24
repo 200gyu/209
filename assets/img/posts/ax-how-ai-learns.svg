@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(60, 52)">
+    <rect x="0" y="0" width="180" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="90" y="20" text-anchor="middle" fill="#7dd3fc" font-size="13" font-weight="700">AI 기초 · 학습 노트</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="150" fill="#ffffff" font-size="52" font-weight="800" letter-spacing="-1">AI는 어떻게 배우나</text>
+  <text x="60" y="200" fill="#93c5fd" font-size="24" font-weight="600">규칙을 짜는 기계에서 → 스스로 배우는 기계로</text>
+
+  <!-- Learning loop (center) -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="1080" height="300" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="30" y="42" fill="#fbbf24" font-size="15" font-weight="700">학습의 핵심 루프</text>
+
+    <!-- 4 steps -->
+    <g transform="translate(30, 70)">
+      <!-- 예측 -->
+      <rect x="0" y="30" width="220" height="90" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="110" y="65" text-anchor="middle" fill="#c7d2fe" font-size="17" font-weight="700">① 예측</text>
+      <text x="110" y="92" text-anchor="middle" fill="#94a3b8" font-size="12">입력을 보고 답을 냄</text>
+
+      <text x="235" y="82" text-anchor="middle" fill="#64748b" font-size="22">→</text>
+
+      <!-- 오차 -->
+      <rect x="250" y="30" width="220" height="90" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#f472b6" stroke-opacity="0.4"/>
+      <text x="360" y="65" text-anchor="middle" fill="#fbcfe8" font-size="17" font-weight="700">② 오차 계산</text>
+      <text x="360" y="92" text-anchor="middle" fill="#94a3b8" font-size="12">정답과의 차이</text>
+
+      <text x="485" y="82" text-anchor="middle" fill="#64748b" font-size="22">→</text>
+
+      <!-- 조정 -->
+      <rect x="500" y="30" width="220" height="90" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="610" y="65" text-anchor="middle" fill="#a7f3d0" font-size="17" font-weight="700">③ 가중치 조정</text>
+      <text x="610" y="92" text-anchor="middle" fill="#94a3b8" font-size="12">경사하강법</text>
+
+      <text x="735" y="82" text-anchor="middle" fill="#64748b" font-size="22">→</text>
+
+      <!-- 역전파 -->
+      <rect x="750" y="30" width="220" height="90" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity="0.4"/>
+      <text x="860" y="65" text-anchor="middle" fill="#fde68a" font-size="17" font-weight="700">④ 역전파</text>
+      <text x="860" y="92" text-anchor="middle" fill="#94a3b8" font-size="12">뒤→앞 되짚기</text>
+
+      <!-- loop arrow back -->
+      <path d="M 860 160 L 860 185 L 110 185 L 110 130" fill="none" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="5 4"/>
+      <text x="485" y="205" text-anchor="middle" fill="#7dd3fc" font-size="12">오차가 0에 가까워질 때까지 반복</text>
+    </g>
+
+    <!-- bottom keywords -->
+    <text x="30" y="272" fill="#94a3b8" font-size="13">임베딩·텐서 · 회귀 vs 분류 · 파인튜닝 · GPU · "결국 데이터가 전부다"</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="602" fill="#64748b" font-size="13">NEXT X R&amp;D · 모두의연구소 아이펠 AI 에이전트 1기</text>
+</svg>

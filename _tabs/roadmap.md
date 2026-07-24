@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-title: 학습 로드맵
+title: 로드맵
 icon: fas fa-map-signs
 order: 1
 ---
