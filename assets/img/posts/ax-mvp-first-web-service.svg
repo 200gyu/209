@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(60, 52)">
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="115" y="20" text-anchor="middle" fill="#7dd3fc" font-size="13" font-weight="700">바이브코딩 · 학습 노트</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="150" fill="#ffffff" font-size="50" font-weight="800" letter-spacing="-1">첫 웹 서비스, 최소로 만들어 배포하기</text>
+  <text x="60" y="200" fill="#93c5fd" font-size="24" font-weight="600">AI 에이전트와 함께 완성하는 MVP</text>
+
+  <!-- 5 steps card (center) -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="1080" height="300" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="30" y="42" fill="#fbbf24" font-size="15" font-weight="700">웹 만들기 5단계</text>
+
+    <g transform="translate(30, 62)">
+      <!-- 1 PRD -->
+      <rect x="0" y="20" width="196" height="86" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="98" y="54" text-anchor="middle" fill="#c7d2fe" font-size="16" font-weight="700">① PRD</text>
+      <text x="98" y="80" text-anchor="middle" fill="#94a3b8" font-size="12">기획서 한 장</text>
+
+      <text x="205" y="70" text-anchor="middle" fill="#64748b" font-size="20">→</text>
+
+      <!-- 2 harness -->
+      <rect x="216" y="20" width="196" height="86" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#f472b6" stroke-opacity="0.4"/>
+      <text x="314" y="54" text-anchor="middle" fill="#fbcfe8" font-size="16" font-weight="700">② 작업대</text>
+      <text x="314" y="80" text-anchor="middle" fill="#94a3b8" font-size="12">CLAUDE.md</text>
+
+      <text x="421" y="70" text-anchor="middle" fill="#64748b" font-size="20">→</text>
+
+      <!-- 3 UI -->
+      <rect x="432" y="20" width="196" height="86" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="530" y="54" text-anchor="middle" fill="#a7f3d0" font-size="16" font-weight="700">③ 화면</text>
+      <text x="530" y="80" text-anchor="middle" fill="#94a3b8" font-size="12">목업 UI</text>
+
+      <text x="637" y="70" text-anchor="middle" fill="#64748b" font-size="20">→</text>
+
+      <!-- 4 storage -->
+      <rect x="648" y="20" width="196" height="86" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity="0.4"/>
+      <text x="746" y="54" text-anchor="middle" fill="#fde68a" font-size="16" font-weight="700">④ 저장</text>
+      <text x="746" y="80" text-anchor="middle" fill="#94a3b8" font-size="12">DB·트랜잭션</text>
+
+      <text x="853" y="70" text-anchor="middle" fill="#64748b" font-size="20">→</text>
+
+      <!-- 5 deploy -->
+      <rect x="864" y="20" width="156" height="86" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="942" y="54" text-anchor="middle" fill="#7dd3fc" font-size="16" font-weight="700">⑤ 배포</text>
+      <text x="942" y="80" text-anchor="middle" fill="#94a3b8" font-size="12">한 바퀴+출시</text>
+    </g>
+
+    <!-- bottom keywords -->
+    <text x="30" y="200" fill="#7dd3fc" font-size="14" font-weight="600">"첫 버전이 부끄럽지 않다면, 너무 늦게 출시한 것이다"</text>
+    <text x="30" y="272" fill="#94a3b8" font-size="13">MVP · MoSCoW · 스코프 크립 경계 · 한 번에 하나 · 작동하면 커밋 · 이해 못 한 코드는 배포 금지</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="602" fill="#64748b" font-size="13">NEXT X R&amp;D · 모두의연구소 아이펠 AI 에이전트 1기</text>
+</svg>
