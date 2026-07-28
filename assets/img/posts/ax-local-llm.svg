@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(60, 52)">
+    <rect x="0" y="0" width="190" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="95" y="20" text-anchor="middle" fill="#7dd3fc" font-size="13" font-weight="700">로컬 LLM · 학습 노트</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="150" fill="#ffffff" font-size="50" font-weight="800" letter-spacing="-1">내 노트북에서 LLM 돌리기</text>
+  <text x="60" y="200" fill="#93c5fd" font-size="24" font-weight="600">양자화·추론부터 로컬 vs API 판단까지</text>
+
+  <!-- decision card (center) -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="1080" height="300" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="30" y="42" fill="#fbbf24" font-size="15" font-weight="700">어디서 돌릴까 — 하이브리드 판단</text>
+
+    <g transform="translate(30, 66)">
+      <!-- 로컬 -->
+      <rect x="0" y="0" width="330" height="150" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="165" y="34" text-anchor="middle" fill="#c7d2fe" font-size="17" font-weight="700">🖥️ 로컬 / 온프레미스</text>
+      <text x="165" y="66" text-anchor="middle" fill="#94a3b8" font-size="12.5">민감정보·폐쇄망</text>
+      <text x="165" y="90" text-anchor="middle" fill="#94a3b8" font-size="12.5">단가 0에 수렴하는 대량작업</text>
+      <text x="165" y="120" text-anchor="middle" fill="#7dd3fc" font-size="12">양자화 · KV Cache · Ollama</text>
+
+      <!-- API -->
+      <rect x="360" y="0" width="330" height="150" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="525" y="34" text-anchor="middle" fill="#a7f3d0" font-size="17" font-weight="700">☁️ 공개 API</text>
+      <text x="525" y="66" text-anchor="middle" fill="#94a3b8" font-size="12.5">공개데이터 복잡 추론</text>
+      <text x="525" y="90" text-anchor="middle" fill="#94a3b8" font-size="12.5">프런티어급 품질 필수</text>
+      <text x="525" y="120" text-anchor="middle" fill="#6ee7b7" font-size="12">즉시 사용 · 종량제</text>
+
+      <!-- 하이브리드 -->
+      <rect x="720" y="0" width="330" height="150" rx="12" fill="#0ea5e9" fill-opacity="0.22" stroke="#38bdf8" stroke-opacity="0.55"/>
+      <text x="885" y="34" text-anchor="middle" fill="#e0f2fe" font-size="17" font-weight="800">🔀 하이브리드</text>
+      <text x="885" y="66" text-anchor="middle" fill="#bae6fd" font-size="12.5">① 로컬로 민감정보 마스킹</text>
+      <text x="885" y="90" text-anchor="middle" fill="#bae6fd" font-size="12.5">② 익명 텍스트만 API 전송</text>
+      <text x="885" y="120" text-anchor="middle" fill="#7dd3fc" font-size="12">단계를 쪼개 배치</text>
+    </g>
+
+    <!-- bottom keywords -->
+    <text x="30" y="272" fill="#94a3b8" font-size="13">학습 vs 추론 · 양자화(Q4_K_M) · KV Cache · MoE · 데이터·비용(TCO)·통제권</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="602" fill="#64748b" font-size="13">NEXT X R&amp;D · 모두의연구소 아이펠 AI 에이전트 1기</text>
+</svg>
