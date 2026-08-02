@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(60, 52)">
+    <rect x="0" y="0" width="240" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="120" y="20" text-anchor="middle" fill="#7dd3fc" font-size="13" font-weight="700">멀티모달·음성 · 학습 노트</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="150" fill="#ffffff" font-size="47" font-weight="800" letter-spacing="-1">여러 입력을 함께 다루는 멀티모달</text>
+  <text x="60" y="200" fill="#93c5fd" font-size="23" font-weight="600">음성·이미지·텍스트를 하나의 좌표로 — STT·TTS·Omni</text>
+
+  <!-- center card -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="1080" height="300" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="30" y="42" fill="#fbbf24" font-size="15" font-weight="700">정렬(Alignment) — 서로 다른 형식을 같은 의미 공간으로</text>
+
+    <g transform="translate(30, 64)">
+      <!-- 연결형 -->
+      <rect x="0" y="0" width="335" height="130" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="167" y="34" text-anchor="middle" fill="#c7d2fe" font-size="16" font-weight="700">① 연결형</text>
+      <text x="167" y="64" text-anchor="middle" fill="#94a3b8" font-size="12.5">전용 인코더 → LLM에 전달</text>
+      <text x="167" y="88" text-anchor="middle" fill="#94a3b8" font-size="12.5">오픈소스 다수</text>
+
+      <!-- 공유 임베딩 -->
+      <rect x="365" y="0" width="335" height="130" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="532" y="34" text-anchor="middle" fill="#a7f3d0" font-size="16" font-weight="700">② 공유 임베딩형</text>
+      <text x="532" y="64" text-anchor="middle" fill="#94a3b8" font-size="12.5">같은 의미 공간에 배치</text>
+      <text x="532" y="88" text-anchor="middle" fill="#94a3b8" font-size="12.5">교차 검색에 강함 (CLIP)</text>
+
+      <!-- 네이티브 Omni -->
+      <rect x="730" y="0" width="320" height="130" rx="12" fill="#0ea5e9" fill-opacity="0.22" stroke="#38bdf8" stroke-opacity="0.55"/>
+      <text x="890" y="34" text-anchor="middle" fill="#e0f2fe" font-size="16" font-weight="800">③ 네이티브 Omni</text>
+      <text x="890" y="64" text-anchor="middle" fill="#bae6fd" font-size="12.5">한 신경망에서 입력→출력</text>
+      <text x="890" y="88" text-anchor="middle" fill="#bae6fd" font-size="12.5">실시간 (GPT-4o · Gemini)</text>
+    </g>
+
+    <!-- bottom keywords -->
+    <text x="30" y="238" fill="#7dd3fc" font-size="13.5" font-weight="600">음성: 스펙트로그램 · CTC · Whisper(68만 시간) — '시간 정렬' 문제를 풀다</text>
+    <text x="30" y="272" fill="#94a3b8" font-size="13">한국어는 CER로 평가 · GGUF/MLX·양자화 · 회의록은 '오류 세탁' 방지 + 타임스탬프</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="602" fill="#64748b" font-size="13">NEXT X R&amp;D · 모두의연구소 아이펠 AI 에이전트 1기</text>
+</svg>
