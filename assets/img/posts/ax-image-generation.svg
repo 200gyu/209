@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(60, 52)">
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="115" y="20" text-anchor="middle" fill="#7dd3fc" font-size="13" font-weight="700">이미지 생성 · 학습 노트</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="150" fill="#ffffff" font-size="49" font-weight="800" letter-spacing="-1">AI는 어떻게 이미지를 그리나</text>
+  <text x="60" y="200" fill="#93c5fd" font-size="23" font-weight="600">GAN·Diffusion부터 프롬프트 · 코드 · 영상까지</text>
+
+  <!-- center card -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="1080" height="300" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="30" y="42" fill="#fbbf24" font-size="15" font-weight="700">기술의 계보 — 더 빠르고, 말귀를 더 잘 알아듣게</text>
+
+    <!-- lineage chips -->
+    <g transform="translate(30, 66)" font-size="13.5" font-weight="700">
+      <rect x="0" y="0" width="150" height="54" rx="10" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="75" y="26" text-anchor="middle" fill="#c7d2fe">GAN</text>
+      <text x="75" y="44" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="400">위조범 vs 감정사</text>
+
+      <text x="162" y="32" fill="#64748b" font-size="18">→</text>
+
+      <rect x="182" y="0" width="150" height="54" rx="10" fill="#ffffff" fill-opacity="0.08" stroke="#f472b6" stroke-opacity="0.4"/>
+      <text x="257" y="26" text-anchor="middle" fill="#fbcfe8">Diffusion</text>
+      <text x="257" y="44" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="400">노이즈를 걷어내며</text>
+
+      <text x="344" y="32" fill="#64748b" font-size="18">→</text>
+
+      <rect x="364" y="0" width="150" height="54" rx="10" fill="#ffffff" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="439" y="26" text-anchor="middle" fill="#a7f3d0">CLIP · LLM</text>
+      <text x="439" y="44" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="400">말귀 이해</text>
+
+      <text x="526" y="32" fill="#64748b" font-size="18">→</text>
+
+      <rect x="546" y="0" width="164" height="54" rx="10" fill="#ffffff" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity="0.4"/>
+      <text x="628" y="26" text-anchor="middle" fill="#fde68a">Latent · DiT</text>
+      <text x="628" y="44" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="400">VRAM에서 · 어텐션</text>
+
+      <text x="722" y="32" fill="#64748b" font-size="18">→</text>
+
+      <rect x="742" y="0" width="164" height="54" rx="10" fill="#0ea5e9" fill-opacity="0.22" stroke="#38bdf8" stroke-opacity="0.55"/>
+      <text x="824" y="26" text-anchor="middle" fill="#e0f2fe">Distillation</text>
+      <text x="824" y="44" text-anchor="middle" fill="#bae6fd" font-size="11" font-weight="400">50스텝 → 1~4스텝</text>
+    </g>
+
+    <!-- principle -->
+    <text x="30" y="176" fill="#7dd3fc" font-size="16" font-weight="700">💡 "안 적은 것은 모델이 대신 정한다"</text>
+    <text x="30" y="204" fill="#94a3b8" font-size="13">명시 안 한 속성(시선·조명·구도)은 가장 흔한 값으로 임의 채움 → 완전한 문장으로 6요소를 채워라</text>
+
+    <!-- bottom keywords -->
+    <text x="30" y="272" fill="#94a3b8" font-size="13">프롬프트 6요소 · 증류 모델 guidance_scale=0.0 · 라이선스 · 영상은 카메라 고정 · AI 생성 표기</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="602" fill="#64748b" font-size="13">NEXT X R&amp;D · 모두의연구소 아이펠 AI 에이전트 1기</text>
+</svg>
