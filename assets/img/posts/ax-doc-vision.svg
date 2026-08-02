@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(60, 52)">
+    <rect x="0" y="0" width="240" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="120" y="20" text-anchor="middle" fill="#7dd3fc" font-size="13" font-weight="700">문서·비전 AI · 학습 노트</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="150" fill="#ffffff" font-size="47" font-weight="800" letter-spacing="-1">문서와 사진에서 무엇을 꺼낼까</text>
+  <text x="60" y="200" fill="#93c5fd" font-size="23" font-weight="600">같은 입력, 다른 자료형 — OCR · VLM · 컴퓨터비전</text>
+
+  <!-- two pipelines (center) -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="1080" height="300" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="30" y="42" fill="#fbbf24" font-size="15" font-weight="700">질문이 바뀌면 출력의 '자료형'이 바뀐다</text>
+
+    <!-- 문서 -->
+    <g transform="translate(30, 62)">
+      <rect x="0" y="0" width="500" height="180" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="24" y="34" fill="#c7d2fe" font-size="16" font-weight="700">📄 문서 — 글자를 꺼내는 길</text>
+      <text x="24" y="70" fill="#e0e7ff" font-size="13.5" font-weight="600">전통 OCR</text>
+      <text x="44" y="92" fill="#94a3b8" font-size="12.5">글자 + 근거 좌표(상자) → 감사·역추적 쉬움</text>
+      <text x="24" y="124" fill="#e0e7ff" font-size="13.5" font-weight="600">문서·범용 VLM</text>
+      <text x="44" y="146" fill="#94a3b8" font-size="12.5">표·수식·읽기순서 복원 → 구조는 강하나</text>
+      <text x="44" y="166" fill="#fca5a5" font-size="12.5">환각(없는 내용) 검증 필요</text>
+    </g>
+
+    <!-- 사진 -->
+    <g transform="translate(550, 62)">
+      <rect x="0" y="0" width="500" height="180" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="24" y="34" fill="#a7f3d0" font-size="16" font-weight="700">🖼️ 사진 — 찾고 경계 긋기</text>
+      <text x="24" y="70" fill="#d1fae5" font-size="13" font-weight="600">탐지(Detection)</text>
+      <text x="200" y="70" fill="#94a3b8" font-size="12.5">→ 사각형 좌표(Box)</text>
+      <text x="24" y="106" fill="#d1fae5" font-size="13" font-weight="600">분할(Segmentation)</text>
+      <text x="200" y="106" fill="#94a3b8" font-size="12.5">→ 픽셀 마스크</text>
+      <text x="24" y="142" fill="#d1fae5" font-size="13" font-weight="600">포즈(Pose)</text>
+      <text x="200" y="142" fill="#94a3b8" font-size="12.5">→ 관절 키포인트</text>
+      <text x="24" y="168" fill="#fcd34d" font-size="12">임계값·경계정의서 = 업무 정책</text>
+    </g>
+
+    <!-- bottom -->
+    <text x="30" y="272" fill="#94a3b8" font-size="13">"출력 자료형이 다르면 검증 방식도 책임 소재도 달라진다" · 역질문 패턴으로 도구 선택</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="602" fill="#64748b" font-size="13">NEXT X R&amp;D · 모두의연구소 아이펠 AI 에이전트 1기</text>
+</svg>
