@@ -9,6 +9,10 @@ on:
       - README.md
       - LICENSE
 
+  # 예약 발행: 매일 10:05 KST(01:05 UTC)에 재빌드해 날짜가 된 글을 공개
+  schedule:
+    - cron: "5 1 * * *"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
