@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_R&D_Log]** · 모두의연구소 아이펠(AIFFEL) AI 에이전트 1기 학습 정리
+> 🏷️ **[NEXT X R&D 노트]** · 넥스트엑스 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > 오늘의 거대 언어 모델(LLM)은 **이미지 처리**와 **언어 처리**가 각자의 벽에 부딪혔다가 **하나의 열쇠(어텐션)**로 풀리며 태어났습니다.
@@ -163,3 +163,10 @@ flowchart TB
 > 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 학습 기록(R&D Log)입니다.
 > **함께 읽기** — [🧠 AI는 어떻게 배우나]({% post_url 2026-07-24-ax-how-ai-learns %}) · [🔢 임베딩 & 벡터 DB]({% post_url 2026-07-12-embeddings-and-vector-db %}) · [🛠️ 도구를 쓰는 에이전트]({% post_url 2026-07-11-tool-calling-and-multi-agents %})
 {: .prompt-info }
+
+
+---
+
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+{: .prompt-tip }

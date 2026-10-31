@@ -22,7 +22,7 @@ title: NEXT X Inc. # the main title
 tagline: "NEXT X 공식 블로그<br>AX & 업무자동화 솔루션 연구소" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  주식회사 넥스트엑스(NEXT X)의 공식 기술 블로그. AI 전환(AX)·업무 자동화·데이터 엔지니어링 실무 기술과 문제 해결 과정을 공유합니다.
+  주식회사 넥스트엑스(NEXT X) 공식 기술 블로그. 중소기업 AI 도입, 업무 자동화(AX), RAG 사내 챗봇, 데이터 파이프라인 구축의 실무 노하우와 사례를 공유합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

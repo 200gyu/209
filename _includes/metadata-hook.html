@@ -1,7 +1,86 @@
-<!-- NEXT X 기술 블로그 AI 챗봇 위젯 (Chirpy metadata-hook 확장점) -->
-<!-- ⚠️ 배포 후 아래 엔드포인트를 실제 Vercel 배포 URL로 바꾸세요. -->
+<!-- NEXT X 커스텀 <head> 확장 (Chirpy metadata-hook 확장점) -->
+
+<!-- SEO: 태그·카테고리 아카이브는 얇은 목록 페이지라 색인 제외 (링크는 따라가도록 follow 유지) -->
+{%- if page.layout == 'tag' or page.layout == 'category' or page.layout == 'tags' %}
+<meta name="robots" content="noindex, follow">
+{%- endif %}
+
+<!-- SEO: 홈에 회사(Organization)·사이트(WebSite) 구조화 데이터 -->
+{%- if page.layout == 'home' and paginator.page == 1 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ '/' | absolute_url }}#organization",
+      "name": "주식회사 넥스트엑스",
+      "alternateName": ["NEXT X Inc.", "NEXT X", "넥스트엑스"],
+      "url": "{{ '/' | absolute_url }}",
+      "logo": "{{ '/assets/img/og-default.png' | absolute_url }}",
+      "description": {{ site.description | jsonify }},
+      "email": "csnextx@gmail.com",
+      "telephone": "+82-10-4125-2009",
+      "faxNumber": "+82-504-475-0231",
+      "taxID": "874-86-03756",
+      "foundingDate": "2026-07-02",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "수목원로88번길 35, 현대테라타워CMC A동 2518호",
+        "addressLocality": "오산시",
+        "addressRegion": "경기도",
+        "addressCountry": "KR"
+      },
+      "knowsAbout": ["AI 전환(AX)", "업무 자동화", "RAG 챗봇", "데이터 엔지니어링", "생성형 AI 도입 컨설팅"],
+      "sameAs": ["https://github.com/{{ site.github.username }}"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ '/' | absolute_url }}#website",
+      "url": "{{ '/' | absolute_url }}",
+      "name": {{ site.title | jsonify }},
+      "alternateName": "넥스트엑스 기술 블로그",
+      "inLanguage": "ko-KR",
+      "publisher": { "@id": "{{ '/' | absolute_url }}#organization" }
+    }
+  ]
+}
+</script>
+{%- endif %}
+
+<!-- SEO: 글 front matter의 faq 목록 → FAQPage 구조화 데이터 (본문에도 같은 Q&A가 보여야 함) -->
+{%- if page.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>
+{%- endif %}
+
+<!-- AI 챗봇 위젯: 첫 화면 렌더링을 방해하지 않도록 페이지 로드 후 유휴 시간에 지연 로드 -->
 <script>
   window.NEXTX_CHAT_ENDPOINT = "https://nextx-chatbot.vercel.app/api/chat";
+  window.addEventListener('load', function () {
+    var loadChat = function () {
+      var css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = "{{ '/assets/css/chatbot.css' | relative_url }}";
+      document.head.appendChild(css);
+      var js = document.createElement('script');
+      js.src = "{{ '/assets/js/chatbot.js' | relative_url }}";
+      document.body.appendChild(js);
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(loadChat, { timeout: 3000 });
+    else setTimeout(loadChat, 1500);
+  });
 </script>
-<link rel="stylesheet" href="{{ '/assets/css/chatbot.css' | relative_url }}">
-<script defer src="{{ '/assets/js/chatbot.js' | relative_url }}"></script>

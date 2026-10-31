@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_R&D_Log]** · 모두의연구소 아이펠 AI 에이전트 1기 [내 서비스에 백엔드 한 겹 붙이기] 프로젝트 제작기
+> 🏷️ **[NEXT X R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [내 서비스에 백엔드 한 겹 붙이기] 내용을 실무 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > 지난 시간에 [백엔드·네트워크 완전 지도]({% post_url 2026-07-16-dev-backend-networking %})로 서버·DNS·HTTP·API·보안의 전체 지형을 살펴봤습니다. 이번에는 그 지식을 **실전에 적용**합니다 — Supabase를 백엔드로 붙여 실제 서비스를 만들고, GitHub Pages로 세상에 내보내는 전 과정입니다.
@@ -411,3 +411,10 @@ Supabase의 anon key는 브라우저에 노출됩니다. RLS 없이 anon key만�
 
 > 다음 글에서는 이 서비스를 AI 에이전트와 연결하여, 카카오톡이나 슬랙으로 배정을 자동화하는 방법을 다룰 예정입니다.
 {: .prompt-info }
+
+
+---
+
+> 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+{: .prompt-tip }

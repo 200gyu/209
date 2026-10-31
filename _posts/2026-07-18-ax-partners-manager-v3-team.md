@@ -533,3 +533,10 @@ v3까지 완료된 시스템의 현재 상태와 앞으로의 계획:
 ---
 
 *NEXT X R&D · AI Transformation*
+
+
+---
+
+> 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+{: .prompt-tip }

@@ -441,3 +441,10 @@ mindmap
 ---
 
 *NEXT X R&D · Dev & DevOps*
+
+
+---
+
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+{: .prompt-tip }
