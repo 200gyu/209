@@ -8,7 +8,7 @@
   <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
   <g transform="translate(80,92)"><rect width="176" height="48" rx="24" fill="#a5b4fc" opacity="0.2"/><text x="88" y="32" text-anchor="middle" font-size="23" font-weight="700" fill="#c7d2fe">Inside NEXT X</text></g>
   <text x="80" y="248" font-size="50" font-weight="700" fill="#aab0d6">블로그를 쉬는 동안</text>
-  <text x="80" y="336" font-size="82" font-weight="800" fill="url(#ac)">현장에서 보낸 석 달</text>
+  <text x="80" y="336" font-size="82" font-weight="800" fill="url(#ac)">현장에서 보낸 두 달</text>
   <text x="80" y="404" font-size="32" font-weight="600" fill="#e8eaff">전무이사의 기술 영업 일지</text>
   <g transform="translate(80,452)" font-size="22" font-weight="700">
     <g transform="translate(0,0)"><rect width="130" height="50" rx="12" fill="#fff" opacity="0.08"/><text x="65" y="33" text-anchor="middle" fill="#e8eaff">만남</text></g>
