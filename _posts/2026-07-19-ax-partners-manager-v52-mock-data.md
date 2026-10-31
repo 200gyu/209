@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.2 — 엑셀 기반 Mock 데이터 파이프라인 구축"
 date: 2026-07-19 23:59:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, mock데이터, 엑셀파싱, xlsx, nodejs, 데이터파이프라인, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, mock데이터, 엑셀파싱, xlsx, nodejs, 데이터파이프라인, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "224건의 실제 급여대장 엑셀 데이터를 Node.js로 파싱하여 Mock 데이터 모듈로 변환하고, Supabase 없이 전체 기능을 테스트할 수 있는 데모 모드를 구축한 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v52-mock-data.png
@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   setupAuthForms();
   if (USE_MOCK_DATA) {
     // 가상 세션으로 즉시 앱 진입
-    showApp({ user: { email: 'mock@kjpartners.co.kr' } });
+    showApp({ user: { email: 'mock@example.com' } });
     return;
   }
   // ... 원래 Supabase Auth 흐름

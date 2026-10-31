@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v3 — 팀 배정 시스템과 캘린더 뷰"
 date: 2026-07-18 22:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, uuid배열, 팀배정, 캘린더뷰, postgrest, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, uuid배열, 팀배정, 캘린더뷰, postgrest, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "1:1 단일 배정에서 팀장+팀원 다중 배정으로 — DB 스키마 마이그레이션, UUID 배열, PostgREST FK 앨리어싱, 월간 캘린더 뷰까지 v3 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v3-team.png
@@ -191,7 +191,7 @@ flowchart TB
     end
     subgraph "v3 — 팀 배정"
         B["👑 팀장 (필수) *<br/>───────────<br/>▼ 팀장 선택"]
-        C["👥 팀원 (선택)<br/>☐ 강미경<br/>☐ 김경숙1<br/>☐ 박지연<br/>───────────<br/>선택된 팀원: 2명"]
+        C["👥 팀원 (선택)<br/>☐ 강OO<br/>☐ 김OO1<br/>☐ 박OO<br/>───────────<br/>선택된 팀원: 2명"]
     end
     A -->|"업그레이드"| B
     A -->|"업그레이드"| C

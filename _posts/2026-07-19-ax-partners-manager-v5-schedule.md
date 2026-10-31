@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5 — 통합 일정 관리 달력"
 date: 2026-07-19 23:45:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, 통합달력, 일정관리, 캘린더, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, 통합달력, 일정관리, 캘린더, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "흩어져 있던 휴무일 달력과 배정 현황판 달력을 하나의 통합 일정 달력으로 합치고, 클릭 한 번으로 상세 정보까지 — v5 통합 일정 관리 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v5-schedule.png
@@ -156,7 +156,7 @@ flowchart TD
         C --> E["날짜 셀 생성"]
         D --> E
         E --> F["휴무 → .dayoff-entry<br/>[휴무] 홍길동"]
-        E --> G["배정 → .cal-entry<br/>[대기] 김고객 - 제주시"]
+        E --> G["배정 → .cal-entry<br/>[대기] 김고객 - OO시"]
     end
 ```
 
@@ -232,7 +232,7 @@ assignEntries.forEach(a => {
 
 ```mermaid
 flowchart LR
-    A["[대기] 김고객 - 제주시<br/>cal-entry 클릭"] --> B["openAssignmentModal(id)"]
+    A["[대기] 김고객 - OO시<br/>cal-entry 클릭"] --> B["openAssignmentModal(id)"]
     B --> C["#assignment-modal 표시<br/>고객명 · 주소 · 배정일<br/>팀장 · 팀원 · 상태 · 메모"]
     C --> D["ESC 또는 × 닫기"]
 ```

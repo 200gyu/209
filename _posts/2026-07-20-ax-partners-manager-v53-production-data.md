@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.3 — 운영 데이터 전환과 공제액 산식, 그리고 RLS가 나를 막았을 때"
 date: 2026-07-20 18:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, rls, postgresql, 운영전환, 공제액, 데이터마이그레이션, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, rls, postgresql, 운영전환, 공제액, 데이터마이그레이션, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "Mock 데이터로 검증한 시스템을 실제 운영 데이터로 전환하는 과정 — 3.3% 공제액 산식 구현, RLS 보안 정책이 개발자 자신을 막은 사건, 3개월치 실데이터(926건, 1.1억 원) 적재까지의 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v53-production-data.png

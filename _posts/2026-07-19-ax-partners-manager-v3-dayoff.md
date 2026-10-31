@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v3.1 — 휴무일 관리와 스케줄 충돌 방지"
 date: 2026-07-19 18:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, 휴무일관리, 스케줄충돌방지, rls, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, 휴무일관리, 스케줄충돌방지, rls, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "파트너별 휴무일 등록·달력 뷰·배정 시 자동 충돌 감지까지 — 실무 운영의 빈틈을 메우는 v3.1 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v3-dayoff.png
@@ -285,7 +285,7 @@ window.dayoffCalNext = function () {
 flowchart TD
     A["배정 등록 시도<br/>팀장 + 팀원 N명, 날짜 D"] --> B["getConflictingPartners<br/>(전체 팀원 ID[], 날짜 D)"]
     B --> C{충돌 파트너 있음?}
-    C -->|"있음"| D["🚫 토스트 경고<br/>'강미경님이 D에 휴무입니다'"]
+    C -->|"있음"| D["🚫 토스트 경고<br/>'강OO님이 D에 휴무입니다'"]
     D --> E["배정 등록 차단"]
     C -->|"없음"| F["✅ Supabase INSERT<br/>정상 배정 등록"]
 ```

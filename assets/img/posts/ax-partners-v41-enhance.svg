@@ -174,8 +174,8 @@
   <!-- Company badge -->
   <g transform="translate(60, 578)">
     <rect x="0" y="0" width="30" height="22" rx="6" fill="#fff" fill-opacity="0.15"/>
-    <text x="15" y="16" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">KJ</text>
-    <text x="40" y="15" fill="#64748b" font-size="11">KJ Partners  &#xB7;  UX &amp; Payroll Enhancement</text>
+    <text x="15" y="16" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">C</text>
+    <text x="40" y="15" fill="#64748b" font-size="11">Client Case  &#xB7;  UX &amp; Payroll Enhancement</text>
   </g>
 
   <!-- Tech badges -->

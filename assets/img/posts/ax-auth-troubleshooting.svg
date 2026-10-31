@@ -85,7 +85,7 @@
   <!-- Title area -->
   <text x="600" y="80" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="800" letter-spacing="-0.5">Supabase Auth 실전 트러블슈팅</text>
   <text x="600" y="120" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="18">관리자 로그인이 안 될 때 — 에러에서 해결까지의 전 과정</text>
-  <text x="600" y="148" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="13">KJ Partners × NEXT X  |  AX Solution Delivery</text>
+  <text x="600" y="148" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="13">Client Case × NEXT X  |  AX Solution Delivery</text>
 
   <!-- Bottom: Supabase Dashboard mockup -->
   <rect x="180" y="360" width="840" height="220" rx="12" fill="#1c1c1c" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>

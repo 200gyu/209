@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.4 — 보안 감사, 권한 분리(RBAC), 그리고 조용히 멈춰 있던 배포"
 date: 2026-07-23 20:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, rls, rbac, 보안, postgresql, 권한분리, sheetjs, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, rls, rbac, 보안, postgresql, 권한분리, sheetjs, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "외부 코드 리뷰를 실제 코드로 검증하다 진짜 보안 구멍(RLS anon 정책 잔존)을 찾아 막고, 역할 기반 접근제어(RBAC)·엑셀 입출력·중복 배정 방지를 붙인 v5.4 업그레이드. 그리고 'git push가 배포되지 않고 있었다'는 함정까지 — 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v54-security-rbac.png

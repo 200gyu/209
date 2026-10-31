@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.1 — 급여 산식 정밀화 및 모바일 카드 레이아웃"
 date: 2026-07-19 23:55:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, 급여관리, 모바일반응형, tailwindcss, 케이제이파트너스, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, 급여관리, 모바일반응형, tailwindcss, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
 description: "70명 이상의 프리랜서를 관리하는 급여 시스템에 역할수당·현장수당 분리 산식과 모바일 카드 레이아웃을 적용한 v5.1 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v51-payroll-mobile.png

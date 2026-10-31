@@ -99,5 +99,5 @@
 
   <!-- Footer -->
   <text x="60" y="600" fill="#64748b" font-size="13">NEXT X R&amp;D</text>
-  <text x="1140" y="600" text-anchor="end" fill="#64748b" font-size="13">KJ Partners System</text>
+  <text x="1140" y="600" text-anchor="end" fill="#64748b" font-size="13">Client Case System</text>
 </svg>
