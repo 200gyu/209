@@ -19,6 +19,14 @@ future: false # 예약 발행: 미래 날짜 글은 해당 시각 이후 빌드�
 
 title: TAMNA YAHAENG Inc. # the main title
 
+# SEO: <title> 접미사. 영문 상호는 길어서 검색결과에서 제목이 잘리므로 짧은 한글 상호를 쓴다.
+title_suffix: 탐라야행
+
+# SEO: 글 구조화 데이터(BlogPosting)의 author·publisher로 출력된다.
+author:
+  name: 이경규
+logo: /assets/img/og-default.png
+
 tagline: "탐라야행 공식 블로그<br>AX & 업무자동화 솔루션 연구소" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed

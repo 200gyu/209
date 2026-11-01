@@ -3,7 +3,7 @@ title: "[AX] Computational Thinking — 컴퓨터처럼 사고하는 법"
 date: 2026-07-09 21:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
 tags: [컴퓨팅사고, 문제분해, 추상화, 알고리즘, 탐라야행]
-description: 첫 수업. 막연한 업무를 '분해→패턴→추상화→알고리즘'으로 바라보는 법.
+description: "컴퓨팅 사고력이란? 막연한 업무를 분해→패턴→추상화→알고리즘 4단계로 나눠 자동화할 수 있는 형태로 바꾸는 방법을 실무 예시로 정리."
 image:
   path: /assets/img/posts/computational-thinking.png
   alt: "Computational Thinking — 컴퓨터처럼 사고하는 법"

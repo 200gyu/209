@@ -2,6 +2,8 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 5
+seo_title: 탐라야행 소개 — 중소기업 AI 도입·업무자동화(AX) 기술 회사
+description: 주식회사 탐라야행은 중소기업의 AI 도입과 업무 자동화(AX)를 돕는 기술 회사입니다. 사업 영역, 일하는 원칙, 비즈니스 문의 방법을 소개합니다.
 ---
 
 ## 주식회사 탐라야행 (TAMNA YAHAENG Inc.)

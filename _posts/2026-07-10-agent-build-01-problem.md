@@ -3,7 +3,7 @@ title: "[Automation] 운영 리포트 자동화 #1 — 문제 정의"
 date: 2026-07-10 22:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
 tags: [문제정의, 운영, pm, rag, ai에이전트, 탐라야행]
-description: 과정 내내 만들 개인 프로젝트의 문제를 한 문장으로 정의한다.
+description: "업무 자동화 에이전트 만들기 첫 단계. 주간 운영 리포트처럼 반복되는 일을 골라 해결할 문제를 한 문장으로 정의하는 방법과 예시."
 mermaid: true
 image:
   path: /assets/img/posts/agent-build-01.png

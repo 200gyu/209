@@ -46,6 +46,33 @@
     {% assign seo_tags = seo_tags | replace: old_meta_clip, new_meta_clip %}
   {% endif %}
 
+  {%- comment -%}
+    SEO: jekyll-seo-tag는 publisher 이름에 author 이름을 그대로 쓴다.
+    글(BlogPosting)의 publisher는 작성자 개인이 아니라 회사여야 하므로 상호로 교체한다.
+  {%- endcomment -%}
+  {% if site.logo and site.author.name %}
+    {%- capture old_pub -%}"logo":{"@type":"ImageObject","url":"{{ site.logo | absolute_url }}"},"name":"{{ site.author.name }}"}{%- endcapture -%}
+    {%- capture new_pub -%}"logo":{"@type":"ImageObject","url":"{{ site.logo | absolute_url }}"},"name":"주식회사 탐라야행"}{%- endcapture -%}
+    {% assign seo_tags = seo_tags | replace: old_pub, new_pub %}
+  {% endif %}
+
+  {%- comment -%}
+    SEO: seo_title을 지정한 탭 페이지는 og:title·twitter:title·headline도 같은 제목으로 맞춘다
+    (기본값은 파일명 기반 "About" 같은 영문 제목).
+  {%- endcomment -%}
+  {% if page.seo_title and page.collection == 'tabs' %}
+    {%- capture old_og -%}content="{{ page.title }}"{%- endcapture -%}
+    {%- capture new_og -%}content="{{ page.seo_title }}"{%- endcapture -%}
+    {%- capture old_hl -%}"headline":"{{ page.title }}"{%- endcapture -%}
+    {%- capture new_hl -%}"headline":"{{ page.seo_title }}"{%- endcapture -%}
+    {% assign seo_tags = seo_tags | replace: old_og, new_og | replace: old_hl, new_hl %}
+  {% endif %}
+
+  {%- comment -%} SEO: 트위터 사용자명이 비어 있으면 빈 값("@")이 출력되므로 제거 {%- endcomment -%}
+  {% unless site.twitter.username %}
+    {% assign seo_tags = seo_tags | replace: '<meta name="twitter:site" content="@" />', '' %}
+  {% endunless %}
+
   {{ seo_tags }}
 
   {%- if site.social.fediverse_handle %}
@@ -56,6 +83,8 @@
   {%- comment -%}
     탐라야행 커스텀: Chirpy v7.6.0 head.html 오버라이드.
     원본은 홈에서 site.title만 출력 → 홈 title 키워드(index.html front matter)를 함께 출력하도록 변경.
+    SEO: 검색결과에서 제목이 잘리지 않도록 접미사를 짧은 한글 상호(site.title_suffix)로 쓰고,
+    탭 페이지는 front matter의 seo_title이 있으면 우선 사용한다.
   {%- endcomment -%}
   <title>
     {%- if page.layout == 'home' and page.title -%}
@@ -65,7 +94,9 @@
     {%- endif -%}
     {%- unless page.layout == 'home' -%}
       {%- capture title -%}
-        {%- if page.collection == 'tabs' -%}
+        {%- if page.seo_title -%}
+          {{- page.seo_title -}}
+        {%- elsif page.collection == 'tabs' -%}
           {%- assign tab_key = page.title | downcase -%}
           {{- site.data.locales[include.lang].tabs[tab_key] -}}
         {%- else -%}
@@ -74,7 +105,7 @@
       {%- endcapture -%}
       {{- title | append: ' | ' -}}
     {%- endunless -%}
-    {{- site.title -}}
+    {{- site.title_suffix | default: site.title -}}
   </title>
 
   {% include_cached favicons.html %}
