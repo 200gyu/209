@@ -298,6 +298,7 @@ models:
 
 #### 커스텀 테스트 (Singular Test)
 
+{% raw %}
 ```sql
 -- tests/assert_no_future_orders.sql
 -- 미래 날짜 주문이 없어야 함
@@ -307,6 +308,7 @@ SELECT
 FROM {{ ref('fct_orders') }}
 WHERE created_at > CURRENT_TIMESTAMP
 ```
+{% endraw %}
 
 #### dbt test 실행 흐름
 
@@ -667,5 +669,5 @@ flowchart TD
 ---
 
 > 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

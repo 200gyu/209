@@ -59,7 +59,7 @@ flowchart LR
 ## 📩 우리 브랜드 톤으로 자동화하려면
 
 브랜드 가이드가 없어도 됩니다 — 기존 콘텐츠 몇 개만 주시면 **톤 규칙부터** 함께 만듭니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %}) · [AI 활용 팁 10]({% post_url 2026-07-14-ax-ai-tips-10 %})
 {: .prompt-info }
@@ -68,5 +68,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

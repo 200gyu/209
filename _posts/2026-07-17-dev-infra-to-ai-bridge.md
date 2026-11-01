@@ -70,7 +70,7 @@ flowchart LR
 ## 📩 "우리 환경에 AI, 안전하게 올릴 수 있을까?"
 
 기존 시스템·네트워크·데이터 환경을 함께 점검하고, **리스크 없는 도입 경로**를 설계해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [데이터 파이프라인]({% post_url 2026-07-12-data-pipeline-showcase %}) · [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [사내 RAG 챗봇]({% post_url 2026-07-12-ax-rag-chatbot-guide %})
 {: .prompt-info }
@@ -79,5 +79,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

@@ -81,7 +81,7 @@ flowchart LR
 "이 반복 업무, 자동화될까?"가 궁금하시면 편하게 문의 주세요. **문제 분해 → 작은 MVP로 효과 검증 → 확장** 순서로 함께 시작합니다.
 
 - **Email** — [200gyu@gmail.com](mailto:200gyu@gmail.com) · **Tel** — 010-4125-2009 (이경규 대표)
-- 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+- 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 
 > **주식회사 탐라야행** — AI 전환(AX)과 업무 자동화로 일하는 방식을 바꿉니다.
 {: .prompt-info }
@@ -90,5 +90,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

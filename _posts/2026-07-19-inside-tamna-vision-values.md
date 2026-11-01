@@ -64,14 +64,14 @@ pin: true
 - 📊 [흩어진 데이터를 경영 지표로]({% post_url 2026-07-12-data-pipeline-showcase %})
 - 🛠️ [서버 없이 기업 블로그 배포·운영]({% post_url 2026-07-12-dev-deploy-blog-github-pages %})
 
-> 우리가 **일하는 방식**이 궁금하시다면 → [탐라야행과 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})
+> 우리가 **일하는 방식**이 궁금하시다면 → [탐라야행과 일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %})
 {: .prompt-info }
 
 ## 📩 같은 방향을 본다면, 시작은 가볍게
 
 거창한 계획서는 필요 없습니다. **반복되는 업무 고민 1건**만 들려주세요. 그게 첫걸음입니다.
 
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · ☎ 010-4125-2009
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · ☎ 010-4125-2009
 
 > **주식회사 탐라야행** — 반복은 기계에게, 판단은 사람에게.
 {: .prompt-tip }
@@ -80,5 +80,5 @@ pin: true
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

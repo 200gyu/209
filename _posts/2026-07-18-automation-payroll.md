@@ -65,7 +65,7 @@ df.to_excel("급여_정산_2026-07.xlsx", index=False)
 ## 📩 우리 급여체계로 만들려면
 
 근태 양식과 수당 규칙만 주시면 **자동화 가능 범위**를 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [파이썬 엑셀 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [문서 대량 생성]({% post_url 2026-07-16-automation-doc-generation %})
 {: .prompt-info }
@@ -74,5 +74,5 @@ df.to_excel("급여_정산_2026-07.xlsx", index=False)
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

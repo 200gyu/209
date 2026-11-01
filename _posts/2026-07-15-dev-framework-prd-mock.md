@@ -180,7 +180,7 @@ flowchart LR
 |-----------------|---------------|
 | AI와 PRD 작성 | [프롬프트 설계]({% post_url 2026-07-11-prompt-engineering-for-planners %})로 기획서 초안을 AI와 협업 |
 | 목업 데이터로 프론트 먼저 | 고객 피드백을 빠르게 받는 **프로토타입 우선** 전략 |
-| 프레임워크의 규칙 | 팀원 간 코드 충돌 최소화 — [일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})의 핵심 |
+| 프레임워크의 규칙 | 팀원 간 코드 충돌 최소화 — [일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %})의 핵심 |
 
 ## 🔗 이어지는 R&D 일지
 
@@ -194,5 +194,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

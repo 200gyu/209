@@ -56,13 +56,13 @@ pin: true
 - ⚡ **Automation** → [파이썬 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [노코드]({% post_url 2026-07-14-automation-nocode-starter %}) · [실패 5가지]({% post_url 2026-07-17-automation-failure-reasons %})
 - 📊 **Data** → [파이프라인 개념]({% post_url 2026-07-12-what-is-data-pipeline %}) · [대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %}) · [데이터 함정]({% post_url 2026-07-16-data-interpretation-pitfalls %})
 - 🛠️ **Dev** → [API란?]({% post_url 2026-07-15-dev-what-is-api %}) · [웹훅]({% post_url 2026-07-16-dev-what-is-webhook %}) · [인프라→AI 브릿지]({% post_url 2026-07-17-dev-infra-to-ai-bridge %})
-- 🏢 **Inside** → [우리는 왜 탐라야행인가]({% post_url 2026-07-19-inside-nextx-vision-values %}) · [일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %}) · [블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [AI 도입 FAQ]({% post_url 2026-07-17-inside-ai-faq-10 %})
+- 🏢 **Inside** → [우리는 왜 탐라야행인가]({% post_url 2026-07-19-inside-tamna-vision-values %}) · [일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %}) · [블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [AI 도입 FAQ]({% post_url 2026-07-17-inside-ai-faq-10 %})
 
 ## 📩 프로젝트 문의
 
 우리 회사 업무에 적용할 방법이 궁금하시면 **무료 진단**부터 시작하세요.
 
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · 010-4125-2009 (이경규 대표)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · 010-4125-2009 (이경규 대표)
 
 > **주식회사 탐라야행** — 만든 것으로 증명합니다.
 {: .prompt-tip }
@@ -71,5 +71,5 @@ pin: true
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

@@ -62,7 +62,7 @@ flowchart LR
 ## 📩 우리 CS에 맞게
 
 과거 문의·답변 샘플만 주시면 **유형 분류와 초안 정확도부터** 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [VOC 자동 분류]({% post_url 2026-07-16-ax-voc-classification %}) · [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %})
 {: .prompt-info }
@@ -71,5 +71,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

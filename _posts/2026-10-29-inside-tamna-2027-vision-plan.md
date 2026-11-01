@@ -69,7 +69,7 @@ flowchart LR
 
 설립 4개월 차의 작은 회사가 세우기엔 큰 계획일 수 있습니다. 그래도 한 걸음씩, 현장에서 검증하면서 가겠습니다. 이 여정을 지켜봐 주시고, 함께하고 싶은 분은 언제든 연락 주세요.
 
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > **주식회사 탐라야행** — 작게 시작해, 현장에 붙는 AI.
 {: .prompt-tip }
@@ -78,5 +78,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🎯 미션·비전·핵심가치]({% post_url 2026-07-19-inside-nextx-vision-values %}) · [🤝 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🎯 미션·비전·핵심가치]({% post_url 2026-07-19-inside-tamna-vision-values %}) · [🤝 일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

@@ -57,7 +57,7 @@ git commit -m "회의록 양식 추가"  # 저장!
 ## 📩 팀에 버전관리 문화를 들이려면
 
 Git·GitHub 기반 협업/배포 흐름([예: 이 블로그]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}))을 함께 세팅해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [바이브 코딩 작업대]({% post_url 2026-07-13-dev-vibe-coding-workbench %}) · [블로그 배포기]({% post_url 2026-07-12-dev-deploy-blog-github-pages %})
 {: .prompt-info }
@@ -66,5 +66,5 @@ Git·GitHub 기반 협업/배포 흐름([예: 이 블로그]({% post_url 2026-07
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

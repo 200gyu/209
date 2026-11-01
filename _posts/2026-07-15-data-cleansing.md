@@ -59,7 +59,7 @@ df = df.drop_duplicates(subset=["사업자번호"])
 ## 📩 데이터가 지저분해서 분석을 못 하고 있다면
 
 지저분한 파일 1개만 주셔도 됩니다 — **정제 규칙과 자동화 방안**을 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [데이터 파이프라인이란?]({% post_url 2026-07-12-what-is-data-pipeline %}) · [경영진 대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %})
 {: .prompt-info }
@@ -68,5 +68,5 @@ df = df.drop_duplicates(subset=["사업자번호"])
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

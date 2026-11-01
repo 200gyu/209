@@ -41,12 +41,12 @@ AI 전환(AX)과 자동화 시장엔 화려한 말이 넘칩니다. 그래서 �
 
 이 블로그는 **AIFFEL(모두의연구소) AI 에이전트 과정**에서의 학습 기록으로 출발해, 지금은 탐라야행의 기술 아카이브로 이어지고 있습니다. 그 여정은 [Inside 탐라야행]({% post_url 2026-07-11-retro-week-1 %})에 담았습니다.
 
-> 협업·문의는 언제든 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> 협업·문의는 언제든 → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-tip }
 
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

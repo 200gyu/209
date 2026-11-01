@@ -68,7 +68,7 @@ flowchart LR
 보유 문서 종류만 알려주시면 **파일럿 범위와 예상 정확도**를 짚어드립니다.
 
 - **Email** — [200gyu@gmail.com](mailto:200gyu@gmail.com) · **Tel** — 010-4125-2009 (이경규 대표)
-- 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+- 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 
 > **주식회사 탐라야행** — 흩어진 지식을 '물어보면 답하는 AI'로.
 {: .prompt-info }
@@ -77,5 +77,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

@@ -79,7 +79,7 @@ mermaid: true
 
 각 계층이 서로의 영역을 침범하지 않고 **독립적으로** 작동하기에, 대규모 엔터프라이즈 AX(AI 전환) 솔루션에서도 **유지보수성과 확장성**이 보장됩니다. 실제 구현은 → [사내 RAG 챗봇]({% post_url 2026-07-12-ax-rag-chatbot-guide %}) · [임베딩 & 벡터 DB]({% post_url 2026-07-12-embeddings-and-vector-db %}) · [툴 콜링·멀티 에이전트]({% post_url 2026-07-11-tool-calling-and-multi-agents %})에서 공개합니다.
 
-> 이런 **견고한 3계층 설계 사상**은 탐라야행 팀이 지향하는 [일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})과도 맞닿아 있습니다. **각자의 역할에서 최고의 효율을 내는 분업과 협업**의 가치를, 우리는 [시스템 구조와 철학]({% post_url 2026-07-19-inside-nextx-vision-values %})으로 증명합니다.
+> 이런 **견고한 3계층 설계 사상**은 탐라야행 팀이 지향하는 [일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %})과도 맞닿아 있습니다. **각자의 역할에서 최고의 효율을 내는 분업과 협업**의 가치를, 우리는 [시스템 구조와 철학]({% post_url 2026-07-19-inside-tamna-vision-values %})으로 증명합니다.
 {: .prompt-tip }
 
 ## 🔗 이어지는 R&D 일지
@@ -96,5 +96,5 @@ mermaid: true
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

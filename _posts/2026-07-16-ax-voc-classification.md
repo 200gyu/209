@@ -55,7 +55,7 @@ flowchart LR
 ## 📩 우리 CS에 맞게 만들려면
 
 과거 문의 샘플만 주시면 **분류 체계와 정확도부터** 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %}) · [에이전트 vs RPA]({% post_url 2026-07-11-ai-agent-vs-rpa %})
 {: .prompt-info }
@@ -64,5 +64,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

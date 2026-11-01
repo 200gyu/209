@@ -1,10 +1,10 @@
 /* 탐라야행 기술 블로그 AI 챗봇 위젯
- * 블로그 글을 학습한 RAG 챗봇 UI. 서버리스 엔드포인트(window.NEXTX_CHAT_ENDPOINT)로
+ * 블로그 글을 학습한 RAG 챗봇 UI. 서버리스 엔드포인트(window.TAMNA_CHAT_ENDPOINT)로
  * 질문을 보내고 응답을 렌더링한다. 비밀 키는 서버에만 있으며 여기서는 다루지 않는다. */
 (function () {
   'use strict';
 
-  var ENDPOINT = window.NEXTX_CHAT_ENDPOINT;
+  var ENDPOINT = window.TAMNA_CHAT_ENDPOINT;
   if (!ENDPOINT) return;
 
   var history = []; // {role, content}

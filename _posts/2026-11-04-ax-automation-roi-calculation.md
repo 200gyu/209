@@ -114,11 +114,11 @@ description: "업무 자동화·AI 도입 전에 비용과 효과를 숫자로 �
 - 시작점이 막막하다면 → [AX란? DX와 뭐가 다를까]({% post_url 2026-11-01-ax-what-is-ax-vs-dx %})
 - 구체적인 사례 → [엑셀 반복작업, 사람이 안 해도 됩니다]({% post_url 2026-07-12-automation-excel-showcase %}) · [급여·근태 정산 자동화]({% post_url 2026-07-18-automation-payroll %})
 
-> 우리 회사 업무로 **회수 기간을 같이 계산**해 보고 싶다면, 업무 1건의 현재 소요 시간만 알려 주세요. → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> 우리 회사 업무로 **회수 기간을 같이 계산**해 보고 싶다면, 업무 1건의 현재 소요 시간만 알려 주세요. → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

@@ -61,7 +61,7 @@ pin: false
 AI 업무 자동화, 사내 문서 챗봇, 데이터 정리 자동화를 고민하고 계신다면 편하게 연락 주세요. **도입 전 진단은 무료**입니다.
 
 - 📧 **200gyu@gmail.com**
-- 📄 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+- 📄 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 
 기다려 주신 분들께 감사드립니다. 앞으로 더 깊이 있는 현장 이야기로 찾아뵙겠습니다.
 

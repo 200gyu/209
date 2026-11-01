@@ -60,7 +60,7 @@ flowchart LR
 ## 📩 우리 가게·회사에 맞게
 
 취급 품목 수와 판매 채널만 알려주시면 **딱 맞는 수준**(시트→앱→연동)을 제안해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [노코드 자동화]({% post_url 2026-07-14-automation-nocode-starter %}) · [데이터 파이프라인]({% post_url 2026-07-12-data-pipeline-showcase %})
 {: .prompt-info }
@@ -69,5 +69,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

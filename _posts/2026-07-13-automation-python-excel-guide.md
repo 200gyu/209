@@ -82,13 +82,13 @@ Windows **작업 스케줄러**나 서버 **cron**에 걸면, 월요일 아침 �
 - **판단이 섞이면 AI** — 비정형 분류·요약은 [AI 레이어]({% post_url 2026-07-11-ai-agent-vs-rpa %})를 얹기
 
 > 📉 **도입 효과 한 줄 요약 (예시 ROI)** — 취합·정산·리포트에 **주 5시간**을 쓰던 담당자 기준, 자동화 후 이 작업은 **월 약 20시간 → 수 분**으로 줄어듭니다. 인건비로 환산하면 **연 약 480만원+**(야근·재작업 비용 별도) 절감 효과.
-> *(이해를 돕는 예시이며 실제 절감은 업무량·조직에 따라 다릅니다. 정확한 수치는 [무료 진단]({% post_url 2026-07-12-inside-nextx-business-inquiry %})에서 산출해 드립니다.)*
+> *(이해를 돕는 예시이며 실제 절감은 업무량·조직에 따라 다릅니다. 정확한 수치는 [무료 진단]({% post_url 2026-07-12-inside-tamna-business-inquiry %})에서 산출해 드립니다.)*
 {: .prompt-tip }
 
 ## 📩 우리 엑셀 업무, 코드로 없애드립니다
 
 반복 엑셀 작업 1건만 알려주시면 자동화 가능 여부를 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > **주식회사 탐라야행** — 반복은 코드에게, 판단은 사람에게.
 {: .prompt-info }
@@ -97,5 +97,5 @@ Windows **작업 스케줄러**나 서버 **cron**에 걸면, 월요일 아침 �
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

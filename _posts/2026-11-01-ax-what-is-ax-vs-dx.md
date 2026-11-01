@@ -118,11 +118,11 @@ AI의 결과는 **초안**입니다. 숫자·고유명사·날짜는 사람이 �
 - [ ] 결과를 확인할 사람과 확인 방법을 정했다
 - [ ] 효과를 측정할 숫자(시간·오류)를 정했다
 
-> 우리 회사에서 **어떤 업무부터 시작할지** 정하기 어렵다면, 반복 업무 1건만 알려 주세요. → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> 우리 회사에서 **어떤 업무부터 시작할지** 정하기 어렵다면, 반복 업무 1건만 알려 주세요. → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

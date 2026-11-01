@@ -78,12 +78,12 @@ tags: [태그]
 
 배포까지 됐다면, 이제 **내 도메인**을 붙일 차례. → [커스텀 도메인 + HTTPS 연결하기]({% post_url 2026-07-12-dev-custom-domain-https %})
 
-> **주식회사 탐라야행** — 작은 것도 제대로 배포하고 운영합니다. [기술 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **주식회사 탐라야행** — 작은 것도 제대로 배포하고 운영합니다. [기술 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }
 
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

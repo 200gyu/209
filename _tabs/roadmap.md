@@ -40,7 +40,7 @@ order: 1
 - [고객 문의(VOC) 자동 분류·응대 초안]({% post_url 2026-07-16-ax-voc-classification %})
 - [생성형 AI로 마케팅 콘텐츠 자동화]({% post_url 2026-07-15-ax-marketing-content-automation %})
 
-> 💡 협업·도입을 검토 중이시라면 [대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) → [탐라야행과 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %}) → [비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) 순서를 추천합니다.
+> 💡 협업·도입을 검토 중이시라면 [대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) → [탐라야행과 일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %}) → [비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) 순서를 추천합니다.
 {: .prompt-tip }
 
 ---

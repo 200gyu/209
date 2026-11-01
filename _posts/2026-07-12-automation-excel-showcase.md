@@ -94,7 +94,7 @@ flowchart TD
 **무료 진단**으로 시작하세요. 반복 업무 1건만 알려주시면, 자동화 가능 여부와 예상 절감을 짚어드립니다.
 
 - **Email** — [200gyu@gmail.com](mailto:200gyu@gmail.com) · **Tel** — 010-4125-2009 (이경규 대표)
-- 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+- 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 
 > **주식회사 탐라야행** — 반복은 기계에게, 판단은 사람에게.
 {: .prompt-info }
@@ -103,5 +103,5 @@ flowchart TD
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

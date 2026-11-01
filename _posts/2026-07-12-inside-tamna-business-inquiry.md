@@ -5,7 +5,7 @@ categories: ["Inside 탐라야행"]
 tags: [탐라야행, 비즈니스문의, ax프로젝트, 공지]
 description: "주식회사 탐라야행의 AX·업무 자동화 솔루션 안내와 비즈니스 문의 창구. 무료 진단부터 시작하세요."
 image:
-  path: /assets/img/posts/nextx-notice.png
+  path: /assets/img/posts/tamna-notice.png
   alt: "주식회사 탐라야행 — AX·업무 자동화 비즈니스 문의 안내"
 pin: true
 ---
@@ -81,5 +81,5 @@ ICT 현장 엔지니어로 출발해 법인 대표까지, **총 10년+ 경영·�
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

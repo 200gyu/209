@@ -59,21 +59,21 @@ flowchart LR
 
 ## 👥 누가 하나
 
-소규모 **정예 팀**이 문제 정의부터 운영까지 직접 만들고 책임집니다. 리더십과 이력은 → [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %})에 투명하게 공개돼 있습니다.
+소규모 **정예 팀**이 문제 정의부터 운영까지 직접 만들고 책임집니다. 리더십과 이력은 → [비즈니스 문의 안내]({% post_url 2026-07-12-inside-tamna-business-inquiry %})에 투명하게 공개돼 있습니다.
 
 ## 📩 첫걸음은 "무료 진단"
 
 무엇을 자동화할지 몰라도 괜찮습니다. **가장 귀찮은 반복 업무 1건**만 알려주시면, 되는지 안 되는지부터 정직하게 말씀드립니다.
 
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · ☎ 010-4125-2009
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · ☎ 010-4125-2009
 
 > **주식회사 탐라야행** — 작게 시작해, 끝까지 함께합니다.
-> 우리의 철학이 궁금하다면 → [우리는 왜 탐라야행인가]({% post_url 2026-07-19-inside-nextx-vision-values %})
+> 우리의 철학이 궁금하다면 → [우리는 왜 탐라야행인가]({% post_url 2026-07-19-inside-tamna-vision-values %})
 {: .prompt-tip }
 
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

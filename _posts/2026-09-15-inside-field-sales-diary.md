@@ -71,7 +71,7 @@ flowchart LR
 
 블로그를 기다려 주신 분들께는 죄송한 마음입니다. 대신 현장에서 직접 듣고 확인한 이야기들을 이제부터 하나씩 풀어 놓겠습니다.
 
-앞으로의 계획은 정리되는 대로 다음 글에서 말씀드리겠습니다. 탐라야행이 그리는 큰 그림은 [사업계획서 요약]({% post_url 2026-09-09-inside-nextx-business-plan-summary %})에서 먼저 보실 수 있습니다.
+앞으로의 계획은 정리되는 대로 다음 글에서 말씀드리겠습니다. 탐라야행이 그리는 큰 그림은 [사업계획서 요약]({% post_url 2026-09-09-inside-tamna-business-plan-summary %})에서 먼저 보실 수 있습니다.
 
 > **주식회사 탐라야행** — 현장에서 듣고, 작게 만들고, 끝까지 함께합니다.
 {: .prompt-tip }
@@ -80,5 +80,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행** 대표이사의 근황 기록입니다.
-> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-tamna-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

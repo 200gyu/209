@@ -50,7 +50,7 @@ description: 주식회사 탐라야행은 중소기업의 AI 도입과 업무 �
 ## 📩 비즈니스 문의
 
 AX 도입 · 업무 자동화 · 데이터 인프라 구축이 필요하시면 연락 주세요.
-자세한 안내는 [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) 페이지에 있습니다.
+자세한 안내는 [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) 페이지에 있습니다.
 
 - **Email** — [200gyu@gmail.com](mailto:200gyu@gmail.com)
 - **Tel** — 010-4125-2009 (담당: 이경규 대표)

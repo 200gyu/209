@@ -60,7 +60,7 @@ flowchart LR
 ## 📩 우리 지표로 대시보드 만들려면
 
 보고 싶은 지표 3개만 알려주시면 **시트 구조부터** 잡아드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [경영진 대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %}) · [숫자에 속지 않기]({% post_url 2026-07-16-data-interpretation-pitfalls %})
 {: .prompt-info }
@@ -69,5 +69,5 @@ flowchart LR
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

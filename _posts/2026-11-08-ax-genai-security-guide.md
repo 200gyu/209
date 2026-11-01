@@ -105,11 +105,11 @@ AI 보안은 데이터 관리의 일부입니다. ([데이터 거버넌스 & 품
 - 전체 그림 → [AX란? DX와 뭐가 다를까]({% post_url 2026-11-01-ax-what-is-ax-vs-dx %})
 - 비용 판단 → [업무 자동화 ROI 계산법]({% post_url 2026-11-04-ax-automation-roi-calculation %})
 
-> 우리 회사에 맞는 **AI 사용 규칙과 도입 방식**이 궁금하다면 문의해 주세요. → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> 우리 회사에 맞는 **AI 사용 규칙과 도입 방식**이 궁금하다면 문의해 주세요. → [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }

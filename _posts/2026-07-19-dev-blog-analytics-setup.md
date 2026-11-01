@@ -105,16 +105,16 @@ analytics:
 ## 🔗 이어보기
 
 - 🛠️ 이 블로그를 만든 과정 → [코드 없이 기업 블로그 배포하기]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [커스텀 도메인·HTTPS]({% post_url 2026-07-12-dev-custom-domain-https %})
-- 🏢 왜 이렇게까지 하나 → 탐라야행의 [일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})은 "측정 → 개선"입니다.
+- 🏢 왜 이렇게까지 하나 → 탐라야행의 [일하는 방식]({% post_url 2026-07-19-inside-tamna-how-we-work %})은 "측정 → 개선"입니다.
 
 ## 📩 우리 서비스도 이렇게 측정하고 싶다면
 
 방문자·사용자 행동을 데이터로 보고 싶은데 어디서부터일지 막막하다면, 진단부터 도와드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-tamna-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 
 ---
 
 > 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
-> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-tamna-business-inquiry %})
 {: .prompt-info }
