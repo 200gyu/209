@@ -105,10 +105,12 @@ AI의 결과는 **초안**입니다. 숫자·고유명사·날짜는 사람이 �
 **Q. 자동화가 중간에 멈추는 이유는 무엇인가요?**
 검수 구조가 없거나, 업무 규칙이 바뀌었는데 자동화가 따라가지 못하는 경우가 대부분입니다. ([자동화가 실패하는 5가지 이유]({% post_url 2026-07-17-automation-failure-reasons %}))
 
-{% assign sec_post = site.posts | where: "slug", "ax-genai-security-guide" | first %}{% if roi_post or sec_post %}## 다음 단계로 읽을 글
+{% assign sec_post = site.posts | where: "slug", "ax-genai-security-guide" | first %}{% assign tool_post = site.posts | where: "slug", "automation-n8n-vs-make" | first %}{% assign sheet_post = site.posts | where: "slug", "automation-google-sheets-apps-script" | first %}{% if roi_post or sec_post or tool_post or sheet_post %}## 다음 단계로 읽을 글
 
 {% if roi_post %}- 비용 판단 → [업무 자동화 ROI 계산법]({{ roi_post.url }})
 {% endif %}{% if sec_post %}- 보안 규칙 → [직원이 AI에 넣으면 안 되는 정보 7가지]({{ sec_post.url }})
+{% endif %}{% if tool_post %}- 도구 선택 → [n8n vs Make — 우리 회사엔 어떤 노코드 자동화 도구가 맞을까]({{ tool_post.url }})
+{% endif %}{% if sheet_post %}- 시트로 시작 → [구글시트 + Apps Script 자동 알림·일일 리포트]({{ sheet_post.url }})
 {% endif %}
 {% endif %}## 마무리 체크리스트
 
