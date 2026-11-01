@@ -1,0 +1,117 @@
+<div id="biz-inquiry-wrap" style="margin:1.5rem 0;padding:1.25rem;border:1px solid var(--main-border-color, #ccc);border-radius:.75rem">
+  <p style="margin:0 0 .25rem;font-weight:700;font-size:1.1rem">📩 무료 진단·사업 문의</p>
+  <p style="margin:0 0 1rem;font-size:.9rem;opacity:.8">메일 프로그램이 없어도 이 폼으로 바로 접수됩니다. 반복 업무 1건만 적어 주셔도 됩니다.</p>
+
+  <form id="biz-inquiry" novalidate>
+    <div class="mb-3">
+      <label class="form-label" for="biz-topic">문의 분류</label>
+      <select id="biz-topic" name="topic" class="form-control">
+        <option value="AX 도입·업무 자동화 상담">AX 도입·업무 자동화 상담</option>
+        <option value="AI 에이전트 구축">AI 에이전트 구축</option>
+        <option value="유지보수·운영">유지보수·운영</option>
+        <option value="제휴·입점 문의">제휴·입점 문의</option>
+        <option value="기타">기타</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="biz-name">이름 <span aria-hidden="true">*</span></label>
+      <input id="biz-name" name="name" type="text" maxlength="40" class="form-control" autocomplete="name" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="biz-company">회사·소속</label>
+      <input id="biz-company" name="company" type="text" maxlength="80" class="form-control" autocomplete="organization">
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="biz-phone">연락처</label>
+      <input id="biz-phone" name="phone" type="tel" inputmode="tel" maxlength="30" class="form-control" placeholder="010-0000-0000" autocomplete="tel">
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="biz-email">이메일</label>
+      <input id="biz-email" name="email" type="email" maxlength="80" class="form-control" autocomplete="email">
+      <div class="form-text" style="font-size:.8rem;opacity:.75">연락처와 이메일 중 <b>하나는 꼭</b> 입력해 주세요.</div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="biz-message">문의 내용 <span aria-hidden="true">*</span></label>
+      <textarea id="biz-message" name="message" rows="5" maxlength="800" class="form-control" placeholder="예) 매달 말 엑셀 근태 취합과 급여명세서 작성에 이틀이 걸립니다."></textarea>
+    </div>
+
+    <div style="position:absolute;left:-9999px;top:-9999px" aria-hidden="true">
+      <label>website <input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input id="biz-consent" name="consent" type="checkbox" class="form-check-input">
+      <label class="form-check-label" for="biz-consent" style="font-size:.85rem">
+        [필수] 문의 회신을 위해 이름·연락처·이메일·문의 내용을 수집·이용하는 데 동의합니다. 상담 종료 후 지체 없이(늦어도 6개월 이내) 파기합니다.
+      </label>
+    </div>
+
+    <button id="biz-submit" type="submit" class="btn btn-primary">문의 보내기</button>
+    <p id="biz-status" role="status" aria-live="polite" style="margin:.75rem 0 0;font-size:.9rem"></p>
+  </form>
+
+  <p style="margin:1rem 0 0;font-size:.85rem;opacity:.8">
+    폼이 동작하지 않으면 이메일 <b>200gyu@gmail.com</b>으로 보내 주세요.
+    <button type="button" id="biz-copy" class="btn btn-sm btn-outline-secondary" style="margin-left:.4rem">이메일 주소 복사</button>
+  </p>
+</div>
+
+<script>
+(function () {
+  var ENDPOINT = "https://jeju-night.com/api/lead";
+  var form = document.getElementById("biz-inquiry");
+  if (!form) return;
+  var statusEl = document.getElementById("biz-status");
+  var btn = document.getElementById("biz-submit");
+  var copyBtn = document.getElementById("biz-copy");
+
+  function say(msg, ok) {
+    statusEl.textContent = msg;
+    statusEl.style.color = ok ? "#198754" : "#dc3545";
+  }
+
+  copyBtn.addEventListener("click", function () {
+    var addr = "200gyu@gmail.com";
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(addr).then(function () { copyBtn.textContent = "복사됨 ✓"; });
+    } else {
+      window.prompt("이메일 주소를 복사하세요", addr);
+    }
+  });
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var v = function (n) { return (form.elements[n].value || "").trim(); };
+    if (!v("name")) { say("이름을 입력해 주세요.", false); return; }
+    if (!v("phone") && !v("email")) { say("연락처 또는 이메일 중 하나는 꼭 입력해 주세요.", false); return; }
+    if (!v("message")) { say("문의 내용을 입력해 주세요.", false); return; }
+    if (!form.elements.consent.checked) { say("개인정보 수집·이용 동의에 체크해 주세요.", false); return; }
+
+    btn.disabled = true;
+    say("전송 중입니다…", true);
+    fetch(ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        topic: v("topic"), name: v("name"), company: v("company"),
+        phone: v("phone"), email: v("email"), message: v("message"),
+        website: v("website"), consent: true
+      })
+    })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (res) {
+        if (res.ok) {
+          form.reset();
+          say("접수되었습니다. 확인 후 남겨주신 연락처로 회신드리겠습니다. 감사합니다.", true);
+        } else {
+          say((res.j && res.j.error) || "접수 중 오류가 발생했습니다.", false);
+          btn.disabled = false;
+        }
+      })
+      .catch(function () {
+        say("전송에 실패했습니다. 잠시 후 다시 시도하시거나 200gyu@gmail.com으로 보내 주세요.", false);
+        btn.disabled = false;
+      });
+  });
+})();
+</script>
