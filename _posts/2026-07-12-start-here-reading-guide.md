@@ -39,6 +39,7 @@ pin: false
 
 ## 🎯 관심사별 추천
 
+- **"AX가 뭔지, 어디서 시작할지 모르겠다"** → [AX란? DX와 뭐가 다를까]({% post_url 2026-11-01-ax-what-is-ax-vs-dx %})
 - **"우리 회사에 AI를 도입하고 싶다"** → [AX 접근법]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [사내 지식 챗봇(RAG)]({% post_url 2026-07-12-ax-rag-chatbot-guide %})
 - **"반복 업무 비용을 줄이고 싶다"** → [엑셀 자동화]({% post_url 2026-07-12-automation-excel-showcase %}) · [파이썬 자동화 실전]({% post_url 2026-07-13-automation-python-excel-guide %})
 - **"데이터로 의사결정하고 싶다"** → [데이터 파이프라인]({% post_url 2026-07-12-data-pipeline-showcase %}) · [경영진 대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %})
