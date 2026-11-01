@@ -2,7 +2,7 @@
 title: "[Automation] 파이썬으로 엑셀 업무 자동화하기 — 취합·정산·리포트 실전 패턴"
 date: 2026-07-13 10:00:00 +0900
 categories: ["Workplace Automation", "오피스 자동화"]
-tags: [파이썬, 엑셀자동화, pandas, openpyxl, rpa, nextx]
+tags: [파이썬, 엑셀자동화, pandas, openpyxl, rpa, 탐라야행]
 description: "파이썬으로 엑셀 취합·정산·리포트를 자동화하는 실전 코드 예제. pandas·openpyxl 패턴과 매크로·RPA 선택 기준, 예약 실행(스케줄러)까지."
 image:
   path: /assets/img/posts/automation-python-excel.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > [엑셀 자동화 쇼케이스]({% post_url 2026-07-12-automation-excel-showcase %})에서 "왜"를 봤다면, 이번엔 **"어떻게"** 입니다. 실무에서 가장 많이 쓰는 3가지 패턴을 정리했습니다.
@@ -88,14 +88,14 @@ Windows **작업 스케줄러**나 서버 **cron**에 걸면, 월요일 아침 �
 ## 📩 우리 엑셀 업무, 코드로 없애드립니다
 
 반복 엑셀 작업 1건만 알려주시면 자동화 가능 여부를 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
-> **주식회사 넥스트엑스(NEXT X)** — 반복은 코드에게, 판단은 사람에게.
+> **주식회사 탐라야행** — 반복은 코드에게, 판단은 사람에게.
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

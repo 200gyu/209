@@ -2,7 +2,7 @@
 title: "[Dev] API란 무엇인가 — 비개발자를 위한 가장 쉬운 설명"
 date: 2026-07-15 13:00:00 +0900
 categories: ["Dev & DevOps", "웹 기초"]
-tags: [api, rest, 연동, 비개발자, 개념, nextx]
+tags: [api, rest, 연동, 비개발자, 개념, 탐라야행]
 description: "회의에서 자주 나오는 'API 연동'. 식당 주문서 비유로 API의 개념과, 기획자가 알아야 할 핵심만 정리."
 image:
   path: /assets/img/posts/dev-api.png
@@ -56,7 +56,7 @@ flowchart LR
 ## 📩 "이거 연동 되나요?" 궁금하면
 
 붙이려는 서비스만 알려주시면 **API 유무·연동 난이도·비용**을 짚어드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [AI 용어 사전]({% post_url 2026-07-12-toolkit-ai-glossary %})
 {: .prompt-info }
@@ -64,6 +64,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

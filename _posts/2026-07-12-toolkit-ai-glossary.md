@@ -2,14 +2,14 @@
 title: "[AX] 기획자를 위한 AI 용어 사전 — 회의에서 안 밀리는 최소 지식"
 date: 2026-07-12 14:00:00 +0900
 categories: ["AI Transformation", "리소스·도구"]
-tags: [ai용어, 사전, 기획자, llm, rag, ai에이전트, nextx]
+tags: [ai용어, 사전, 기획자, llm, rag, ai에이전트, 탐라야행]
 description: "LLM·토큰·프롬프트·RAG·에이전트·환각·파인튜닝… 기획/PM/운영자가 딱 알아야 할 AI 용어를 쉬운 말로 정리."
 image:
   path: /assets/img/posts/glossary.png
   alt: "기획자를 위한 AI 용어 사전"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 개발자와 회의할 때, 이 정도만 알면 안 밀립니다. **코드 없이, 뜻과 '왜 중요한지'** 중심으로 정리했어요.
@@ -62,6 +62,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

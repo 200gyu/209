@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v3.1 — 휴무일 관리와 스케줄 충돌 방지"
 date: 2026-07-19 18:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, 휴무일관리, 스케줄충돌방지, rls, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, 휴무일관리, 스케줄충돌방지, rls, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "파트너별 휴무일 등록·달력 뷰·배정 시 자동 충돌 감지까지 — 실무 운영의 빈틈을 메우는 v3.1 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v3-dayoff.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **여섯 번째 글**입니다.
@@ -572,11 +572,11 @@ v3.1까지 완료된 시스템의 현재 상태와 앞으로의 계획:
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

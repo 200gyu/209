@@ -2,7 +2,7 @@
 title: "[Data] 실시간 데이터 처리 — 배치를 넘어 스트리밍으로"
 date: 2026-07-23 14:00:00 +0900
 categories: ["Data Engineering", "파이프라인·아키텍처"]
-tags: [실시간처리, 스트리밍, kafka, 이벤트기반, 배치, flink, pub-sub, nextx]
+tags: [실시간처리, 스트리밍, kafka, 이벤트기반, 배치, flink, pub-sub, 탐라야행]
 description: "배치 처리와 스트림 처리의 차이, 이벤트 기반 아키텍처의 핵심 개념, Kafka·Flink·Pub/Sub 등 실전 도구, 그리고 실시간 처리가 빛나는 현업 사례까지."
 image:
   path: /assets/img/posts/data-realtime-streaming.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [데이터 파이프라인]({% post_url 2026-07-12-what-is-data-pipeline %})에서 "데이터를 추출 → 변환 → 적재한다"고 했고, [ETL vs ELT]({% post_url 2026-07-19-data-etl-vs-elt %})에서 그 순서를 뒤집는 전략을 살펴봤습니다. 하지만 그 파이프라인이 **하루에 한 번** 돌면 충분할까요? 이번 글에서는 배치의 한계를 넘어, **발생 즉시 처리하는 스트리밍 세계**를 탐구합니다.
@@ -620,11 +620,11 @@ flowchart TB
 
 ---
 
-*NEXT X R&D · Data Engineering*
+*탐라야행 R&D · Data Engineering*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

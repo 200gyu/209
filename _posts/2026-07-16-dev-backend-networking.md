@@ -2,7 +2,7 @@
 title: "[Dev] 화면 뒤에서 일어나는 일들 — 백엔드·네트워크 완전 지도"
 date: 2026-07-16 20:00:00 +0900
 categories: ["Dev & DevOps", "설계·아키텍처"]
-tags: [백엔드, 네트워크, dns, http, https, 서버, 배포, 보안, 포트, api, 바이브코딩, 아이펠, nextx]
+tags: [백엔드, 네트워크, dns, http, https, 서버, 배포, 보안, 포트, api, 바이브코딩, 아이펠, 탐라야행]
 description: "localhost가 왜 친구에게 안 열리는지부터 DNS·HTTP·API·보안·배포·홈서버까지, 백엔드와 네트워크의 전체 지형을 한 장의 지도로 그려봅니다."
 image:
   path: /assets/img/posts/dev-backend-networking.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [백엔드 — 화면 뒤에서 일어나는 일들] 내용을 실무 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [백엔드 — 화면 뒤에서 일어나는 일들] 내용을 실무 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > 지난 시간에 [프레임워크·PRD·목업 데이터]({% post_url 2026-07-15-dev-framework-prd-mock %})로 화면의 뼈대를 세웠습니다. 그런데 친구에게 `localhost:3000` 링크를 보내면? — 아무것도 안 뜹니다. 오늘은 그 **"왜?"** 에서 출발해, 서버·네트워크·배포·보안까지 백엔드의 전체 지형을 한 장의 지도로 그려봅니다.
@@ -428,6 +428,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

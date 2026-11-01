@@ -14,9 +14,9 @@
   <rect width="1200" height="630" fill="url(#vg)"/>
 
   <!-- wordmark -->
-  <text x="120" y="330" font-size="150" font-weight="800" letter-spacing="2" fill="#eef2ff">NEXT</text>
+  <text x="120" y="330" font-size="130" font-weight="800" letter-spacing="2" fill="#eef2ff">탐라야행</text>
 
-  <!-- X emblem with circuit spokes -->
+  <!-- crescent emblem with circuit spokes -->
   <g transform="translate(770,250)">
     <!-- circuit spokes -->
     <g stroke="#3b82f6" stroke-width="4" opacity="0.55" fill="none" stroke-linecap="round">
@@ -25,14 +25,12 @@
     </g>
     <g fill="#60a5fa"><circle cx="122" cy="-82" r="6"/><circle cx="187" cy="55" r="6"/><circle cx="60" cy="187" r="6"/></g>
     <g fill="#a78bfa"><circle cx="-92" cy="90" r="6"/><circle cx="150" cy="-20" r="5"/><circle cx="-20" cy="150" r="5"/></g>
-    <!-- X strokes -->
-    <g stroke="url(#xg)" stroke-width="42" stroke-linecap="round">
-      <line x1="0" y1="0" x2="150" y2="150"/>
-      <line x1="150" y1="0" x2="0" y2="150"/>
-    </g>
+    <!-- crescent moon -->
+    <mask id="cres"><rect x="-80" y="-80" width="360" height="360" fill="#fff"/><circle cx="112" cy="52" r="84" fill="#000"/></mask>
+    <circle cx="68" cy="86" r="94" fill="url(#xg)" mask="url(#cres)"/>
   </g>
 
   <text x="122" y="400" font-size="40" font-weight="600" letter-spacing="10" fill="#9aa4c8">AI TRANSFORMATION</text>
   <text x="122" y="500" font-size="34" font-weight="700" fill="#c7d2fe">AX · 업무 자동화 솔루션 연구소</text>
-  <text x="122" y="548" font-size="26" font-weight="500" fill="#8a93b8">주식회사 넥스트엑스 (NEXT X Inc.)</text>
+  <text x="122" y="548" font-size="26" font-weight="500" fill="#8a93b8">주식회사 탐라야행 (TAMNA YAHAENG Inc.)</text>
 </svg>

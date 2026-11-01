@@ -2,14 +2,14 @@
 title: "[Automation] 운영 리포트 자동화 #3 — 프롬프트 실험실"
 date: 2026-07-11 15:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
-tags: [프롬프트, 실험로그, mvp, 운영리포트, 반복개선, nextx, ai에이전트]
+tags: [프롬프트, 실험로그, mvp, 운영리포트, 반복개선, 탐라야행, ai에이전트]
 description: "MVP의 심장인 '지표 요약 프롬프트'를 v1→v3까지 실제로 고쳐본 실험 로그. 실패와 개선 과정을 그대로 공개."
 image:
   path: /assets/img/posts/agent-build-03.png
   alt: "프롬프트 실험실 — 요약 프롬프트를 직접 튜닝하다"
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > [#2 설계도]({% post_url 2026-07-11-agent-build-02-blueprint %})에서 정한 MVP v0.1 = *"지표를 넣으면 3줄 요약 초안을 만든다"*.
@@ -89,6 +89,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

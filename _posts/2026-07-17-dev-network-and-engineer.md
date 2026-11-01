@@ -2,7 +2,7 @@
 title: "[Dev] 네트워크 완전 정복 — OSI 7계층부터 네트워크 엔지니어의 역할까지"
 date: 2026-07-17 18:00:00 +0900
 categories: ["Dev & DevOps", "개발자 역할"]
-tags: [네트워크, osi, tcp, ip, 라우터, 스위치, 방화벽, dns, 네트워크엔지니어, ccna, ccnp, nextx]
+tags: [네트워크, osi, tcp, ip, 라우터, 스위치, 방화벽, dns, 네트워크엔지니어, ccna, ccnp, 탐라야행]
 description: "OSI 7계층·TCP/IP·라우팅·스위칭·방화벽의 동작 원리와 네트워크 엔지니어가 조직에서 수행하는 6대 역할을 비유와 실전 예시로 풀어냅니다."
 image:
   path: /assets/img/posts/dev-network-engineer.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_R&D_Log]** · 주식회사 넥스트엑스(NEXT X) 기술연구소 인프라 솔루션
+> 🏷️ **[탐라야행_R&D_Log]** · 주식회사 탐라야행 기술연구소 인프라 솔루션
 {: .prompt-tip }
 
 > [백엔드·네트워크 완전 지도]({% post_url 2026-07-16-dev-backend-networking %})에서 DNS·HTTP·포트를 간략히 살펴봤습니다. 이번에는 한 발 더 들어가 **네트워크가 어떻게 계층별로 돌아가는지**, 그리고 이 네트워크를 **설계하고 지키는 사람** — 네트워크 엔지니어의 역할을 다룹니다.
@@ -429,6 +429,6 @@ flowchart TB
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

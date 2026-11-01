@@ -2,14 +2,14 @@
 title: "[Automation] 운영 리포트 자동화 #5 — 화면 붙이기 (MVP v1.0)"
 date: 2026-07-11 21:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
-tags: [ui, mvp완성, 바이브코딩, 사람검수, 배포, nextx, ai에이전트]
+tags: [ui, mvp완성, 바이브코딩, 사람검수, 배포, 탐라야행, ai에이전트]
 description: "터미널에서 돌던 요약 기능에 간단한 화면을 붙여, 동료도 쓸 수 있는 MVP v1.0으로 완성한다."
 image:
   path: /assets/img/posts/agent-build-05.png
   alt: "화면 붙이기 — 드디어 앱이 되다"
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > [#4 데이터 연결]({% post_url 2026-07-11-agent-build-04-data-hookup %})까지 오면 기능은 다 됐지만, 아직 **나만 터미널에서** 쓸 수 있어요.
@@ -76,6 +76,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

@@ -17,5 +17,5 @@
     <g transform="translate(292,0)"><rect width="140" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="70" y="34" text-anchor="middle" fill="#e8eaff">톤 조정</text></g>
     <g transform="translate(448,0)"><rect width="140" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="70" y="34" text-anchor="middle" fill="#e8eaff">사람 검수</text></g>
   </g>
-  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">탐라야행</text>
 </svg>

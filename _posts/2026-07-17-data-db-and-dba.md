@@ -2,7 +2,7 @@
 title: "[Data] DB와 DBA — 데이터베이스의 구조부터 DBA가 하는 일까지"
 date: 2026-07-17 12:00:00 +0900
 categories: ["Data Engineering", "SQL·데이터베이스"]
-tags: [데이터베이스, db, dba, sql, rdbms, nosql, 인덱스, 백업, 성능튜닝, nextx]
+tags: [데이터베이스, db, dba, sql, rdbms, nosql, 인덱스, 백업, 성능튜닝, 탐라야행]
 description: "데이터베이스란 무엇이고 왜 필요한가부터 RDBMS·NoSQL 차이, SQL 기본기, 그리고 DBA가 조직에서 수행하는 핵심 역할 6가지까지 한 글로 정리합니다."
 image:
   path: /assets/img/posts/data-db-and-dba.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [데이터 파이프라인]({% post_url 2026-07-12-what-is-data-pipeline %})에서 "데이터를 어딘가에 쌓는다"고 했죠. 그 **"어딘가"** 가 바로 데이터베이스(DB)입니다. 이 글에서는 DB의 구조, 종류, SQL 기본기, 그리고 이 DB를 **지키고 가꾸는 사람** — DBA의 역할을 다룹니다.
@@ -409,6 +409,6 @@ flowchart TB
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

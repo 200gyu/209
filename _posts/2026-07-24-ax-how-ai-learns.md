@@ -2,7 +2,7 @@
 title: "[AX] AI는 어떻게 배우나 — 학습의 원리 한 번에 이해하기"
 date: 2026-07-24 20:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [머신러닝, 딥러닝, 지도학습, 경사하강법, 역전파, 임베딩, 텐서, 파인튜닝, gpu, nextx]
+tags: [머신러닝, 딥러닝, 지도학습, 경사하강법, 역전파, 임베딩, 텐서, 파인튜닝, gpu, 탐라야행]
 description: "규칙을 짜는 기계에서 스스로 배우는 기계로 — 예측·오차·조정·역전파부터 임베딩·텐서, 회귀와 분류, 파인튜닝, GPU까지. AI가 학습하는 원리를 비개발자도 이해하도록 정리했습니다."
 image:
   path: /assets/img/posts/ax-how-ai-learns.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 넥스트엑스 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 탐라야행 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > "AI는 어떻게 배울까?" — 이 한 편이면 머신러닝의 학습 원리를 큰 그림으로 잡을 수 있습니다.
@@ -152,17 +152,17 @@ flowchart TB
 1. **모델보다 데이터** — 좋은 데이터를 모으고 검증하는 것이 핵심.
 2. **AI 활용가의 역할** — 코드를 직접 짜는 것보다, **"어떤 데이터를 주고 · 어떤 학습을 시키고 · 결과를 어떻게 검증할지"** 판단하는 직관이 더 중요합니다.
 
-이 관점은 넥스트엑스가 AX 솔루션을 만들 때의 원칙과도 닿아 있습니다 — [RAG 쉽게 이해하기]({% post_url 2026-07-11-rag-explained %})나 [임베딩 & 벡터 DB]({% post_url 2026-07-12-embeddings-and-vector-db %})와 함께 읽으면 "데이터를 숫자로 바꿔 다루는" 큰 그림이 이어집니다.
+이 관점은 탐라야행이 AX 솔루션을 만들 때의 원칙과도 닿아 있습니다 — [RAG 쉽게 이해하기]({% post_url 2026-07-11-rag-explained %})나 [임베딩 & 벡터 DB]({% post_url 2026-07-12-embeddings-and-vector-db %})와 함께 읽으면 "데이터를 숫자로 바꿔 다루는" 큰 그림이 이어집니다.
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 학습 기록(R&D Log)입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 학습 기록(R&D Log)입니다.
 > **함께 읽기** — [🧠 RAG 쉽게 이해하기]({% post_url 2026-07-11-rag-explained %}) · [🔢 임베딩 & 벡터 DB]({% post_url 2026-07-12-embeddings-and-vector-db %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %})
 {: .prompt-info }
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

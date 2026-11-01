@@ -1,8 +1,8 @@
 ---
 title: "[Inside] AI 시대, 기획자의 무기는 무엇인가 — 정보 처리자에서 의사결정자로"
 date: 2026-07-11 17:00:00 +0900
-categories: ["Inside NEXT X"]
-tags: [기획자, pm, 커리어, ai시대, 역량, nextx]
+categories: ["Inside 탐라야행"]
+tags: [기획자, pm, 커리어, ai시대, 역량, 탐라야행]
 description: "AI가 기획자를 대체할까? 데이터로 본 결론은 '역할 이동'. 사라지는 일과 더 중요해지는 역량을 정리했다."
 image:
   path: /assets/img/posts/pm-role-ai.png
@@ -59,6 +59,6 @@ AI는 기획자의 일을 없애기보다 **무게중심을 옮깁니다.**
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

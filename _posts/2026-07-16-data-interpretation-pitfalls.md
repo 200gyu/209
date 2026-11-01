@@ -2,14 +2,14 @@
 title: "[Data] 숫자에 속지 않기 — 데이터 해석의 함정 5가지"
 date: 2026-07-16 12:00:00 +0900
 categories: ["Data Engineering", "데이터 품질"]
-tags: [데이터해석, 통계함정, 의사결정, 평균, 상관관계, nextx]
+tags: [데이터해석, 통계함정, 의사결정, 평균, 상관관계, 탐라야행]
 description: "데이터가 많다고 옳은 결정이 나오진 않는다. 경영진·기획자가 자주 빠지는 데이터 해석의 함정 5가지와 피하는 법."
 image:
   path: /assets/img/posts/data-pitfalls.png
   alt: "숫자에 속지 않기 — 데이터 해석의 함정 5"
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > 대시보드가 아무리 예뻐도, **숫자를 잘못 읽으면** 잘못된 결정으로 이어집니다. 실무에서 가장 자주 빠지는 함정 5가지를 정리했습니다.
@@ -56,11 +56,11 @@ image:
 ## 📩 "이 숫자, 어떻게 읽어야 하죠?"
 
 지표 해석·대시보드 설계를 함께 봐드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

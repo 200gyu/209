@@ -2,7 +2,7 @@
 title: "[Data] ETL vs ELT — 데이터 이동의 두 가지 전략"
 date: 2026-07-19 14:00:00 +0900
 categories: ["Data Engineering", "파이프라인·아키텍처"]
-tags: [etl, elt, 데이터파이프라인, 데이터웨어하우스, dbt, airflow, 클라우드, nextx]
+tags: [etl, elt, 데이터파이프라인, 데이터웨어하우스, dbt, airflow, 클라우드, 탐라야행]
 description: "ETL과 ELT의 차이, 역사적 배경, 클라우드 시대에 ELT가 부상하는 이유, 실전 도구(Airflow, dbt, Fivetran)까지 — 데이터 이동 전략의 모든 것."
 image:
   path: /assets/img/posts/data-etl-vs-elt.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [데이터 파이프라인이란?]({% post_url 2026-07-12-what-is-data-pipeline %})에서 Extract → Transform → Load라는 세 단계를 소개했습니다. 그런데 최근 클라우드 환경에서는 **순서를 바꿔** Extract → Load → Transform으로 처리하는 흐름이 빠르게 확산되고 있습니다. 왜 순서가 바뀌었을까요? 이 글에서 ETL과 ELT의 차이를 역사부터 실전 도구까지 한 번에 정리합니다.
@@ -378,13 +378,13 @@ flowchart TD
 
 ---
 
-## 9. 넥스트엑스의 접근법 — BaaS + 경량 파이프라인
+## 9. 탐라야행의 접근법 — BaaS + 경량 파이프라인
 
-주식회사 넥스트엑스는 중소·1인 기업 고객을 위한 데이터 솔루션에서 다음과 같은 원칙을 적용합니다.
+주식회사 탐라야행은 중소·1인 기업 고객을 위한 데이터 솔루션에서 다음과 같은 원칙을 적용합니다.
 
 ### 원칙: 무겁게 짓지 않는다
 
-대기업형 풀스택 ELT를 그대로 도입하면, 소규모 조직에는 **과잉 설계**가 됩니다. 넥스트엑스는 **BaaS(Backend as a Service) 기반 경량 파이프라인**을 지향합니다.
+대기업형 풀스택 ELT를 그대로 도입하면, 소규모 조직에는 **과잉 설계**가 됩니다. 탐라야행은 **BaaS(Backend as a Service) 기반 경량 파이프라인**을 지향합니다.
 
 ```mermaid
 flowchart LR
@@ -431,7 +431,7 @@ flowchart LR
 
 ### 규모에 따른 확장 경로
 
-조직이 성장하면 파이프라인도 함께 성장해야 합니다. 넥스트엑스는 단계별 확장 경로를 다음과 같이 설계합니다.
+조직이 성장하면 파이프라인도 함께 성장해야 합니다. 탐라야행은 단계별 확장 경로를 다음과 같이 설계합니다.
 
 | 단계 | 데이터 규모 | 아키텍처 | 도구 |
 |------|-----------|---------|------|
@@ -466,7 +466,7 @@ flowchart LR
 | **Airflow** | 워크플로 오케스트레이션. "언제, 어떤 순서로" 실행할지 제어 |
 | **dbt** | SQL 기반 변환 도구. ELT의 T를 코드로 관리 |
 | **Fivetran** | E+L 자동화. 300개+ 커넥터로 코드 없이 적재 |
-| **BaaS 경량 ELT** | 소규모 조직을 위한 넥스트엑스 접근법. Supabase + View |
+| **BaaS 경량 ELT** | 소규모 조직을 위한 탐라야행 접근법. Supabase + View |
 
 ---
 
@@ -478,11 +478,11 @@ flowchart LR
 
 ---
 
-*NEXT X R&D · Data Engineering*
+*탐라야행 R&D · Data Engineering*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

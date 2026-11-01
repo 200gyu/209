@@ -127,5 +127,5 @@
   <!-- Title -->
   <text x="60" y="500" fill="#fff" font-size="34" font-weight="800" letter-spacing="-0.5">Network &amp; Network Engineer</text>
   <text x="60" y="540" fill="#fff" fill-opacity="0.7" font-size="18">OSI 7계층부터 네트워크 엔지니어의 역할까지</text>
-  <text x="60" y="575" fill="#7dd3fc" font-size="14">NEXT X R&amp;D · Dev &amp; DevOps</text>
+  <text x="60" y="575" fill="#7dd3fc" font-size="14">탐라야행 R&amp;D · Dev &amp; DevOps</text>
 </svg>

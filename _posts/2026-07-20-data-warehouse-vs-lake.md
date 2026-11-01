@@ -2,7 +2,7 @@
 title: "[Data] 데이터 웨어하우스 vs 데이터 레이크 — 우리 조직에 맞는 저장소는?"
 date: 2026-07-20 14:00:00 +0900
 categories: ["Data Engineering", "파이프라인·아키텍처"]
-tags: [데이터웨어하우스, 데이터레이크, 레이크하우스, bigquery, snowflake, s3, nextx]
+tags: [데이터웨어하우스, 데이터레이크, 레이크하우스, bigquery, snowflake, s3, 탐라야행]
 description: "데이터 웨어하우스와 데이터 레이크의 차이, 레이크하우스의 등장, 실전 도구(BigQuery, Snowflake, Databricks)까지 — 조직 규모에 맞는 데이터 저장 전략."
 image:
   path: /assets/img/posts/data-warehouse-vs-lake.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [DB와 DBA]({% post_url 2026-07-17-data-db-and-dba %})에서 "데이터를 어디에 저장하느냐"를 다뤘습니다. 하지만 데이터가 수십 테이블, 수억 행으로 불어나면 운영 DB만으로는 **분석이 버겁습니다.** 이 글에서는 분석 전용 저장소인 데이터 웨어하우스와 데이터 레이크의 차이, 두 세계를 합친 레이크하우스, 그리고 실전 도구 선택까지 정리합니다.
@@ -474,9 +474,9 @@ flowchart LR
 
 ---
 
-## 8. 넥스트엑스의 접근법 — Supabase PostgreSQL as Lightweight Warehouse
+## 8. 탐라야행의 접근법 — Supabase PostgreSQL as Lightweight Warehouse
 
-넥스트엑스는 현재 **스타트업~초기 성장기** 단계입니다. 거대한 웨어하우스 대신 **Supabase PostgreSQL을 경량 분석 저장소로 활용**하는 실용적 접근을 취하고 있습니다.
+탐라야행은 현재 **스타트업~초기 성장기** 단계입니다. 거대한 웨어하우스 대신 **Supabase PostgreSQL을 경량 분석 저장소로 활용**하는 실용적 접근을 취하고 있습니다.
 
 ### 현재 아키텍처
 
@@ -521,7 +521,7 @@ flowchart LR
 | **성장기** | 데이터 50GB 초과, 분석 쿼리가 서비스 지연 유발 | BigQuery 도입, Supabase → BigQuery ELT 파이프라인 구축 |
 | **확장기** | 비정형 데이터(이미지, 로그) 급증, ML 팀 구성 | 레이크하우스 전환 검토 (Databricks 또는 BigLake) |
 
-> 넥스트엑스의 원칙: **"지금 필요한 것만 도입하고, 다음 단계의 전환 기준을 미리 정해둔다."** 이것이 스타트업이 데이터 인프라에서 살아남는 방법입니다.
+> 탐라야행의 원칙: **"지금 필요한 것만 도입하고, 다음 단계의 전환 기준을 미리 정해둔다."** 이것이 스타트업이 데이터 인프라에서 살아남는 방법입니다.
 {: .prompt-tip }
 
 ---
@@ -568,8 +568,8 @@ flowchart TD
 
 ---
 
-> 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }
 
-*NEXT X R&D · Data Engineering*
+*탐라야행 R&D · Data Engineering*

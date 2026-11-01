@@ -2,7 +2,7 @@
 title: "[Dev] 코드 없이 기업 블로그 배포하기 — Jekyll + Chirpy + GitHub Actions"
 date: 2026-07-12 22:00:00 +0900
 categories: ["Dev & DevOps", "인프라·배포"]
-tags: [jekyll, chirpy, github-pages, githubactions, cicd, 배포, nextx]
+tags: [jekyll, chirpy, github-pages, githubactions, cicd, 배포, 탐라야행]
 description: "이 블로그(code209.kr)를 실제로 배포한 방법. Jekyll + Chirpy 테마를 GitHub Actions로 자동 빌드·배포하는 전 과정과 함정."
 image:
   path: /assets/img/posts/dev-deploy.png
@@ -78,12 +78,12 @@ tags: [태그]
 
 배포까지 됐다면, 이제 **내 도메인**을 붙일 차례. → [커스텀 도메인 + HTTPS 연결하기]({% post_url 2026-07-12-dev-custom-domain-https %})
 
-> **주식회사 넥스트엑스(NEXT X)** — 작은 것도 제대로 배포하고 운영합니다. [기술 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **주식회사 탐라야행** — 작은 것도 제대로 배포하고 운영합니다. [기술 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

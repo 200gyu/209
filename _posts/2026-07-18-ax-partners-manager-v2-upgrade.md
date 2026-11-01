@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v2 — 명부 교체와 스키마 유연화"
 date: 2026-07-18 18:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, 스키마마이그레이션, 벌크임포트, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, 스키마마이그레이션, 벌크임포트, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "실무 운영 중 프리랜서 명부가 교체되면서 스키마 유연화, 대량 데이터 교체, UI 개선까지 — 납품 후 첫 번째 업그레이드 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v2-upgrade.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **네 번째 글**입니다.
@@ -407,11 +407,11 @@ gantt
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

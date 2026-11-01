@@ -2,7 +2,7 @@
 title: "[Dev] 커스텀 도메인 + HTTPS 연결 — 가비아에서 GitHub Pages로"
 date: 2026-07-12 22:30:00 +0900
 categories: ["Dev & DevOps", "인프라·배포"]
-tags: [커스텀도메인, dns, github-pages, https, 가비아, cname, nextx]
+tags: [커스텀도메인, dns, github-pages, https, 가비아, cname, 탐라야행]
 description: "가비아에서 산 도메인(code209.kr)을 GitHub Pages 블로그에 연결하고 HTTPS까지 켠 실제 과정. A레코드·CNAME·baseurl 함정 포함."
 image:
   path: /assets/img/posts/dev-domain.png
@@ -63,12 +63,12 @@ curl -s -o /dev/null -w "%{http_code}\n" https://code209.kr/
 
 - [블로그 배포기 (Jekyll + Chirpy + Actions)]({% post_url 2026-07-12-dev-deploy-blog-github-pages %})
 
-> **주식회사 넥스트엑스(NEXT X)** — 도메인·인증서·배포까지 매끄럽게. [기술 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
+> **주식회사 탐라야행** — 도메인·인증서·배포까지 매끄럽게. [기술 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

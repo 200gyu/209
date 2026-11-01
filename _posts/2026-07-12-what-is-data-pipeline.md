@@ -2,7 +2,7 @@
 title: "[Data] 데이터 파이프라인이란? — 원시 데이터가 대시보드가 되기까지"
 date: 2026-07-12 21:30:00 +0900
 categories: ["Data Engineering", "파이프라인·아키텍처"]
-tags: [데이터파이프라인, etl, 데이터엔지니어링, 대시보드, 개념, nextx]
+tags: [데이터파이프라인, etl, 데이터엔지니어링, 대시보드, 개념, 탐라야행]
 description: "ETL, 데이터 웨어하우스, 대시보드… 비개발자도 이해하는 데이터 파이프라인의 개념과 각 단계의 역할."
 image:
   path: /assets/img/posts/data-what-is-pipeline.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [데이터 파이프라인 구축 접근법]({% post_url 2026-07-12-data-pipeline-showcase %})에서 "왜 필요한지"를 봤다면, 이번엔 **"어떻게 굴러가는지"** 를 쉽게 정리합니다.
@@ -62,6 +62,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

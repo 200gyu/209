@@ -2,7 +2,7 @@
 title: "[AX] 첫 웹 서비스, 최소로 만들어 배포하기 — AI 에이전트로 완성하는 MVP"
 date: 2026-07-24 21:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [mvp, 바이브코딩, ai에이전트, prd, moscow, git, supabase, rls, 배포, nextx]
+tags: [mvp, 바이브코딩, ai에이전트, prd, moscow, git, supabase, rls, 배포, 탐라야행]
 description: "'완성'이 아니라 '굴러가는 첫 조각'을 만드는 법. MVP 마인드셋과 MoSCoW, 웹 만들기 5단계, 막혔을 때의 4가지 규율까지 — AI 에이전트로 첫 서비스를 배포하는 실전 흐름을 정리했습니다."
 image:
   path: /assets/img/posts/ax-mvp-first-web-service.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 넥스트엑스 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 탐라야행 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > 목표는 **'완성된 제품'이 아니라 '굴러가는 첫 조각(MVP)'** 입니다.
@@ -71,7 +71,7 @@ flowchart LR
 > 💡 **확장 단계 (Supabase)**: 회원가입·로그인을 붙일 때는 반드시 **행 수준 보안(RLS, Row Level Security)** 을 설정해야 합니다. RLS가 없으면 로그인한 누구나 **남의 데이터까지** 조회할 수 있습니다.
 {: .prompt-warning }
 
-넥스트엑스가 실제로 이 5단계를 프리랜서 관리 SaaS에 적용한 과정은 [파트너스 매칭 매니저 프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})에서 확인할 수 있습니다.
+탐라야행이 실제로 이 5단계를 프리랜서 관리 SaaS에 적용한 과정은 [파트너스 매칭 매니저 프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})에서 확인할 수 있습니다.
 
 ---
 
@@ -111,13 +111,13 @@ MVP는 "대충 만들기"가 아닙니다. **무엇을 안 만들지 결정하�
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 학습 기록(R&D Log)입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 학습 기록(R&D Log)입니다.
 > **함께 읽기** — [🧪 바이브 코딩이란?]({% post_url 2026-07-11-what-is-vibe-coding %}) · [🛠️ 나만의 AI 작업대 차리기]({% post_url 2026-07-13-dev-vibe-coding-workbench %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %})
 {: .prompt-info }
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

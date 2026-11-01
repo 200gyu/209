@@ -85,7 +85,7 @@
   <!-- Title area -->
   <text x="600" y="80" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="800" letter-spacing="-0.5">Supabase Auth 실전 트러블슈팅</text>
   <text x="600" y="120" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="18">관리자 로그인이 안 될 때 — 에러에서 해결까지의 전 과정</text>
-  <text x="600" y="148" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="13">Client Case × NEXT X  |  AX Solution Delivery</text>
+  <text x="600" y="148" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="13">Client Case × 탐라야행  |  AX Solution Delivery</text>
 
   <!-- Bottom: Supabase Dashboard mockup -->
   <rect x="180" y="360" width="840" height="220" rx="12" fill="#1c1c1c" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
@@ -140,6 +140,6 @@
   <rect x="290" y="590" width="60" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
   <text x="320" y="606" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">Vercel</text>
 
-  <!-- NEXT X badge -->
-  <text x="1140" y="606" text-anchor="end" fill="rgba(255,255,255,0.25)" font-size="11">NEXT X R&amp;D</text>
+  <!-- 탐라야행 badge -->
+  <text x="1140" y="606" text-anchor="end" fill="rgba(255,255,255,0.25)" font-size="11">탐라야행 R&amp;D</text>
 </svg>

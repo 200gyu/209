@@ -2,7 +2,7 @@
 title: "[Automation] 엑셀 반복작업, 사람이 안 해도 됩니다 — 문서 자동화로 인건비 되찾기"
 date: 2026-07-12 20:00:00 +0900
 categories: ["Workplace Automation", "오피스 자동화"]
-tags: [업무자동화, 엑셀자동화, rpa, 비용절감, roi, nextx]
+tags: [업무자동화, 엑셀자동화, rpa, 비용절감, roi, 탐라야행]
 description: "엑셀 취합·정산·보고서 반복작업을 자동화해 인건비를 줄이는 법. 월 20시간·연 480만원 절감 예시로 보는 ROI 계산법과 도입 순서."
 image:
   path: /assets/img/posts/automation-excel.png
@@ -11,11 +11,11 @@ pin: false
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > 대표님, 혹시 직원이 **엑셀에 갇혀** 있지 않나요? 매주 같은 시트를 취합하고, 정산하고, 보고서 양식을 다시 채우는 일 — 그 시간은 곧 **인건비**입니다.
-> 넥스트엑스는 이런 반복을 **자동화**로 걷어내, 사람이 판단과 영업에 집중하게 만듭니다.
+> 탐라야행은 이런 반복을 **자동화**로 걷어내, 사람이 판단과 영업에 집중하게 만듭니다.
 {: .prompt-info }
 
 ## 🔥 "엑셀 지옥"은 어디에나 있습니다
@@ -43,7 +43,7 @@ mermaid: true
 
 자동화하면 이 작업이 **버튼 한 번(또는 예약 실행)** 으로 끝납니다. 구축은 한 번, 절감은 **매주 누적**됩니다.
 
-## 🧭 넥스트엑스의 자동화 접근법
+## 🧭 탐라야행의 자동화 접근법
 
 무작정 매크로부터 짜지 않습니다. **업무 성격에 맞는 도구**를 고릅니다.
 
@@ -93,15 +93,15 @@ flowchart TD
 
 **무료 진단**으로 시작하세요. 반복 업무 1건만 알려주시면, 자동화 가능 여부와 예상 절감을 짚어드립니다.
 
-- **Email** — [csnextx@gmail.com](mailto:csnextx@gmail.com) · **Tel** — 010-4125-2009 (이경규 전무)
+- **Email** — [200gyu@gmail.com](mailto:200gyu@gmail.com) · **Tel** — 010-4125-2009 (이경규 대표)
 - 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 
-> **주식회사 넥스트엑스(NEXT X)** — 반복은 기계에게, 판단은 사람에게.
+> **주식회사 탐라야행** — 반복은 기계에게, 판단은 사람에게.
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

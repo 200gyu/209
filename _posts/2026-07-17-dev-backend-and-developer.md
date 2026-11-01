@@ -2,7 +2,7 @@
 title: "[Dev] 백엔드와 백엔드 개발자 — 사용자가 모르는 모든 것을 만드는 사람들"
 date: 2026-07-17 23:00:00 +0900
 categories: ["Dev & DevOps", "개발자 역할"]
-tags: [백엔드, backend, api, 데이터베이스, 인증, 보안, 서버, 커리어, nextx]
+tags: [백엔드, backend, api, 데이터베이스, 인증, 보안, 서버, 커리어, 탐라야행]
 description: "백엔드란 무엇이고, 백엔드 개발자는 어떤 일을 하는가? API 설계, 데이터베이스, 인증·보안, 확장성, DevOps까지 — 무대 뒤에서 시스템을 지탱하는 사람들의 모든 것."
 image:
   path: /assets/img/posts/dev-backend-role.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_R&D_Log]** · 주식회사 넥스트엑스(NEXT X) 기술연구소 — 백엔드 개발 가이드
+> **[탐라야행_R&D_Log]** · 주식회사 탐라야행 기술연구소 — 백엔드 개발 가이드
 {: .prompt-tip }
 
 > 사용자는 버튼을 누르고, 목록이 뜨고, 로그인이 되면 "잘 작동한다"고 느낍니다. 하지만 그 버튼 뒤에서 데이터를 꺼내고, 권한을 확인하고, 결과를 돌려주는 **보이지 않는 시스템** — 그것을 설계하고 운영하는 사람이 **백엔드 개발자**입니다. 이 글은 백엔드의 본질, 핵심 업무, 기술 생태계, 그리고 프론트엔드와의 협업까지 다룹니다.
@@ -213,7 +213,7 @@ sequenceDiagram
 | 시크릿 키를 코드에 하드코딩 | **.env 파일 + 환경변수** |
 | 에러 시 스택 트레이스 노출 | **일반적 에러 메시지** 반환, 상세 로그는 서버에만 |
 
-> 넥스트엑스가 파트너스 매칭 매니저에 적용한 Supabase Auth + RLS 보안 구현 과정은 [실전 납품 개발기]({% post_url 2026-07-17-ax-partners-manager-delivery %})에서, 설정 과정에서 겪은 실전 트러블슈팅은 [Supabase Auth 트러블슈팅]({% post_url 2026-07-17-ax-supabase-auth-troubleshooting %})에서 확인할 수 있습니다.
+> 탐라야행이 파트너스 매칭 매니저에 적용한 Supabase Auth + RLS 보안 구현 과정은 [실전 납품 개발기]({% post_url 2026-07-17-ax-partners-manager-delivery %})에서, 설정 과정에서 겪은 실전 트러블슈팅은 [Supabase Auth 트러블슈팅]({% post_url 2026-07-17-ax-supabase-auth-troubleshooting %})에서 확인할 수 있습니다.
 {: .prompt-tip }
 
 ### 4. 비즈니스 로직
@@ -321,7 +321,7 @@ flowchart LR
 | **AWS Amplify** | AWS 서비스 통합, 풀스택 프레임워크 |
 | **Appwrite** | 셀프호스팅 가능, Docker 기반, 오픈소스 |
 
-> 넥스트엑스는 파트너스 매칭 매니저에 **Supabase**를 채택했습니다. PostgreSQL의 강력한 RLS(Row Level Security)로 인증된 관리자만 데이터에 접근하도록 설계했습니다. 자세한 과정은 [프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})를 참고하세요.
+> 탐라야행은 파트너스 매칭 매니저에 **Supabase**를 채택했습니다. PostgreSQL의 강력한 RLS(Row Level Security)로 인증된 관리자만 데이터에 접근하도록 설계했습니다. 자세한 과정은 [프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})를 참고하세요.
 {: .prompt-tip }
 
 ---
@@ -495,11 +495,11 @@ mindmap
 
 ---
 
-*NEXT X R&D · Dev & DevOps*
+*탐라야행 R&D · Dev & DevOps*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

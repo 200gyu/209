@@ -2,7 +2,7 @@
 title: "[AX] 생성형 AI로 마케팅 콘텐츠 자동화 — 빠르게, 일관되게, 여러 채널로"
 date: 2026-07-15 10:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [콘텐츠자동화, 마케팅, 생성형ai, sns, 브랜딩, nextx, ax프로젝트]
+tags: [콘텐츠자동화, 마케팅, 생성형ai, sns, 브랜딩, 탐라야행, ax프로젝트]
 description: "하나의 소재를 SNS·블로그·상세페이지로 빠르게 확장하는 생성형 AI 콘텐츠 자동화 워크플로. 톤 일관성과 브랜드 안전까지."
 image:
   path: /assets/img/posts/ax-marketing.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 콘텐츠 마케팅의 진짜 병목은 아이디어가 아니라 **"매번 처음부터, 채널마다 다시"** 쓰는 반복입니다. 생성형 AI는 이걸 **한 소재 → 여러 채널**로 바꿔줍니다.
@@ -34,7 +34,7 @@ flowchart LR
     A & B & C & D --> H[사람 검수·발행]
 ```
 
-## 🧭 넥스트엑스의 콘텐츠 자동화 워크플로
+## 🧭 탐라야행의 콘텐츠 자동화 워크플로
 
 | 단계 | 하는 일 |
 |------|---------|
@@ -59,7 +59,7 @@ flowchart LR
 ## 📩 우리 브랜드 톤으로 자동화하려면
 
 브랜드 가이드가 없어도 됩니다 — 기존 콘텐츠 몇 개만 주시면 **톤 규칙부터** 함께 만듭니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %}) · [AI 활용 팁 10]({% post_url 2026-07-14-ax-ai-tips-10 %})
 {: .prompt-info }
@@ -67,6 +67,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

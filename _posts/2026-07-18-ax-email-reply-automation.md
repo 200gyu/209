@@ -2,7 +2,7 @@
 title: "[AX] 이메일·문의 답장 자동화 — 반복 답변 초안 만들기"
 date: 2026-07-18 11:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [이메일자동화, cs, 답변초안, llm, 자동응대, nextx, ax프로젝트]
+tags: [이메일자동화, cs, 답변초안, llm, 자동응대, 탐라야행, ax프로젝트]
 description: "반복되는 이메일·문의 답장을 AI가 먼저 써주는 자동화. 유형 분류 → 답변 초안 생성 → 사람 검수 흐름과 프롬프트, 노코드 연결까지."
 image:
   path: /assets/img/posts/ax-email-reply.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 하루에도 몇 번씩 오는 **"배송 언제 오나요?", "환불 어떻게 하나요?"** — 답은 거의 똑같은데 매번 새로 쓰고 계신가요? AI가 **초안을 먼저** 써주면, 사람은 확인·발송만 하면 됩니다.
@@ -62,7 +62,7 @@ flowchart LR
 ## 📩 우리 CS에 맞게
 
 과거 문의·답변 샘플만 주시면 **유형 분류와 초안 정확도부터** 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [VOC 자동 분류]({% post_url 2026-07-16-ax-voc-classification %}) · [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %})
 {: .prompt-info }
@@ -70,6 +70,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

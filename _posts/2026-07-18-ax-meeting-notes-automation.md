@@ -2,7 +2,7 @@
 title: "[AX] 회의록 자동 정리 — 녹취를 요약·액션아이템으로 (AI 활용법)"
 date: 2026-07-18 09:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [회의록, 녹취, stt, 요약, 액션아이템, nextx, ax프로젝트]
+tags: [회의록, 녹취, stt, 요약, 액션아이템, 탐라야행, ax프로젝트]
 description: "회의록 자동 정리하는 법 — 녹음/녹취를 AI로 전사·요약하고 결정사항·액션아이템까지 뽑아내는 실전 워크플로와 프롬프트."
 image:
   path: /assets/img/posts/ax-meeting-notes.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 회의는 끝났는데, **정리에 또 한 시간.** 누가 무엇을 언제까지 하기로 했는지 다시 녹음을 돌려보고 계신가요? 이 반복은 **전사(STT) + AI 요약**으로 거의 사라집니다.
@@ -68,7 +68,7 @@ flowchart LR
 ## 📩 우리 회의에 맞게 만들려면
 
 회의 유형(주간·영업·개발)만 알려주시면 **정리 양식과 자동화 방안**을 잡아드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [AI 활용 팁 10]({% post_url 2026-07-14-ax-ai-tips-10 %}) · [VOC 자동 분류]({% post_url 2026-07-16-ax-voc-classification %})
 {: .prompt-info }
@@ -76,6 +76,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

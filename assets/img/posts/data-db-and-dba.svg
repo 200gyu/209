@@ -100,5 +100,5 @@
   <!-- Title text -->
   <text x="60" y="510" fill="#fff" font-size="34" font-weight="800" letter-spacing="-0.5">DB와 DBA의 역할</text>
   <text x="60" y="550" fill="#fff" fill-opacity="0.7" font-size="18">데이터베이스의 구조부터 DBA가 하는 일까지</text>
-  <text x="60" y="585" fill="#5eead4" font-size="14">NEXT X Data Solution · Data Engineering</text>
+  <text x="60" y="585" fill="#5eead4" font-size="14">탐라야행 Data Solution · Data Engineering</text>
 </svg>

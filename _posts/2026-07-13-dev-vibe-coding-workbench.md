@@ -2,7 +2,7 @@
 title: "[Dev] 바이브 코딩의 시작 — 나만의 AI 작업대 차리기 & 첫 웹페이지 빌드"
 date: 2026-07-13 20:00:00 +0900
 categories: ["Dev & DevOps", "도구·환경"]
-tags: [바이브코딩, claudecode, nodejs, uv, git, 터미널, 아이펠, nextx]
+tags: [바이브코딩, claudecode, nodejs, uv, git, 터미널, 아이펠, 탐라야행]
 description: "AI에게 '코드 짜줘'를 넘어, 내 컴퓨터에서 말하는 대로 손이 움직이는 에이전틱 코딩 작업대(Claude Code·Node·uv·Git·터미널)를 세팅하고 첫 웹페이지를 빌드한 R&D 실전 일지."
 image:
   path: /assets/img/posts/vibe-workbench.png
@@ -10,10 +10,10 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [바이브 코딩으로 웹 서비스 개발하기] 내용을 실무 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [바이브 코딩으로 웹 서비스 개발하기] 내용을 실무 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
-> AI에게 무작정 "코드 짜줘"라고 요청하는 단계를 넘어, **내 컴퓨터에서 말하는 대로 손이 움직이는** 에이전틱 코딩(Agentic Coding) 작업대를 구축하고 첫 웹페이지를 빌드한 기록입니다. 넥스트엑스가 [바이브 코딩]({% post_url 2026-07-11-what-is-vibe-coding %})을 실제 업무에 쓰기 위한 R&D 실전 일지죠.
+> AI에게 무작정 "코드 짜줘"라고 요청하는 단계를 넘어, **내 컴퓨터에서 말하는 대로 손이 움직이는** 에이전틱 코딩(Agentic Coding) 작업대를 구축하고 첫 웹페이지를 빌드한 기록입니다. 탐라야행이 [바이브 코딩]({% post_url 2026-07-11-what-is-vibe-coding %})을 실제 업무에 쓰기 위한 R&D 실전 일지죠.
 {: .prompt-info }
 
 ## 💡 바이브 코딩이란?
@@ -129,7 +129,7 @@ flowchart LR
 
 > **"개발 환경은 AI에게 일을 시키고, 그 결과를 바로 검토·수정하기 위한 작업대다."**
 
-첫 작업대가 완벽히 차려졌으니, 남은 과정 동안 이 위에서 멋진 에이전트 서비스를 쏘아 올려 보겠습니다. 🚀 이 배움이 넥스트엑스의 [AX 솔루션]({% post_url 2026-07-12-ax-showcase-report-automation %})으로 이어집니다.
+첫 작업대가 완벽히 차려졌으니, 남은 과정 동안 이 위에서 멋진 에이전트 서비스를 쏘아 올려 보겠습니다. 🚀 이 배움이 탐라야행의 [AX 솔루션]({% post_url 2026-07-12-ax-showcase-report-automation %})으로 이어집니다.
 
 ## 🔗 이어지는 R&D 일지
 
@@ -139,6 +139,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

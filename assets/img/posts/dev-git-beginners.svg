@@ -16,5 +16,5 @@
     <g transform="translate(262,0)"><rect width="150" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="75" y="34" text-anchor="middle" fill="#e8eaff">commit</text></g>
     <g transform="translate(428,0)"><rect width="110" height="52" rx="12" fill="#fff" opacity="0.08"/><text x="55" y="34" text-anchor="middle" fill="#e8eaff">log</text></g>
   </g>
-  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">탐라야행</text>
 </svg>

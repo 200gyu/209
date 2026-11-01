@@ -2,14 +2,14 @@
 title: "[Automation] 코딩 없이 시작하는 업무 자동화 3가지"
 date: 2026-07-14 11:00:00 +0900
 categories: ["Workplace Automation", "프로세스·전략"]
-tags: [노코드, 자동화, 구글시트, zapier, make, nextx]
+tags: [노코드, 자동화, 구글시트, zapier, make, 탐라야행]
 description: "개발자 없이도 오늘 시작하는 업무 자동화 3가지 — 구글 시트, 노코드 연결 툴, 예약 실행. 어디까지 되고 언제 전문가가 필요한지."
 image:
   path: /assets/img/posts/nocode-automation.png
   alt: "코딩 없이 시작하는 업무 자동화 3가지"
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > "자동화는 개발자가 있어야 하는 거 아냐?" — 아닙니다. **오늘 혼자서** 시작할 수 있는 3가지를 소개합니다.
@@ -67,14 +67,14 @@ flowchart LR
 ## 📩 노코드로 안 되는 지점이 오면
 
 무료 진단으로 "이건 노코드, 이건 전문가"를 구분해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
-> **주식회사 넥스트엑스(NEXT X)** — 작게 시작해, 필요할 때 키웁니다.
+> **주식회사 탐라야행** — 작게 시작해, 필요할 때 키웁니다.
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

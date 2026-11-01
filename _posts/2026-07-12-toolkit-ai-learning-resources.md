@@ -2,14 +2,14 @@
 title: "[AX] AI 공부 리소스 모음 — 무료로 시작하는 검증된 자료들"
 date: 2026-07-12 16:00:00 +0900
 categories: ["AI Transformation", "리소스·도구"]
-tags: [학습자료, 무료강의, anthropic, deeplearning, 리소스, nextx]
+tags: [학습자료, 무료강의, anthropic, deeplearning, 리소스, 탐라야행]
 description: "기획자·비개발자가 AI를 처음 배울 때 믿고 볼 수 있는 무료·공식 자료들을 레벨별로 정리. 계속 업데이트합니다."
 image:
   path: /assets/img/posts/resources.png
   alt: "AI 공부 리소스 모음"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > "어디서부터 공부하지?" 막막할 때 보는 큐레이션입니다. **무료·공식·검증된** 자료 위주로 골랐어요. 📚
@@ -69,6 +69,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

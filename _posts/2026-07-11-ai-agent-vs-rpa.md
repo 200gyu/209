@@ -2,14 +2,14 @@
 title: "[Automation] AI 에이전트 vs RPA — '시키는 대로' vs '목표를 주면 알아서'"
 date: 2026-07-11 12:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
-tags: [ai에이전트, rpa, 자동화, agentic, 개념정리, nextx]
+tags: [ai에이전트, rpa, 자동화, agentic, 개념정리, 탐라야행]
 description: "실무자가 가장 헷갈리는 개념 정리. RPA는 스크립트를, 에이전트는 목표를 받는다. 언제 무엇을 쓰고 어떻게 결합할까."
 image:
   path: /assets/img/posts/agent-vs-rpa.png
   alt: "AI 에이전트 vs RPA"
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > "그거 그냥 자동화(RPA) 아니야?" — AI 에이전트를 이야기하면 꼭 나오는 질문입니다. 둘은 **닮았지만 근본이 다릅니다.**
@@ -77,6 +77,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

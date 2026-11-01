@@ -2,7 +2,7 @@
 title: "[Dev] 바이브코딩 도구 비교 — Claude Code · Cursor · v0 · Windsurf"
 date: 2026-07-11 20:00:00 +0900
 categories: ["Dev & DevOps", "도구·환경"]
-tags: [바이브코딩, 도구비교, claudecode, cursor, v0, nextx]
+tags: [바이브코딩, 도구비교, claudecode, cursor, v0, 탐라야행]
 description: "대표 바이브코딩 도구들의 강점과 적합 대상을 기획자/비개발자 관점에서 정리. 무엇으로 시작하면 좋을까?"
 image:
   path: /assets/img/posts/vibe-tools.png
@@ -55,6 +55,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

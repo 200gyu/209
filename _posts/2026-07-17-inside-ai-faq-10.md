@@ -1,8 +1,8 @@
 ---
 title: "[Inside] AI 도입 전 자주 묻는 질문 10 (FAQ)"
 date: 2026-07-17 10:00:00 +0900
-categories: ["Inside NEXT X"]
-tags: [faq, ai도입, 비용, roi, 보안, nextx]
+categories: ["Inside 탐라야행"]
+tags: [faq, ai도입, 비용, roi, 보안, 탐라야행]
 description: "비용·기간·정확도·보안·직원 반발까지 — AI 자동화 도입 전 대표·실무자가 가장 많이 묻는 질문 10가지에 솔직하게 답합니다."
 image:
   path: /assets/img/posts/faq.png
@@ -19,7 +19,7 @@ image:
     {"@type":"Question","name":"AI 자동화가 진짜 효과가 있나요?","acceptedAnswer":{"@type":"Answer","text":"반복·규칙 업무일수록 확실합니다. 다만 효과를 시간·오류 절감 같은 숫자로 측정하고 시작하길 권합니다."}},
     {"@type":"Question","name":"우리 업종이나 회사에도 AI가 적용되나요?","acceptedAnswer":{"@type":"Answer","text":"반복 업무가 있으면 적용 가능합니다. 제조·유통·서비스 등 업종별 활용 예시가 있습니다."}},
     {"@type":"Question","name":"AI 자동화, 어디부터 시작해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"가장 시간을 많이 잡아먹는 반복 업무 1건부터 시작합니다. 전사 도입이 아니라 한 업무 파일럿이 정석입니다."}},
-    {"@type":"Question","name":"개발자가 없는데 AI 자동화가 가능한가요?","acceptedAnswer":{"@type":"Answer","text":"많은 부분이 노코드와 바이브 코딩으로 가능하며, 복잡한 부분은 넥스트엑스가 맡습니다."}},
+    {"@type":"Question","name":"개발자가 없는데 AI 자동화가 가능한가요?","acceptedAnswer":{"@type":"Answer","text":"많은 부분이 노코드와 바이브 코딩으로 가능하며, 복잡한 부분은 탐라야행이 맡습니다."}},
     {"@type":"Question","name":"AI에 데이터를 주면 유출되지 않나요?","acceptedAnswer":{"@type":"Answer","text":"데이터 처리 범위·보관·권한을 계약 단계에서 명확히 합니다. 민감 데이터는 최소 수집과 비식별화가 원칙입니다."}},
     {"@type":"Question","name":"AI가 틀린 답을 내면 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"틀릴 수 있습니다. 그래서 사람 검수 단계를 반드시 두는 책임 있는 자동화를 설계합니다."}},
     {"@type":"Question","name":"직원들이 AI 도입에 반발하면요?","acceptedAnswer":{"@type":"Answer","text":"일자리 대체가 아니라 반복을 덜고 판단에 집중하도록 설계합니다. 담당자를 초기부터 참여시키는 것이 성공의 열쇠입니다."}},
@@ -72,12 +72,12 @@ image:
 ---
 
 > 여기 없는 질문이 있으면 편하게 물어보세요. **무료 진단**으로 시작합니다.
-> → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

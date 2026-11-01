@@ -2,7 +2,7 @@
 title: "[AX] Tool Calling & 멀티 에이전트 — AI에게 손발을 달아주기"
 date: 2026-07-11 22:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [toolcalling, 멀티에이전트, 워크플로우, 에이전트설계, anthropic, nextx]
+tags: [toolcalling, 멀티에이전트, 워크플로우, 에이전트설계, anthropic, 탐라야행]
 description: "에이전트가 '도구를 쓴다'는 것의 의미, 워크플로우 vs 에이전트, 멀티 에이전트 협업. Anthropic 가이드 기반 정리."
 image:
   path: /assets/img/posts/tool-calling-agents.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > LLM은 '말'은 잘하지만 혼자선 아무것도 '실행'하지 못합니다. **도구(tool)** 를 쥐여줘야 검색·계산·저장을 하죠.
@@ -79,6 +79,6 @@ flowchart TD
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

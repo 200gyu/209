@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.4 — 보안 감사, 권한 분리(RBAC), 그리고 조용히 멈춰 있던 배포"
 date: 2026-07-23 20:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, rls, rbac, 보안, postgresql, 권한분리, sheetjs, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, rls, rbac, 보안, postgresql, 권한분리, sheetjs, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "외부 코드 리뷰를 실제 코드로 검증하다 진짜 보안 구멍(RLS anon 정책 잔존)을 찾아 막고, 역할 기반 접근제어(RBAC)·엑셀 입출력·중복 배정 방지를 붙인 v5.4 업그레이드. 그리고 'git push가 배포되지 않고 있었다'는 함정까지 — 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v54-security-rbac.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **열세 번째 글**입니다.
@@ -303,11 +303,11 @@ v5.4로 시스템이 **더 안전하고, 역할이 분리된** 형태로 올라�
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

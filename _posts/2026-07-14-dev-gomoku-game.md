@@ -2,7 +2,7 @@
 title: "[Dev] 관심사의 분리를 몸으로 익히다 — 오목 웹 게임 만들기"
 date: 2026-07-14 22:00:00 +0900
 categories: ["Dev & DevOps", "실전 프로젝트"]
-tags: [오목, 웹게임, html, css, javascript, 관심사분리, 바이브코딩, github-pages, 아이펠, nextx]
+tags: [오목, 웹게임, html, css, javascript, 관심사분리, 바이브코딩, github-pages, 아이펠, 탐라야행]
 description: "HTML·CSS·JS 3파일 분리로 오목(Gomoku) 웹 게임을 만들고 GitHub Pages에 배포한 실전 R&D 기록. 관심사의 분리(SoC)를 이론이 아닌 손으로 익히는 과정."
 image:
   path: /assets/img/posts/dev-gomoku-game.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [웹페이지를 이루는 세 겹 & 게임 만들기] 내용을 실무 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기) [웹페이지를 이루는 세 겹 & 게임 만들기] 내용을 실무 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > [웹을 지탱하는 세 겹(HTML·CSS·JS)]({% post_url 2026-07-14-dev-web-three-layers %})에서 배운 **관심사의 분리(SoC)** — 이론은 알겠는데, 진짜 코드에서 어떻게 나뉘는 걸까? 이 글은 그 답을 **오목 게임을 직접 만들며** 몸으로 증명한 실전 기록입니다.
@@ -157,6 +157,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

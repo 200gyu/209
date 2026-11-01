@@ -2,7 +2,7 @@
 title: "[AX] RAG 쉽게 이해하기 — '내 문서를 아는 AI'의 원리"
 date: 2026-07-11 16:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [rag, 검색증강생성, llm, 환각방지, 벡터검색, nextx]
+tags: [rag, 검색증강생성, llm, 환각방지, 벡터검색, 탐라야행]
 description: "RAG(검색 증강 생성)를 비개발자도 이해하도록 정리. 왜 필요한지, 어떻게 동작하는지, 내 운영 문서에 어떻게 쓸지."
 image:
   path: /assets/img/posts/rag-explained.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > LLM은 똑똑하지만 **"우리 회사 문서"** 는 모릅니다. 그리고 가끔 그럴듯한 거짓말(환각)을 하죠.
@@ -75,6 +75,6 @@ RAG는 에이전트의 **"기억·자료 조회 도구"** 로 자주 쓰입니�
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

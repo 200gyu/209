@@ -2,7 +2,7 @@
 title: "[AX] 계약부터 납품까지 — 파트너스 매칭 매니저 실전 개발기"
 date: 2026-07-17 18:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase-auth, rls, 로그인, 보안강화, 프로덕션, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase-auth, rls, 로그인, 보안강화, 프로덕션, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "고객사(정리수납 서비스 기업)와의 AX 솔루션 계약 체결 후, 프로토타입에서 관리자 인증·보안 강화·실데이터 연동까지 — 실무 납품 수준으로 완성하는 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-delivery.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 실전 납품 사례
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 실전 납품 사례
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **두 번째 글**입니다.
@@ -45,7 +45,7 @@ mermaid: true
 
 ### 계약 체결
 
-넥스트엑스는 고객사와 **AI 기반 업무 자동화 및 솔루션 개발** 계약을 체결했습니다.
+탐라야행은 고객사와 **AI 기반 업무 자동화 및 솔루션 개발** 계약을 체결했습니다.
 
 ```mermaid
 flowchart LR
@@ -440,16 +440,16 @@ gantt
 - **급여 정산 자동화** — 배정 기록 기반 월별 정산 리포트 자동 생성
 - **카카오톡 알림** — 배정·상태 변경 시 파트너에게 자동 알림 전송
 
-> 이 프로젝트는 넥스트엑스가 추구하는 **"작게 시작하고, 빠르게 검증하고, 확실하게 확장한다"**는 개발 철학을 그대로 보여줍니다. MVP를 먼저 만들어 업무 흐름을 검증한 뒤, 보안·인증·실데이터를 입혀 프로덕션으로 전환하는 과정이 곧 AX의 정석입니다.
+> 이 프로젝트는 탐라야행이 추구하는 **"작게 시작하고, 빠르게 검증하고, 확실하게 확장한다"**는 개발 철학을 그대로 보여줍니다. MVP를 먼저 만들어 업무 흐름을 검증한 뒤, 보안·인증·실데이터를 입혀 프로덕션으로 전환하는 과정이 곧 AX의 정석입니다.
 {: .prompt-tip }
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

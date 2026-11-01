@@ -1,21 +1,21 @@
 ---
 title: "[Inside] 블로그 이용 안내 — 무엇부터 보면 좋을까"
 date: 2026-07-12 12:00:00 +0900
-categories: ["Inside NEXT X"]
-tags: [가이드, 카테고리, 안내, nextx]
-description: "처음 오셨나요? NEXT X 기술 블로그의 5대 카테고리와, 관심사별 추천 글을 안내합니다."
+categories: ["Inside 탐라야행"]
+tags: [가이드, 카테고리, 안내, 탐라야행]
+description: "처음 오셨나요? 탐라야행 기술 블로그의 5대 카테고리와, 관심사별 추천 글을 안내합니다."
 image:
   path: /assets/img/posts/reading-guide.png
   alt: "블로그 이용 안내"
 pin: false
 ---
 
-> 처음 오셨다면 여기서 시작하세요. **NEXT X 기술 블로그**는 5개 카테고리로 정리돼 있습니다.
+> 처음 오셨다면 여기서 시작하세요. **탐라야행 기술 블로그**는 5개 카테고리로 정리돼 있습니다.
 {: .prompt-info }
 
 ## 🧭 5대 카테고리 소개
 
-넥스트엑스 기술연구소는 아래 5개 영역을 하나의 흐름으로 다룹니다. **AX(무엇을)** → **자동화(어떻게 줄이고)** → **데이터(무엇으로 결정하고)** → **개발(어떻게 안정적으로 굴리고)** → **회사 소개**.
+탐라야행 기술연구소는 아래 5개 영역을 하나의 흐름으로 다룹니다. **AX(무엇을)** → **자동화(어떻게 줄이고)** → **데이터(무엇으로 결정하고)** → **개발(어떻게 안정적으로 굴리고)** → **회사 소개**.
 
 ### 🤖 AI Transformation
 생성형 AI·LLM·RAG·에이전트로 **업무 자체를 혁신**하는 이야기. "AI를 어디에, 어떻게 붙여 실제 효과를 낼까"를 방법론과 사례로 풉니다.
@@ -33,8 +33,8 @@ pin: false
 개발·배포·운영의 **실무 기록과 개념**. 이 블로그를 실제로 배포·운영한 과정처럼, "만든 것을 안정적으로 굴리는" 이야기를 담습니다.
 → 대표: [기업 블로그 배포기]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [API란 무엇인가]({% post_url 2026-07-15-dev-what-is-api %})
 
-### 🏢 Inside NEXT X
-회사 소개·인사이트·비즈니스 문의. **넥스트엑스가 어떤 팀이고 무엇을 만들었는지**, 그리고 협업 창구입니다.
+### 🏢 Inside 탐라야행
+회사 소개·인사이트·비즈니스 문의. **탐라야행이 어떤 팀이고 무엇을 만들었는지**, 그리고 협업 창구입니다.
 → 대표: [대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 
 ## 🎯 관심사별 추천
@@ -46,15 +46,15 @@ pin: false
 
 ## 🏢 회사가 궁금하다면
 
-- [NEXT X 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %})
+- [탐라야행 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %})
 - [소개 & 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 
-> 협업·도입 문의는 언제든 [csnextx@gmail.com](mailto:csnextx@gmail.com) 으로 주세요.
+> 협업·도입 문의는 언제든 [200gyu@gmail.com](mailto:200gyu@gmail.com) 으로 주세요.
 {: .prompt-tip }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

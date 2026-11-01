@@ -2,7 +2,7 @@
 title: "[Automation] 소상공인 재고·발주 자동화 — 품절·과재고 없이"
 date: 2026-07-18 14:00:00 +0900
 categories: ["Workplace Automation", "오피스 자동화"]
-tags: [재고관리, 발주, 자동화, 소상공인, 안전재고, nextx]
+tags: [재고관리, 발주, 자동화, 소상공인, 안전재고, 탐라야행]
 description: "재고 관리 자동화 — 입출고 기록으로 현재고를 자동 집계하고, 안전재고 미달 시 발주 알림까지. 소상공인·중소기업용 실전 방법."
 image:
   path: /assets/img/posts/automation-inventory.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > **"이거 재고 있어요?"** 를 매번 창고 가서 확인하고, 잘 나가는 상품이 갑자기 품절 나고, 안 나가는 건 쌓여 있고… 재고는 **숫자로 자동 관리**하면 이 스트레스가 사라집니다.
@@ -60,7 +60,7 @@ flowchart LR
 ## 📩 우리 가게·회사에 맞게
 
 취급 품목 수와 판매 채널만 알려주시면 **딱 맞는 수준**(시트→앱→연동)을 제안해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [노코드 자동화]({% post_url 2026-07-14-automation-nocode-starter %}) · [데이터 파이프라인]({% post_url 2026-07-12-data-pipeline-showcase %})
 {: .prompt-info }
@@ -68,6 +68,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

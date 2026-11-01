@@ -2,7 +2,7 @@
 title: "[AX] 직원 0명, 월 4억 — 1인 AI 기업의 공식"
 date: 2026-07-10 23:30:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [1인기업, 바이브코딩, 피터레벨스, 비즈니스모델, ai서비스, 인디해커, nextx]
+tags: [1인기업, 바이브코딩, 피터레벨스, 비즈니스모델, ai서비스, 인디해커, 탐라야행]
 description: "제이멘토 영상 분석 — 피터 레벨스의 1인 AI 기업 전략을 원리로 압축하고, 하이프와 실제를 구분해 정리했습니다."
 image:
   path: /assets/img/posts/insight-solo-ai-business.png
@@ -10,7 +10,7 @@ image:
 pin: false
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 📺 **참고 영상**: [직원 0명으로 월 4억 버는 1인 기업의 AI 서비스, 분석하고 직접 만들었습니다](https://youtu.be/dKgzepcAvE0) — 채널 *제이멘토*
@@ -114,6 +114,6 @@ pin: false
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

@@ -5,10 +5,10 @@ icon: fas fa-map-signs
 order: 1
 ---
 
-> 🧭 **처음 오셨나요?** 넥스트엑스 기술 연구소의 글은 93편이 넘습니다. 무엇부터 읽을지 막막하다면, 아래 **목적별 코스**를 따라가세요. 흩어진 글이 아니라 하나의 이정표가 되도록 엮었습니다.
+> 🧭 **처음 오셨나요?** 탐라야행 기술 연구소의 글은 93편이 넘습니다. 무엇부터 읽을지 막막하다면, 아래 **목적별 코스**를 따라가세요. 흩어진 글이 아니라 하나의 이정표가 되도록 엮었습니다.
 {: .prompt-tip }
 
-## 🏢 넥스트엑스가 실제로 만든 것 (비즈니스 케이스)
+## 🏢 탐라야행이 실제로 만든 것 (비즈니스 케이스)
 {: #business-cases }
 
 개념 설명이 아니라, **실제 비즈니스 문제를 기술로 해결한 서사**입니다. "이 회사가 무엇을 만들 수 있는가"가 궁금하시다면 여기부터.
@@ -40,7 +40,7 @@ order: 1
 - [고객 문의(VOC) 자동 분류·응대 초안]({% post_url 2026-07-16-ax-voc-classification %})
 - [생성형 AI로 마케팅 콘텐츠 자동화]({% post_url 2026-07-15-ax-marketing-content-automation %})
 
-> 💡 협업·도입을 검토 중이시라면 [대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) → [넥스트엑스와 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %}) → [비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) 순서를 추천합니다.
+> 💡 협업·도입을 검토 중이시라면 [대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) → [탐라야행과 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %}) → [비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) 순서를 추천합니다.
 {: .prompt-tip }
 
 ---
@@ -129,4 +129,4 @@ order: 1
 
 ---
 
-*NEXT X R&D · 지식의 이정표*
+*탐라야행 R&D · 지식의 이정표*

@@ -2,7 +2,7 @@
 title: "[AX] 고객 문의(VOC) 자동 분류·응대 초안 만들기"
 date: 2026-07-16 10:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [voc, cs, 자동분류, 응대초안, llm, nextx, ax프로젝트]
+tags: [voc, cs, 자동분류, 응대초안, llm, 탐라야행, ax프로젝트]
 description: "쌓이는 고객 문의를 AI가 카테고리로 나누고 응대 초안까지 만드는 법. CS 팀의 반복을 줄이고 사람은 판단에 집중."
 image:
   path: /assets/img/posts/ax-voc.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 문의는 매일 쌓이는데, **분류하고 → 담당 배정하고 → 비슷한 답을 또 쓰는** 일에 CS 팀 시간이 녹습니다. AI가 앞단을 처리하면 사람은 **판단·공감**에 집중할 수 있습니다.
@@ -55,7 +55,7 @@ flowchart LR
 ## 📩 우리 CS에 맞게 만들려면
 
 과거 문의 샘플만 주시면 **분류 체계와 정확도부터** 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [프롬프트 기법]({% post_url 2026-07-11-prompt-engineering-for-planners %}) · [에이전트 vs RPA]({% post_url 2026-07-11-ai-agent-vs-rpa %})
 {: .prompt-info }
@@ -63,6 +63,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

@@ -2,14 +2,14 @@
 title: "[AX] Computational Thinking — 컴퓨터처럼 사고하는 법"
 date: 2026-07-09 21:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [컴퓨팅사고, 문제분해, 추상화, 알고리즘, nextx]
+tags: [컴퓨팅사고, 문제분해, 추상화, 알고리즘, 탐라야행]
 description: 첫 수업. 막연한 업무를 '분해→패턴→추상화→알고리즘'으로 바라보는 법.
 image:
   path: /assets/img/posts/computational-thinking.png
   alt: "Computational Thinking — 컴퓨터처럼 사고하는 법"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 ## 오늘 배운 것
@@ -58,6 +58,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

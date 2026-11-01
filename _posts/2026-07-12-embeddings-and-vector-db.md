@@ -2,7 +2,7 @@
 title: "[Data] 임베딩 & 벡터 DB — RAG를 돌리는 '의미 검색' 엔진"
 date: 2026-07-12 15:00:00 +0900
 categories: ["Data Engineering", "SQL·데이터베이스"]
-tags: [임베딩, 벡터db, 의미검색, rag, nextx]
+tags: [임베딩, 벡터db, 의미검색, rag, 탐라야행]
 description: "RAG의 '검색'은 어떻게 관련 문서를 찾을까? 임베딩과 벡터 DB의 원리를 비개발자도 이해하게 정리."
 image:
   path: /assets/img/posts/embeddings.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [RAG]({% post_url 2026-07-11-rag-explained %})는 "관련 문서를 찾아 근거로 답한다"고 했죠. 그런데 **"관련 있는 문서"를 어떻게 찾을까요?** 그 비밀이 임베딩과 벡터 DB입니다.
@@ -79,6 +79,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

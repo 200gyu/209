@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v3 — 팀 배정 시스템과 캘린더 뷰"
 date: 2026-07-18 22:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, uuid배열, 팀배정, 캘린더뷰, postgrest, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, uuid배열, 팀배정, 캘린더뷰, postgrest, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "1:1 단일 배정에서 팀장+팀원 다중 배정으로 — DB 스키마 마이그레이션, UUID 배열, PostgREST FK 앨리어싱, 월간 캘린더 뷰까지 v3 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v3-team.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **다섯 번째 글**입니다.
@@ -532,11 +532,11 @@ v3까지 완료된 시스템의 현재 상태와 앞으로의 계획:
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

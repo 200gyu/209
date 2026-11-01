@@ -2,14 +2,14 @@
 title: "[Automation] 자동화가 실패하는 5가지 이유 — 그리고 피하는 법"
 date: 2026-07-17 12:00:00 +0900
 categories: ["Workplace Automation", "프로세스·전략"]
-tags: [자동화, 실패요인, 안티패턴, 도입전략, nextx]
-description: "자동화 프로젝트가 흐지부지되는 진짜 이유 5가지와, 넥스트엑스가 그것을 피하는 방법. 도입 전 꼭 읽어야 할 체크."
+tags: [자동화, 실패요인, 안티패턴, 도입전략, 탐라야행]
+description: "자동화 프로젝트가 흐지부지되는 진짜 이유 5가지와, 탐라야행이 그것을 피하는 방법. 도입 전 꼭 읽어야 할 체크."
 image:
   path: /assets/img/posts/automation-fails.png
   alt: "자동화가 실패하는 5가지 이유"
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > 자동화는 "도구가 없어서"보다 **"이렇게 접근해서"** 실패하는 경우가 훨씬 많습니다. 흔한 실패 5가지와 피하는 법을 솔직하게 정리했습니다.
@@ -42,7 +42,7 @@ image:
 
 ---
 
-## 🧭 넥스트엑스가 실패를 피하는 법
+## 🧭 탐라야행이 실패를 피하는 법
 
 ```mermaid
 flowchart LR
@@ -66,11 +66,11 @@ flowchart LR
 ## 📩 실패 없이 시작하려면
 
 무료 진단에서 "이건 자동화 OK, 이건 아직"을 함께 가려드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

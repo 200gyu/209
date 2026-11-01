@@ -2,14 +2,14 @@
 title: "[AX] AI 기능 기획서(PRD) 템플릿 — 복사해서 바로 쓰기"
 date: 2026-07-11 23:00:00 +0900
 categories: ["AI Transformation", "리소스·도구"]
-tags: [prd, 기획서, ai기획, 템플릿, 체크리스트, nextx]
+tags: [prd, 기획서, ai기획, 템플릿, 체크리스트, 탐라야행]
 description: "AI 기능을 기획할 때 그대로 채워 쓰는 PRD 템플릿. 일반 PRD에 'AI 특유' 항목(판단 분담·환각·데이터)을 더했다."
 image:
   path: /assets/img/posts/toolkit-prd.png
   alt: "AI 기능 기획서(PRD) 템플릿"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > 일반 기획서에 **AI 기능 특유의 항목**(무엇을 AI가/사람이 판단할지, 환각 대비, 데이터 출처·권한)을 더한 PRD 템플릿입니다. 복사해서 채우세요.
@@ -84,6 +84,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

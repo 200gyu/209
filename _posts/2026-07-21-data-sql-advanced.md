@@ -2,7 +2,7 @@
 title: "[Data] SQL 실전 심화 — JOIN·윈도우 함수·CTE로 데이터 다루기"
 date: 2026-07-21 14:00:00 +0900
 categories: ["Data Engineering", "SQL·데이터베이스"]
-tags: [sql, join, 윈도우함수, cte, 서브쿼리, postgresql, 쿼리최적화, nextx]
+tags: [sql, join, 윈도우함수, cte, 서브쿼리, postgresql, 쿼리최적화, 탐라야행]
 description: "SELECT를 넘어서 — INNER/LEFT/FULL JOIN 패턴, 윈도우 함수(ROW_NUMBER, RANK, LAG), CTE와 서브쿼리, 실행 계획 분석까지 현업에서 바로 쓰는 SQL 심화."
 image:
   path: /assets/img/posts/data-sql-advanced.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [DB와 DBA]({% post_url 2026-07-17-data-db-and-dba %}) 편에서 데이터베이스의 구조, ACID, 그리고 SQL 기본기를 다뤘습니다. 이 글에서는 **SELECT를 넘어**, 현업에서 매일 마주치는 JOIN·윈도우 함수·CTE·실행 계획 분석까지 한 호흡으로 정리합니다.
@@ -548,11 +548,11 @@ flowchart LR
 
 ---
 
-*NEXT X R&D · Data Engineering*
+*탐라야행 R&D · Data Engineering*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

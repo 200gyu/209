@@ -1,8 +1,8 @@
 ---
 title: "[Inside] 1인 AI 서비스 시대, 한국은 어디까지 왔나"
 date: 2026-07-12 10:00:00 +0900
-categories: ["Inside NEXT X"]
-tags: [1인기업, 국내트렌드, ai창업, 설계자, 커리어, nextx]
+categories: ["Inside 탐라야행"]
+tags: [1인기업, 국내트렌드, ai창업, 설계자, 커리어, 탐라야행]
 description: "피터 레벨스 같은 1인 AI 서비스 흐름이 한국에도 오고 있다. 거시 트렌드와, 기획자에게 주는 신호를 정리."
 image:
   path: /assets/img/posts/korea-solo-ai.png
@@ -57,6 +57,6 @@ AI 코딩 도구의 발전으로, 코드를 직접 다 짜는 사람보다 **무
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

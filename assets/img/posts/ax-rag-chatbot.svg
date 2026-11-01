@@ -19,5 +19,5 @@
     <text x="444" y="34" fill="#8ab4ff" font-size="26">→</text>
     <g transform="translate(474,0)"><rect width="120" height="52" rx="12" fill="#7c3aed" opacity="0.2"/><text x="60" y="34" text-anchor="middle" fill="#c4b5fd">답변</text></g>
   </g>
-  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">탐라야행</text>
 </svg>

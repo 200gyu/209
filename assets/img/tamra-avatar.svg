@@ -9,6 +9,10 @@
       <stop offset="0" stop-color="#1b2238"/>
       <stop offset="1" stop-color="#0b0f1f"/>
     </radialGradient>
+    <mask id="cres">
+      <rect width="240" height="240" fill="#fff"/>
+      <circle cx="140" cy="98" r="56" fill="#000"/>
+    </mask>
   </defs>
   <rect width="240" height="240" rx="52" fill="url(#bgg)"/>
   <!-- circuit dots -->
@@ -21,9 +25,6 @@
   <g stroke="#3b82f6" stroke-width="2" opacity="0.5" fill="none">
     <path d="M170 70 L188 60"/><path d="M182 150 L196 176"/>
   </g>
-  <!-- X mark -->
-  <g stroke="url(#xg)" stroke-width="26" stroke-linecap="round">
-    <line x1="74" y1="74" x2="166" y2="166"/>
-    <line x1="166" y1="74" x2="74" y2="166"/>
-  </g>
+  <!-- crescent moon mark -->
+  <circle cx="108" cy="126" r="64" fill="url(#xg)" mask="url(#cres)"/>
 </svg>

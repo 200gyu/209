@@ -2,7 +2,7 @@
 title: "[Dev] 프론트엔드와 프론트엔드 개발자 — 사용자가 만지는 모든 것을 만드는 사람들"
 date: 2026-07-17 22:00:00 +0900
 categories: ["Dev & DevOps", "개발자 역할"]
-tags: [프론트엔드, frontend, html, css, javascript, react, ux, 웹개발, 커리어, nextx]
+tags: [프론트엔드, frontend, html, css, javascript, react, ux, 웹개발, 커리어, 탐라야행]
 description: "프론트엔드란 무엇이고, 프론트엔드 개발자는 어떤 일을 하는가? HTML·CSS·JS 기초부터 프레임워크, 성능 최적화, 접근성, AI 시대의 역할 변화까지 — 프론트엔드의 모든 것."
 image:
   path: /assets/img/posts/dev-frontend-role.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_R&D_Log]** · 주식회사 넥스트엑스(NEXT X) 기술연구소 — 프론트엔드 개발 가이드
+> **[탐라야행_R&D_Log]** · 주식회사 탐라야행 기술연구소 — 프론트엔드 개발 가이드
 {: .prompt-tip }
 
 > 우리가 매일 쓰는 앱과 웹사이트 — 버튼을 누르고, 스크롤을 내리고, 폼에 입력하는 그 모든 경험. 이것을 설계하고 구현하는 사람이 **프론트엔드 개발자**입니다. 이 글은 프론트엔드의 본질부터, 현대 프론트엔드 개발자에게 요구되는 역량, 그리고 AI 시대에 이 역할이 어떻게 변하고 있는지까지 다룹니다.
@@ -293,7 +293,7 @@ flowchart TD
 
 ## 실전에서 보는 프론트엔드 — 파트너스 매칭 매니저
 
-넥스트엑스가 개발한 [파트너스 매칭 매니저](https://partners-manager-omega.vercel.app/)는 프론트엔드의 핵심 역량이 모두 적용된 실전 사례입니다.
+탐라야행이 개발한 [파트너스 매칭 매니저](https://partners-manager-omega.vercel.app/)는 프론트엔드의 핵심 역량이 모두 적용된 실전 사례입니다.
 
 ### 적용된 프론트엔드 기술
 
@@ -384,7 +384,7 @@ flowchart TD
 
 AI는 **"만드는 속도"** 를 높여주지만, **"무엇을 만들지"** 와 **"어떤 경험을 줄지"** 를 결정하는 것은 여전히 프론트엔드 개발자의 몫입니다.
 
-> 넥스트엑스는 파트너스 매칭 매니저를 **바이브 코딩으로** 개발했습니다. AI가 초기 코드를 빠르게 생성하면, 개발자가 보안(인증, RLS), 에러 처리, 성능을 검수하고 강화하는 협업 방식입니다. 자세한 과정은 [프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})와 [실전 납품 개발기]({% post_url 2026-07-17-ax-partners-manager-delivery %})에서 확인할 수 있습니다.
+> 탐라야행은 파트너스 매칭 매니저를 **바이브 코딩으로** 개발했습니다. AI가 초기 코드를 빠르게 생성하면, 개발자가 보안(인증, RLS), 에러 처리, 성능을 검수하고 강화하는 협업 방식입니다. 자세한 과정은 [프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})와 [실전 납품 개발기]({% post_url 2026-07-17-ax-partners-manager-delivery %})에서 확인할 수 있습니다.
 {: .prompt-tip }
 
 ---
@@ -440,11 +440,11 @@ mindmap
 
 ---
 
-*NEXT X R&D · Dev & DevOps*
+*탐라야행 R&D · Dev & DevOps*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

@@ -2,14 +2,14 @@
 title: "[Data] 데이터 클렌징 실전 — '쓰레기 데이터'를 쓸 수 있게 만드는 법"
 date: 2026-07-15 12:00:00 +0900
 categories: ["Data Engineering", "데이터 품질"]
-tags: [데이터클렌징, 데이터정제, 데이터품질, etl, nextx]
+tags: [데이터클렌징, 데이터정제, 데이터품질, etl, 탐라야행]
 description: "분석·자동화의 8할은 데이터 정제에서 갈린다. 중복·결측·표기 불일치를 잡아 '쓸 수 있는 데이터'로 만드는 실전 체크리스트."
 image:
   path: /assets/img/posts/data-cleansing.png
   alt: "데이터 클렌징 실전"
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > **Garbage In, Garbage Out** — 아무리 좋은 대시보드·AI도 데이터가 지저분하면 결과도 쓰레기입니다. 분석·자동화 프로젝트의 **8할은 데이터 정제**에서 갈립니다.
@@ -21,7 +21,7 @@ image:
 |------|------|
 | **중복** | 같은 고객이 3번 등록 |
 | **결측** | 전화번호·금액이 빈칸 |
-| **표기 불일치** | "(주)넥스트엑스" / "넥스트엑스" / "NEXT X" |
+| **표기 불일치** | "(주)탐라야행" / "탐라야행" / "탐라야행" |
 | **형식 혼재** | 날짜가 `2026-07-15`, `26.7.15`, `7월 15일` |
 | **이상치** | 나이 999, 금액 -1 |
 | **숨은 공백·오타** | " 서울 ", "서울시"/"서울특별시" |
@@ -59,7 +59,7 @@ df = df.drop_duplicates(subset=["사업자번호"])
 ## 📩 데이터가 지저분해서 분석을 못 하고 있다면
 
 지저분한 파일 1개만 주셔도 됩니다 — **정제 규칙과 자동화 방안**을 진단해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [데이터 파이프라인이란?]({% post_url 2026-07-12-what-is-data-pipeline %}) · [경영진 대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %})
 {: .prompt-info }
@@ -67,6 +67,6 @@ df = df.drop_duplicates(subset=["사업자번호"])
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

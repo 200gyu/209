@@ -2,7 +2,7 @@
 title: "[Data] 데이터 거버넌스 & 품질 관리 — 믿을 수 있는 데이터 만들기"
 date: 2026-07-22 14:00:00 +0900
 categories: ["Data Engineering", "데이터 품질"]
-tags: [데이터거버넌스, 데이터품질, 데이터카탈로그, 데이터리니지, dbt-test, great-expectations, nextx]
+tags: [데이터거버넌스, 데이터품질, 데이터카탈로그, 데이터리니지, dbt-test, great-expectations, 탐라야행]
 description: "데이터 거버넌스란 무엇이고, 데이터 품질을 어떻게 측정하고 보장하는가? 데이터 카탈로그, 리니지, 조직 역할(스튜어드/오너)부터 실전 도구까지."
 image:
   path: /assets/img/posts/data-governance.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > [데이터 클렌징]({% post_url 2026-07-15-data-cleansing %})에서 "더러운 데이터를 정제하는 법"을 다뤘고, [데이터 해석의 함정]({% post_url 2026-07-16-data-interpretation-pitfalls %})에서 "깨끗해 보여도 잘못 읽을 수 있다"는 위험을 살펴봤습니다. 이번 글에서는 **한 발 더 올라가서**, 데이터가 태어나는 순간부터 사라지는 순간까지 **조직 차원에서 품질을 보장하는 체계** — 데이터 거버넌스를 다룹니다.
@@ -441,11 +441,11 @@ flowchart TD
 
 ---
 
-## 8. 넥스트엑스 사례 — PII 보호, RLS 정책, NOT NULL 제약
+## 8. 탐라야행 사례 — PII 보호, RLS 정책, NOT NULL 제약
 
 ### 8-1. PII 보호 — `.gitignore`와 환경 변수
 
-넥스트엑스에서는 **개인 식별 정보(PII)**가 코드 저장소에 유출되지 않도록 다중 방어선을 운영합니다.
+탐라야행에서는 **개인 식별 정보(PII)**가 코드 저장소에 유출되지 않도록 다중 방어선을 운영합니다.
 
 ```gitignore
 # .gitignore — PII·시크릿 방어
@@ -559,7 +559,7 @@ ALTER TABLE customers
 
 ### 8-4. dbt + CI 통합 — 품질 관문 자동화
 
-넥스트엑스의 데이터 파이프라인에서는 **PR 머지 전에 dbt test가 통과해야** 합니다.
+탐라야행의 데이터 파이프라인에서는 **PR 머지 전에 dbt test가 통과해야** 합니다.
 
 ```yaml
 # .github/workflows/dbt-ci.yml (간략화)
@@ -657,15 +657,15 @@ flowchart TD
 
 ---
 
-> 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [데이터 클렌징]({% post_url 2026-07-15-data-cleansing %}) · [데이터 파이프라인이란?]({% post_url 2026-07-12-what-is-data-pipeline %}) · [DB와 DBA]({% post_url 2026-07-17-data-db-and-dba %})
 {: .prompt-info }
 
-*NEXT X R&D · Data Engineering*
+*탐라야행 R&D · Data Engineering*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

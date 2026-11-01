@@ -10,5 +10,5 @@
   <text x="80" y="270" font-size="60" font-weight="800" fill="#fff">고객 문의(VOC)</text>
   <text x="80" y="352" font-size="60" font-weight="800" fill="url(#ac)">자동 분류 · 응대 초안</text>
   <text x="80" y="420" font-size="30" font-weight="500" fill="#aab0d6">쌓이는 문의를 AI가 나누고, 초안까지</text>
-  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">탐라야행</text>
 </svg>

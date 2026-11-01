@@ -1,17 +1,17 @@
 ---
-title: "[Inside] 우리는 왜 NEXT X인가 — 미션·비전·핵심가치"
+title: "[Inside] 우리는 왜 탐라야행인가 — 미션·비전·핵심가치"
 date: 2026-07-19 09:00:00 +0900
-categories: ["Inside NEXT X"]
-tags: [미션, 비전, 핵심가치, 회사소개, nextx]
-description: "주식회사 넥스트엑스(NEXT X)가 존재하는 이유 — 미션·비전·핵심가치. '반복은 기계에게, 판단은 사람에게'라는 철학으로 기업의 일하는 방식을 바꿉니다."
+categories: ["Inside 탐라야행"]
+tags: [미션, 비전, 핵심가치, 회사소개, 탐라야행]
+description: "주식회사 탐라야행이 존재하는 이유 — 미션·비전·핵심가치. '반복은 기계에게, 판단은 사람에게'라는 철학으로 기업의 일하는 방식을 바꿉니다."
 image:
   path: /assets/img/posts/inside-vision.png
-  alt: "우리는 왜 NEXT X인가 — 미션·비전·핵심가치"
+  alt: "우리는 왜 탐라야행인가 — 미션·비전·핵심가치"
 pin: true
 ---
 
 > 기술 회사는 많습니다. 하지만 **"왜 그 일을 하는가"** 에 답할 수 있는 회사는 드뭅니다.
-> 이 글은 주식회사 넥스트엑스(NEXT X)가 **무엇을 위해 존재하고, 어디로 가며, 무엇을 지키는지**에 대한 약속입니다.
+> 이 글은 주식회사 탐라야행이 **무엇을 위해 존재하고, 어디로 가며, 무엇을 지키는지**에 대한 약속입니다.
 {: .prompt-info }
 
 ## 🎯 Mission — 우리의 사명
@@ -21,7 +21,7 @@ pin: true
 
 기업의 시간은 대부분 **반복되는 일**에 갇혀 있습니다. 매주 같은 리포트, 매월 같은 정산, 매일 같은 문의 응대 — 정작 사람이 잘해야 할 **판단·창의·관계**에는 시간이 부족합니다.
 
-넥스트엑스의 사명은 분명합니다. **기업이 반복에서 벗어나, 사람이 사람다운 일에 집중하게 만드는 것.** 그 도구가 AI와 자동화일 뿐입니다.
+탐라야행의 사명은 분명합니다. **기업이 반복에서 벗어나, 사람이 사람다운 일에 집중하게 만드는 것.** 그 도구가 AI와 자동화일 뿐입니다.
 
 ## 🔭 Vision — 우리가 가는 곳
 
@@ -64,21 +64,21 @@ pin: true
 - 📊 [흩어진 데이터를 경영 지표로]({% post_url 2026-07-12-data-pipeline-showcase %})
 - 🛠️ [서버 없이 기업 블로그 배포·운영]({% post_url 2026-07-12-dev-deploy-blog-github-pages %})
 
-> 우리가 **일하는 방식**이 궁금하시다면 → [넥스트엑스와 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})
+> 우리가 **일하는 방식**이 궁금하시다면 → [탐라야행과 일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})
 {: .prompt-info }
 
 ## 📩 같은 방향을 본다면, 시작은 가볍게
 
 거창한 계획서는 필요 없습니다. **반복되는 업무 고민 1건**만 들려주세요. 그게 첫걸음입니다.
 
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com) · ☎ 010-4125-2009
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com) · ☎ 010-4125-2009
 
-> **주식회사 넥스트엑스(NEXT X)** — 반복은 기계에게, 판단은 사람에게.
+> **주식회사 탐라야행** — 반복은 기계에게, 판단은 사람에게.
 {: .prompt-tip }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

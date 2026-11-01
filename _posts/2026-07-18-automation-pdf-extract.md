@@ -2,7 +2,7 @@
 title: "[Automation] PDF·스캔 문서에서 표 자동 추출 — 파이썬 실전"
 date: 2026-07-18 13:00:00 +0900
 categories: ["Workplace Automation", "오피스 자동화"]
-tags: [pdf, 표추출, ocr, 파이썬, pdfplumber, nextx]
+tags: [pdf, 표추출, ocr, 파이썬, pdfplumber, 탐라야행]
 description: "PDF 데이터 추출을 파이썬으로 — 거래명세서·견적서·보고서의 표를 자동으로 뽑아 엑셀로. 텍스트 PDF와 스캔(OCR) PDF 처리법과 주의점."
 image:
   path: /assets/img/posts/automation-pdf-extract.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > 거래명세서·견적서·정산서가 **PDF로 오는데**, 그걸 눈으로 보며 엑셀에 다시 타이핑하고 계신가요? 표만 뽑아 자동으로 정리할 수 있습니다. 단, **PDF의 종류**부터 알아야 합니다.
@@ -69,7 +69,7 @@ df.to_excel("추출결과.xlsx", index=False)
 ## 📩 우리 문서로 테스트해보려면
 
 PDF 샘플 1개만 주셔도 됩니다 — **추출 정확도부터** 확인해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [파이썬 엑셀 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [데이터 클렌징]({% post_url 2026-07-15-data-cleansing %})
 {: .prompt-info }
@@ -77,6 +77,6 @@ PDF 샘플 1개만 주셔도 됩니다 — **추출 정확도부터** 확인해 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

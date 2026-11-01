@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.2 — 엑셀 기반 Mock 데이터 파이프라인 구축"
 date: 2026-07-19 23:59:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, mock데이터, 엑셀파싱, xlsx, nodejs, 데이터파이프라인, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, mock데이터, 엑셀파싱, xlsx, nodejs, 데이터파이프라인, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "224건의 실제 급여대장 엑셀 데이터를 Node.js로 파싱하여 Mock 데이터 모듈로 변환하고, Supabase 없이 전체 기능을 테스트할 수 있는 데모 모드를 구축한 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v52-mock-data.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **열한 번째 글**입니다.
@@ -583,10 +583,10 @@ v5.2까지 완료된 시스템의 현재 상태와 앞으로의 계획:
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

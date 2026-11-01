@@ -2,7 +2,7 @@
 title: "[Automation] 웹 데이터 수집 자동화 — 크롤링, 어디까지 되고 어디부터 조심해야 하나"
 date: 2026-07-15 11:00:00 +0900
 categories: ["Workplace Automation", "프로세스·전략"]
-tags: [크롤링, 웹스크래핑, 데이터수집, 자동화, 준법, nextx]
+tags: [크롤링, 웹스크래핑, 데이터수집, 자동화, 준법, 탐라야행]
 description: "가격·리뷰·공고 등 반복 수집을 자동화하는 웹 크롤링의 원리와 실무. 그리고 반드시 지켜야 할 법적·윤리적 경계."
 image:
   path: /assets/img/posts/automation-scraping.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > 경쟁사 가격, 입찰 공고, 리뷰, 부동산 매물… 매일 사람이 사이트를 돌며 복붙하고 있다면, **크롤링 자동화**가 답입니다. 단, **경계선**을 반드시 알고 시작해야 합니다.
@@ -42,7 +42,7 @@ flowchart LR
 
 ## ⚠️ 반드시 지켜야 할 경계 (매우 중요)
 
-크롤링은 **잘못하면 법적 문제**가 됩니다. 넥스트엑스는 아래를 원칙으로 합니다.
+크롤링은 **잘못하면 법적 문제**가 됩니다. 탐라야행은 아래를 원칙으로 합니다.
 
 - 📜 **robots.txt·이용약관(ToS) 확인** — 수집 금지 명시 구역은 수집하지 않음
 - 🔒 **개인정보 수집 금지** — 이름·연락처 등 개인정보는 다루지 않음(개인정보보호법)
@@ -67,7 +67,7 @@ flowchart LR
 ## 📩 "이 사이트, 수집해도 될까요?"
 
 합법성 검토부터 함께합니다 — 수집 대상만 알려주셔도 됩니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [파이썬 엑셀 자동화]({% post_url 2026-07-13-automation-python-excel-guide %}) · [노코드 자동화]({% post_url 2026-07-14-automation-nocode-starter %})
 {: .prompt-info }
@@ -75,6 +75,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

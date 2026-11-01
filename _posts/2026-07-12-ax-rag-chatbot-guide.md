@@ -2,7 +2,7 @@
 title: "[AX] 사내 지식 검색 챗봇 만들기 — RAG로 '우리 회사를 아는 AI'"
 date: 2026-07-12 23:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [rag, 사내챗봇, 지식검색, llm, 임베딩, nextx, ax프로젝트]
+tags: [rag, 사내챗봇, 지식검색, llm, 임베딩, 탐라야행, ax프로젝트]
 description: "사내 문서(규정·매뉴얼)를 학습한 RAG 챗봇 만드는 법. '우리 회사를 아는 AI' 구축 아키텍처와 5단계, 환각 방지·비용까지 실전 정리."
 image:
   path: /assets/img/posts/ax-rag-chatbot.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > "그 규정 어디 있죠?", "이 절차 담당이 누구였죠?" — 사내 지식이 문서 여기저기 흩어져 매번 사람에게 묻는다면, **RAG 기반 지식 챗봇**이 답입니다.
@@ -61,21 +61,21 @@ flowchart LR
 
 ## 🚀 도입은 작게 시작
 
-전사 도입 전, **문서 50~100건 + 대표 질문 20개**로 파일럿을 만들어 정답률부터 확인합니다. (넥스트엑스의 "작게 검증 → 확장" 원칙)
+전사 도입 전, **문서 50~100건 + 대표 질문 20개**로 파일럿을 만들어 정답률부터 확인합니다. (탐라야행의 "작게 검증 → 확장" 원칙)
 
 ## 📩 사내 챗봇, 우리 문서로 되나요?
 
 보유 문서 종류만 알려주시면 **파일럿 범위와 예상 정확도**를 짚어드립니다.
 
-- **Email** — [csnextx@gmail.com](mailto:csnextx@gmail.com) · **Tel** — 010-4125-2009 (이경규 전무)
+- **Email** — [200gyu@gmail.com](mailto:200gyu@gmail.com) · **Tel** — 010-4125-2009 (이경규 대표)
 - 자세한 안내 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 
-> **주식회사 넥스트엑스(NEXT X)** — 흩어진 지식을 '물어보면 답하는 AI'로.
+> **주식회사 탐라야행** — 흩어진 지식을 '물어보면 답하는 AI'로.
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

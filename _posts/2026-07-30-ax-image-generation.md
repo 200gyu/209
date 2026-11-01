@@ -2,7 +2,7 @@
 title: "[AX] AI는 어떻게 이미지를 그리나 — 원리부터 프롬프트·코드·영상·윤리까지"
 date: 2026-07-30 20:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [이미지생성, diffusion, gan, clip, dit, 증류, 프롬프트, controlnet, 영상생성, nextx]
+tags: [이미지생성, diffusion, gan, clip, dit, 증류, 프롬프트, controlnet, 영상생성, 탐라야행]
 description: "GAN·Diffusion부터 CLIP·잠재확산·DiT·증류까지의 계보, 잘 통하는 프롬프트 6요소, 실행 환경과 코드, 영상 생성 규칙, 라이선스와 AI 생성물의 책임까지 한 편에 정리했습니다."
 image:
   path: /assets/img/posts/ax-image-generation.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 넥스트엑스 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 탐라야행 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > [프로젝트] 이미지 생성 애플리케이션 만들기 — 핵심 원리부터 실무 프롬프트·코드·영상 생성·윤리적 판단까지 정리했습니다.
@@ -126,13 +126,13 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 학습 기록(R&D Log)입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 학습 기록(R&D Log)입니다.
 > **함께 읽기** — [🔡 트랜스포머]({% post_url 2026-07-27-ax-transformer-how-ai-learned-language %}) · [🖼️ 문서·사진에서 무엇을 꺼낼까]({% post_url 2026-07-29-ax-document-vision-extraction %}) · [💻 내 노트북에서 LLM 돌리기]({% post_url 2026-07-28-ax-local-llm-deployment %})
 {: .prompt-info }
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

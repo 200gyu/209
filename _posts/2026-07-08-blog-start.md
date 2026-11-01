@@ -1,15 +1,15 @@
 ---
-title: "[Inside] NEXT X가 기술 블로그를 운영하는 이유"
+title: "[Inside] 탐라야행이 기술 블로그를 운영하는 이유"
 date: 2026-07-08 20:00:00 +0900
-categories: ["Inside NEXT X"]
-tags: [기술블로그, ax프로젝트, nextx]
-description: 넥스트엑스가 기술 블로그(code209.kr)를 공개적으로 운영하는 이유와, 이 블로그에서 다루는 것들.
+categories: ["Inside 탐라야행"]
+tags: [기술블로그, ax프로젝트, 탐라야행]
+description: 탐라야행이 기술 블로그(code209.kr)를 공개적으로 운영하는 이유와, 이 블로그에서 다루는 것들.
 image:
   path: /assets/img/posts/blog-start.png
-  alt: "NEXT X가 기술 블로그를 운영하는 이유"
+  alt: "탐라야행이 기술 블로그를 운영하는 이유"
 ---
 
-> **주식회사 넥스트엑스(NEXT X)** 의 공식 기술 블로그, `code209.kr`에 오신 것을 환영합니다.
+> **주식회사 탐라야행** 의 공식 기술 블로그, `code209.kr`에 오신 것을 환영합니다.
 > 우리는 기술을 **숨기지 않고 공개**합니다. 그게 실력을 증명하는 가장 정직한 방법이라 믿기 때문입니다.
 {: .prompt-info }
 
@@ -29,7 +29,7 @@ AI 전환(AX)과 자동화 시장엔 화려한 말이 넘칩니다. 그래서 �
 | ⚡ **Workplace Automation** | 반복 수작업 자동화(비용 절감) |
 | 📊 **Data Engineering** | 데이터를 의사결정 지표로 |
 | 🛠️ **Dev & DevOps** | 개발·배포·운영 실무 |
-| 🏢 **Inside NEXT X** | 회사 소식·인사이트·비즈니스 문의 |
+| 🏢 **Inside 탐라야행** | 회사 소식·인사이트·비즈니스 문의 |
 
 ## 운영 원칙
 
@@ -39,7 +39,7 @@ AI 전환(AX)과 자동화 시장엔 화려한 말이 넘칩니다. 그래서 �
 
 ## 시작점
 
-이 블로그는 **AIFFEL(모두의연구소) AI 에이전트 과정**에서의 학습 기록으로 출발해, 지금은 넥스트엑스의 기술 아카이브로 이어지고 있습니다. 그 여정은 [Inside NEXT X]({% post_url 2026-07-11-retro-week-1 %})에 담았습니다.
+이 블로그는 **AIFFEL(모두의연구소) AI 에이전트 과정**에서의 학습 기록으로 출발해, 지금은 탐라야행의 기술 아카이브로 이어지고 있습니다. 그 여정은 [Inside 탐라야행]({% post_url 2026-07-11-retro-week-1 %})에 담았습니다.
 
 > 협업·문의는 언제든 → [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-tip }
@@ -47,6 +47,6 @@ AI 전환(AX)과 자동화 시장엔 화려한 말이 넘칩니다. 그래서 �
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🏢 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

@@ -2,7 +2,7 @@
 title: "[Dev] 블로그 방문자, 어떻게 측정하나 — GoatCounter에서 Clarity까지 도입기"
 date: 2026-07-19 11:00:00 +0900
 categories: ["Dev & DevOps", "인프라·배포"]
-tags: [goatcounter, clarity, 방문자통계, 애널리틱스, jekyll, chirpy, nextx]
+tags: [goatcounter, clarity, 방문자통계, 애널리틱스, jekyll, chirpy, 탐라야행]
 description: "Jekyll(Chirpy) 블로그에 방문자 통계를 붙인 실제 기록 — 가벼운 GoatCounter로 시작해 행동 분석용 Microsoft Clarity까지. 선택 기준·설치 코드·함정."
 image:
   path: /assets/img/posts/dev-analytics-setup.png
@@ -105,16 +105,16 @@ analytics:
 ## 🔗 이어보기
 
 - 🛠️ 이 블로그를 만든 과정 → [코드 없이 기업 블로그 배포하기]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [커스텀 도메인·HTTPS]({% post_url 2026-07-12-dev-custom-domain-https %})
-- 🏢 왜 이렇게까지 하나 → 넥스트엑스의 [일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})은 "측정 → 개선"입니다.
+- 🏢 왜 이렇게까지 하나 → 탐라야행의 [일하는 방식]({% post_url 2026-07-19-inside-nextx-how-we-work %})은 "측정 → 개선"입니다.
 
 ## 📩 우리 서비스도 이렇게 측정하고 싶다면
 
 방문자·사용자 행동을 데이터로 보고 싶은데 어디서부터일지 막막하다면, 진단부터 도와드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

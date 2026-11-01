@@ -2,7 +2,7 @@
 title: "[Data] 구글시트로 경영 대시보드 만들기 — 코딩 없이"
 date: 2026-07-18 15:00:00 +0900
 categories: ["Data Engineering", "분석·도구"]
-tags: [구글시트, 대시보드, bi, query함수, 경영지표, nextx]
+tags: [구글시트, 대시보드, bi, query함수, 경영지표, 탐라야행]
 description: "구글시트 대시보드 만드는 법 — 코딩 없이 흩어진 데이터를 취합하고 QUERY·SUMIFS·차트로 자동 갱신되는 경영 지표판을 만드는 실전 순서."
 image:
   path: /assets/img/posts/data-gsheet-dashboard.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > 값비싼 BI 툴 없이도, **구글시트만으로** 매출·비용·재고를 한눈에 보는 대시보드를 만들 수 있습니다. "볼 때마다 수기로 취합"에서 벗어나 **자동으로 갱신되는** 지표판을 만들어 봅시다.
@@ -60,7 +60,7 @@ flowchart LR
 ## 📩 우리 지표로 대시보드 만들려면
 
 보고 싶은 지표 3개만 알려주시면 **시트 구조부터** 잡아드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [경영진 대시보드 설계]({% post_url 2026-07-13-data-dashboard-design %}) · [숫자에 속지 않기]({% post_url 2026-07-16-data-interpretation-pitfalls %})
 {: .prompt-info }
@@ -68,6 +68,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

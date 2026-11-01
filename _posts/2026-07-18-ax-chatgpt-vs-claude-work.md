@@ -2,14 +2,14 @@
 title: "[AX] 업무용 생성형 AI 비교 — ChatGPT vs Claude, 뭘 어디에 쓸까"
 date: 2026-07-18 10:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [chatgpt, claude, 생성형ai, 비교, 업무활용, nextx, ax프로젝트]
+tags: [chatgpt, claude, 생성형ai, 비교, 업무활용, 탐라야행, ax프로젝트]
 description: "업무용 생성형 AI 비교 — ChatGPT와 Claude, 글쓰기·코딩·긴 문서·데이터 분석에서 뭘 어디에 쓰는 게 좋은지 실무 관점으로 정리."
 image:
   path: /assets/img/posts/ax-ai-compare.png
   alt: "업무용 생성형 AI 비교 — ChatGPT vs Claude"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > "그래서 ChatGPT를 써요, Claude를 써요?" — 가장 많이 받는 질문입니다. 정답은 **"업무마다 다르다"** 입니다. 성능은 계속 바뀌니, **순위보다 '어디에 강한지'** 를 보는 게 실무에 유용합니다.
@@ -48,7 +48,7 @@ image:
 ## 📩 "우리 업무엔 뭐가 맞죠?"
 
 업무를 알려주시면 **툴 선택 + 프롬프트 + 자동화**까지 한 번에 설계해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [AI 용어 사전]({% post_url 2026-07-12-toolkit-ai-glossary %}) · [AI 활용 팁 10]({% post_url 2026-07-14-ax-ai-tips-10 %})
 {: .prompt-info }
@@ -56,6 +56,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

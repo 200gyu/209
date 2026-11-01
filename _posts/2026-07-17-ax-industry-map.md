@@ -2,14 +2,14 @@
 title: "[AX] 업종별 AI 활용 지도 — 우리 업종은 뭘 자동화할까"
 date: 2026-07-17 11:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [업종별, ai활용, 제조, 유통, 서비스, nextx, ax프로젝트]
+tags: [업종별, ai활용, 제조, 유통, 서비스, 탐라야행, ax프로젝트]
 description: "제조·유통·서비스·병원·교육 등 업종별로 AI·자동화가 가장 효과를 내는 지점을 정리. 우리 회사에 바로 대입해보세요."
 image:
   path: /assets/img/posts/industry-map.png
   alt: "업종별 AI 활용 지도"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > "다른 회사는 AI로 뭘 하지?" — 업종마다 **돈이 되는 자동화 지점**이 다릅니다. 대표적인 것만 지도처럼 정리했습니다. (아래는 일반적 예시이며, 실제 적용은 회사 상황에 따라 다릅니다.)
@@ -52,16 +52,16 @@ image:
 업종이 달라도 방법은 같습니다:
 
 > **① 가장 반복적인 업무 1개 → ② 작게 자동화(MVP) → ③ 효과 측정 → ④ 확장.**
-> 업종 지식은 **우리(고객)가**, 자동화 설계는 **넥스트엑스가** 맡으면 가장 빠릅니다.
+> 업종 지식은 **우리(고객)가**, 자동화 설계는 **탐라야행이** 맡으면 가장 빠릅니다.
 
 ## 📩 우리 업종·업무엔 뭐가 맞을까?
 
 업종과 반복 업무 1건만 알려주시면 **맞춤 활용 포인트**를 짚어드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

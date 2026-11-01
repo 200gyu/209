@@ -78,6 +78,6 @@
     <g transform="translate(394,0)"><rect width="90" height="46" rx="12" fill="#fff" opacity="0.08"/><text x="45" y="31" text-anchor="middle" fill="#e8eaff">홈서버</text></g>
   </g>
 
-  <!-- NEXT X -->
-  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+  <!-- 탐라야행 -->
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">탐라야행</text>
 </svg>

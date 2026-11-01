@@ -2,7 +2,7 @@
 title: "[AX] 내 노트북에서 LLM 돌리기 — 로컬·API·프라이빗 배포 판단 가이드"
 date: 2026-07-28 20:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [로컬llm, 양자화, quantization, kv-cache, ollama, moe, 온프레미스, tco, 하이브리드, nextx]
+tags: [로컬llm, 양자화, quantization, kv-cache, ollama, moe, 온프레미스, tco, 하이브리드, 탐라야행]
 description: "학습 vs 추론 메모리 차이, 양자화·KV Cache로 노트북에 모델 밀어넣기, Ollama 실습, 그리고 로컬 vs API vs 프라이빗 배포를 데이터·비용·통제권 관점에서 판단하는 프레임워크까지 정리했습니다."
 image:
   path: /assets/img/posts/ax-local-llm.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NEXT X R&D 노트]** · 넥스트엑스 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
+> 🏷️ **[탐라야행 R&D 노트]** · 탐라야행 R&D 팀이 사내 역량 강화 과정(모두의연구소 아이펠 AI 에이전트 1기)에서 다룬 내용을 실무 적용 관점으로 정리한 기술 노트입니다.
 {: .prompt-tip }
 
 > "이 모델, 우리 노트북에서 돌아갈까?" 그리고 "로컬·API·프라이빗 중 무엇을 쓸까?"
@@ -138,13 +138,13 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 학습 기록(R&D Log)입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 학습 기록(R&D Log)입니다.
 > **함께 읽기** — [🧠 AI는 어떻게 배우나]({% post_url 2026-07-24-ax-how-ai-learns %}) · [🔡 트랜스포머]({% post_url 2026-07-27-ax-transformer-how-ai-learned-language %}) · [⚖️ ChatGPT vs Claude]({% post_url 2026-07-18-ax-chatgpt-vs-claude-work %})
 {: .prompt-info }
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

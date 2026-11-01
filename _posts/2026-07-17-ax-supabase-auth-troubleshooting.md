@@ -2,7 +2,7 @@
 title: "[AX] Supabase Auth 실전 트러블슈팅 — 관리자 로그인이 안 될 때"
 date: 2026-07-17 20:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase-auth, 트러블슈팅, 인증, 이메일확인, 고객사례, 바이브코딩, nextx]
+tags: [ax프로젝트, supabase-auth, 트러블슈팅, 인증, 이메일확인, 고객사례, 바이브코딩, 탐라야행]
 description: "Supabase Auth 이메일 로그인을 프로덕션에 적용하며 마주친 실제 오류들 — localhost 리다이렉트, invalid_credentials, Dashboard 설정 누락까지 — 원인 분석과 해결 과정을 그대로 공개합니다."
 image:
   path: /assets/img/posts/ax-auth-troubleshooting.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 실전 트러블슈팅 기록
+> **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 실전 트러블슈팅 기록
 {: .prompt-tip }
 
 > 이 글은 [프로토타입 제작기]({% post_url 2026-07-16-dev-partners-manager %})와 [실전 납품 개발기]({% post_url 2026-07-17-ax-partners-manager-delivery %})의 **후속편**입니다. 인증 시스템을 구현한 뒤 실제로 로그인을 시도하며 마주친 **에러와 해결 과정**을 다룹니다.
@@ -317,11 +317,11 @@ export async function signUp(email, password) {
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

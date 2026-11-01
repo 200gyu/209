@@ -2,14 +2,14 @@
 title: "[Automation] 운영 리포트 자동화 #6 — 사용자 테스트"
 date: 2026-07-12 09:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
-tags: [사용자테스트, 유저빌리티, 피드백, mvp, 검증, nextx, ai에이전트]
+tags: [사용자테스트, 유저빌리티, 피드백, mvp, 검증, 탐라야행, ai에이전트]
 description: "MVP를 만든 뒤 가장 중요한 단계. 동료에게 써보게 하고 관찰·피드백을 구조적으로 모으는 방법과 기록 템플릿."
 image:
   path: /assets/img/posts/agent-build-06.png
   alt: "사용자 테스트 설계 — 내 에이전트를 남에게 처음 맡기기"
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > [#5 MVP v1.0]({% post_url 2026-07-11-agent-build-05-ui %})까지 만들었으면, 이제 **가장 무서운 단계** — 남에게 써보게 할 차례입니다.
@@ -67,6 +67,6 @@ image:
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

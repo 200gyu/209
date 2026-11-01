@@ -15,5 +15,5 @@
     <text x="176" y="30" fill="#7dd3fc" font-size="30">──▶</text>
     <rect x="240" width="150" height="46" rx="10" fill="#4338ca" opacity="0.55"/><text x="315" y="30" text-anchor="middle" fill="#e0e7ff">미래 AI</text>
   </g>
-  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">NEXT X</text>
+  <text x="1120" y="560" text-anchor="end" font-size="30" font-weight="800" fill="#fff" opacity="0.85">탐라야행</text>
 </svg>

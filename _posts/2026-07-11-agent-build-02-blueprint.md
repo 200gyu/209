@@ -2,7 +2,7 @@
 title: "[Automation] 운영 리포트 자동화 #2 — 설계도 그리기"
 date: 2026-07-11 10:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
-tags: [에이전트설계, 워크플로우, 도구, mvp, 운영, nextx, ai에이전트]
+tags: [에이전트설계, 워크플로우, 도구, mvp, 운영, 탐라야행, ai에이전트]
 description: "문제 정의(#1)를 누구나 따라 만들 수 있는 제작 설계도로 바꾸는 과정. 업무 분해 → 도구 목록 → 기술 선택 → MVP 범위."
 image:
   path: /assets/img/posts/agent-build-02.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > 지난 글 [#1 문제 정의]({% post_url 2026-07-10-agent-build-01-problem %})에서 *"주간 운영 리포트 작성을 대신하는 에이전트"* 라는 목표를 세웠습니다.
@@ -80,6 +80,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

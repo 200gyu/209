@@ -2,7 +2,7 @@
 title: "[Dev] 비개발자를 위한 Git 최소 명령어 10 — 되돌릴 수 있는 안전장치"
 date: 2026-07-18 18:00:00 +0900
 categories: ["Dev & DevOps", "도구·환경"]
-tags: [git, 버전관리, 초보, 명령어, 바이브코딩, nextx]
+tags: [git, 버전관리, 초보, 명령어, 바이브코딩, 탐라야행]
 description: "깃 초보를 위한 Git 최소 명령어 10개 — init·add·commit·log부터 되돌리기까지. 비개발자도 '실수해도 되돌릴 수 있는' 안전장치를 만드는 법."
 image:
   path: /assets/img/posts/dev-git-beginners.png
@@ -57,7 +57,7 @@ git commit -m "회의록 양식 추가"  # 저장!
 ## 📩 팀에 버전관리 문화를 들이려면
 
 Git·GitHub 기반 협업/배포 흐름([예: 이 블로그]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}))을 함께 세팅해 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [바이브 코딩 작업대]({% post_url 2026-07-13-dev-vibe-coding-workbench %}) · [블로그 배포기]({% post_url 2026-07-12-dev-deploy-blog-github-pages %})
 {: .prompt-info }
@@ -65,6 +65,6 @@ Git·GitHub 기반 협업/배포 흐름([예: 이 블로그]({% post_url 2026-07
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

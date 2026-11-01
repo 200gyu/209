@@ -2,14 +2,14 @@
 title: "[AX] 기획자는 원래 프롬프트 강자다 — 프롬프트 엔지니어링 첫걸음"
 date: 2026-07-11 11:00:00 +0900
 categories: ["AI Transformation", "개념·전략"]
-tags: [프롬프트엔지니어링, llm, 기획, 역할부여, few-shot, nextx]
+tags: [프롬프트엔지니어링, llm, 기획, 역할부여, few-shot, 탐라야행]
 description: "좋은 기획서를 쓰는 역량은 그대로 좋은 프롬프트가 된다. 역할·맥락·예시·검증 4가지 기법을 기획자의 언어로 정리."
 image:
   path: /assets/img/posts/prompt-engineering.png
   alt: "기획자는 원래 프롬프트 강자다"
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 AX 솔루션 라인업
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 정식 AX 솔루션 라인업
 {: .prompt-tip }
 
 > **결론부터**: 프롬프트 엔지니어링은 새로운 기술이 아니라, **"명확하게 요구사항을 전달하는 기술"** 입니다. 기획자·PM이 매일 하던 일이에요.
@@ -92,6 +92,6 @@ AI에게 "너는 누구다"를 정해주면 답의 품질이 크게 오릅니다
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🤖 AX 대표 사례]({% post_url 2026-07-12-ax-showcase-report-automation %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

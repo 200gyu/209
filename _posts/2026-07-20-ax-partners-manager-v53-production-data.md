@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v5.3 — 운영 데이터 전환과 공제액 산식, 그리고 RLS가 나를 막았을 때"
 date: 2026-07-20 18:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, rls, postgresql, 운영전환, 공제액, 데이터마이그레이션, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, rls, postgresql, 운영전환, 공제액, 데이터마이그레이션, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "Mock 데이터로 검증한 시스템을 실제 운영 데이터로 전환하는 과정 — 3.3% 공제액 산식 구현, RLS 보안 정책이 개발자 자신을 막은 사건, 3개월치 실데이터(926건, 1.1억 원) 적재까지의 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v53-production-data.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **열두 번째 글**입니다.
@@ -484,11 +484,11 @@ v5.3으로 시스템이 **실제 운영 데이터 기반으로 완전히 전환*
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

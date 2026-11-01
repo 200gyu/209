@@ -2,7 +2,7 @@
 title: "[Automation] 운영 리포트 자동화 #4 — 데이터 연결"
 date: 2026-07-11 18:00:00 +0900
 categories: ["Workplace Automation", "AI 에이전트 빌드"]
-tags: [데이터연결, csv, api, 자동화, tool, nextx, ai에이전트]
+tags: [데이터연결, csv, api, 자동화, tool, 탐라야행, ai에이전트]
 description: "손으로 붙여넣던 지표를 CSV/API로 자동 주입한다. 비개발자도 이해하는 '데이터 → 프롬프트' 연결 과정."
 image:
   path: /assets/img/posts/agent-build-04.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Automation_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 업무 자동화 솔루션
+> 🏷️ **[탐라야행_Automation_Solution]** · 주식회사 탐라야행 정식 업무 자동화 솔루션
 {: .prompt-tip }
 
 > [#3 프롬프트 실험실]({% post_url 2026-07-11-agent-build-03-prompt-lab %})에서 좋은 요약 프롬프트(v3)를 완성했습니다.
@@ -76,6 +76,6 @@ flowchart LR
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [⚡ 자동화 대표 사례]({% post_url 2026-07-12-automation-excel-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

@@ -2,7 +2,7 @@
 title: "[Data] Python 데이터 처리 입문 — pandas로 엑셀 자동화를 넘어서"
 date: 2026-07-24 14:00:00 +0900
 categories: ["Data Engineering", "분석·도구"]
-tags: [python, pandas, polars, 데이터처리, 엑셀자동화, dataframe, csv, nextx]
+tags: [python, pandas, polars, 데이터처리, 엑셀자동화, dataframe, csv, 탐라야행]
 description: "왜 데이터 엔지니어에게 Python인가? pandas 기초(DataFrame, 읽기/쓰기, 필터·그룹·병합)부터 Polars 소개, 그리고 수작업 엑셀을 코드로 대체하는 실전 패턴까지."
 image:
   path: /assets/img/posts/data-python-intro.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > **"엑셀로 충분하지 않나요?"** — 데이터가 1만 행을 넘고, 매월 같은 작업을 반복하고, 사람마다 다른 결과가 나온다면 **코드로 전환할 타이밍**입니다. 이 글에서는 Python과 pandas를 처음 접하는 실무자를 위해, 엑셀에서 코드로 넘어가는 전체 흐름을 다룹니다.
@@ -708,7 +708,7 @@ graph TD
 
 ## 11. 실전 예제 -- "5월/6월 급여 엑셀에서 통합 명부 자동 생성"
 
-넥스트엑스 파트너스 매칭 매니저 업무에서 실제로 발생하는 시나리오입니다.
+탐라야행 파트너스 매칭 매니저 업무에서 실제로 발생하는 시나리오입니다.
 매월 파트너사별 급여 엑셀을 받아 **통합 명부**를 만드는 작업을, 수작업에서 코드로 전환합니다.
 
 ### 시나리오
@@ -899,11 +899,11 @@ graph TD
 
 ---
 
-*NEXT X R&D · Data Engineering*
+*탐라야행 R&D · Data Engineering*
 
 
 ---
 
-> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 넥스트엑스가 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 💼 **이 기술을 우리 회사 업무에 적용하고 싶다면?** 탐라야행이 업무 분석부터 구축·운영까지 함께합니다. **도입 진단은 무료**입니다.
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }

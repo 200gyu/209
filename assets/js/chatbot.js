@@ -1,4 +1,4 @@
-/* NEXT X 기술 블로그 AI 챗봇 위젯
+/* 탐라야행 기술 블로그 AI 챗봇 위젯
  * 블로그 글을 학습한 RAG 챗봇 UI. 서버리스 엔드포인트(window.NEXTX_CHAT_ENDPOINT)로
  * 질문을 보내고 응답을 렌더링한다. 비밀 키는 서버에만 있으며 여기서는 다루지 않는다. */
 (function () {
@@ -42,13 +42,13 @@
   // ─── DOM 구성 ───
   var fab = el('button', null, '💬');
   fab.id = 'nx-chat-fab';
-  fab.setAttribute('aria-label', 'NEXT X AI 어시스턴트 열기');
+  fab.setAttribute('aria-label', '탐라야행 AI 어시스턴트 열기');
 
   var panel = el('div');
   panel.id = 'nx-chat-panel';
   panel.innerHTML =
     '<div class="nx-chat-header">' +
-    '<div><span class="nx-title">NEXT X 기술 어시스턴트</span>' +
+    '<div><span class="nx-title">탐라야행 기술 어시스턴트</span>' +
     '<span class="nx-sub">블로그 글을 학습한 AI · 답변은 참고용입니다</span></div>' +
     '<button class="nx-chat-close" aria-label="닫기">&times;</button>' +
     '</div>' +
@@ -82,7 +82,7 @@
     greeted = true;
     addMsg(
       'bot',
-      '안녕하세요! 넥스트엑스 기술 블로그의 AI 어시스턴트입니다. 블로그에 쌓인 글을 바탕으로 답해드려요. 무엇이 궁금하신가요?'
+      '안녕하세요! 탐라야행 기술 블로그의 AI 어시스턴트입니다. 블로그에 쌓인 글을 바탕으로 답해드려요. 무엇이 궁금하신가요?'
     );
   }
 

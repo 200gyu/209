@@ -2,7 +2,7 @@
 title: "[Data] 경영진 대시보드 설계 — 무엇을, 어떻게 보여줄까"
 date: 2026-07-13 11:00:00 +0900
 categories: ["Data Engineering", "분석·도구"]
-tags: [대시보드, bi, kpi, 지표설계, 데이터시각화, nextx]
+tags: [대시보드, bi, kpi, 지표설계, 데이터시각화, 탐라야행]
 description: "숫자만 잔뜩인 대시보드는 아무도 안 본다. 경영진이 '보고 바로 결정하는' 대시보드를 설계하는 원칙과 지표 구조."
 image:
   path: /assets/img/posts/data-dashboard.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_Data_Solution]** · 주식회사 넥스트엑스(NEXT X) 정식 데이터 솔루션
+> 🏷️ **[탐라야행_Data_Solution]** · 주식회사 탐라야행 정식 데이터 솔루션
 {: .prompt-tip }
 
 > 대시보드를 만들었는데 **아무도 안 본다면?** 대부분 "숫자는 많은데 결정에 안 쓰이기" 때문입니다.
@@ -75,14 +75,14 @@ flowchart TD
 ## 📩 대시보드, 결정 도구로 만들어드립니다
 
 "우리 회사는 뭘 봐야 하죠?"부터 함께 정의합니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
-> **주식회사 넥스트엑스(NEXT X)** — 데이터를 '결정'으로 바꿉니다.
+> **주식회사 탐라야행** — 데이터를 '결정'으로 바꿉니다.
 {: .prompt-info }
 
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [📊 데이터 대표 사례]({% post_url 2026-07-12-data-pipeline-showcase %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

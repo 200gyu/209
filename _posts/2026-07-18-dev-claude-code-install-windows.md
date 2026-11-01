@@ -2,7 +2,7 @@
 title: "[Dev] 윈도우에서 Claude Code 설치 완전 가이드 — 설치부터 첫 실행까지"
 date: 2026-07-18 17:00:00 +0900
 categories: ["Dev & DevOps", "도구·환경"]
-tags: [claudecode, 설치, windows, nodejs, 바이브코딩, nextx]
+tags: [claudecode, 설치, windows, nodejs, 바이브코딩, 탐라야행]
 description: "윈도우에서 Claude Code 설치하는 법 — Node.js 준비부터 npm 설치, PATH 문제, 첫 실행·검증, 흔한 에러 해결까지 단계별 가이드."
 image:
   path: /assets/img/posts/dev-claude-install.png
@@ -78,7 +78,7 @@ flowchart TD
 ## 📩 팀 전체에 세팅하려면
 
 여러 대 PC에 개발/AI 환경을 표준화해 깔아야 한다면, 셋업 가이드부터 함께 만들어 드립니다.
-→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [csnextx@gmail.com](mailto:csnextx@gmail.com)
+→ [Business Inquiry]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [200gyu@gmail.com](mailto:200gyu@gmail.com)
 
 > 관련 → [바이브 코딩 작업대]({% post_url 2026-07-13-dev-vibe-coding-workbench %}) · [바이브 코딩이란?]({% post_url 2026-07-11-what-is-vibe-coding %})
 {: .prompt-info }
@@ -86,6 +86,6 @@ flowchart TD
 
 ---
 
-> 📎 본 글은 **주식회사 넥스트엑스(NEXT X) 기술연구소**의 R&D 자산입니다.
+> 📎 본 글은 **주식회사 탐라야행 기술연구소**의 R&D 자산입니다.
 > **함께 읽기** — [🛠️ 개발 대표 사례]({% post_url 2026-07-12-dev-deploy-blog-github-pages %}) · [📖 블로그 안내]({% post_url 2026-07-12-start-here-reading-guide %}) · [📩 비즈니스 문의]({% post_url 2026-07-12-inside-nextx-business-inquiry %})
 {: .prompt-info }

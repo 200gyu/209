@@ -2,7 +2,7 @@
 title: "[AX] 파트너스 매칭 매니저 v4 — 급여 정산 및 관리 시스템"
 date: 2026-07-19 23:00:00 +0900
 categories: ["AI Transformation", "AX 솔루션"]
-tags: [ax프로젝트, supabase, postgresql, 급여정산, 실시간계산, rls, 고객사례, 바이브코딩, nextx, 파트너스매칭매니저]
+tags: [ax프로젝트, supabase, postgresql, 급여정산, 실시간계산, rls, 고객사례, 바이브코딩, 탐라야행, 파트너스매칭매니저]
 description: "배정별 개별 급여 입력(시급x근무시간 실시간 계산)부터 월별 급여 통계 대시보드까지 — 정리수납 현장 파트너 급여 정산을 시스템화한 v4 업그레이드 전 과정을 공개합니다."
 image:
   path: /assets/img/posts/ax-partners-v4-payroll.png
@@ -10,7 +10,7 @@ image:
 mermaid: true
 ---
 
-> 🏷️ **[NextX_AX_Solution]** · 주식회사 넥스트엑스(NEXT X) AX 솔루션 운영·유지보수 기록
+> 🏷️ **[탐라야행_AX_Solution]** · 주식회사 탐라야행 AX 솔루션 운영·유지보수 기록
 {: .prompt-tip }
 
 > 이 글은 파트너스 매칭 매니저 시리즈의 **일곱 번째 글**입니다.
@@ -589,11 +589,11 @@ v4까지 완료된 시스템의 현재 상태와 앞으로의 계획:
 
 ---
 
-*NEXT X R&D · AI Transformation*
+*탐라야행 R&D · AI Transformation*
 
 
 ---
 
 > 💼 **우리 회사도 현장 인력 배정·정산을 엑셀과 단톡방으로 관리하고 있다면?** 이 시리즈의 시스템을 업종에 맞게 구축해 드립니다. **도입 진단은 무료**입니다.
-> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [csnextx@gmail.com](mailto:csnextx@gmail.com)
+> 📩 [비즈니스 문의 안내]({% post_url 2026-07-12-inside-nextx-business-inquiry %}) · [📌 대표 사례 & 기술 스택]({% post_url 2026-07-12-inside-nextx-portfolio %}) · ✉️ [200gyu@gmail.com](mailto:200gyu@gmail.com)
 {: .prompt-tip }
